@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width initial-scale=1">
+	<title>Sic Semper Typos Contact</title>
+	<meta name="description" contents="Proofreading Editing Contact Form">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link href='http://fonts.googleapis.com/css?family=Nothing+You+Could+Do' rel='stylesheet' type='text/css'>	
+	<link rel="stylesheet" type="text/css" media="all" href="css/custom.css"/>
+</head>
+<body>
+	<div class="container first-container">
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+				<a class="navbar-brand" href="#">SST</a>
+				<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<div class="navbar-collapse collapse navbar-responsive-collapse">
+					<ul class="nav navbar-nav">
+						<li><a href="index.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+						<li><a href="#"><span class="glyphicon glyphicon-edit"></span> Services & Rates</a></li>
+						<li><a href="#"><span class="glyphicon glyphicon-book"></span> Portfolio</a></li>
+						<li class="active"><a href="#"><span class="glyphicon glyphicon-user"></span> About/Contact John</a></li>
+						<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Log In</a></li>
+					</ul>
+					<form class="navbar-form float-right">
+						<input type="text" class="form-control" placeholder="Search" id="searchinput">
+							<button type="submit" class="btn btn-default">
+								<span class="glyphicon glyphicon-search"></span>
+							</button>
+						</input>
+					</form>
+				</div><!-- Nav-collapse -->
+			</div><!-- Container -->
+		</nav>
+	</div><!--Container-->
+	<header class="opening-scroll">
+		<div class="container header-container">
+			<div class="banner header-scroll img-responsive">
+				<img class="img-responsive float-left" src="images/Sic Semper Scroll.png"/>
+					<h1>Sic Semper Typos</h1>
+					<p>Thus always to typos<p>
+			</div>
+		</div>
+	</header><!-- Opening scroll-->
+	<div class="container wrapper contactform">
+		<div  class="col-md-12 row">
+			<form action="contact/form-data" method="POST" class="form-horizontal" name="contact" id="contact">
+			<img class="img-responsive float-left" src="images/Scroll Vertical.png"/>
+				<div class="form-group formgroupname">
+					<legend>Name & Email (required)</legend>
+						<label for="FirstName" class="col-sm-12 control-label">First</label>
+						<div class="col-sm-12">
+							<input type="text" class="form-control" id="FirstName" placeholder="First Name">
+						</div>
+						<label for="LastName" class="col-sm-12 control-label required" >Last</label>
+						<div class="col-sm-12">
+							<input type="text" class="form-control" id="LastName" placeholder="Last Name">
+						</div>
+						<label for="Email" class="col-sm-12 control-label">Email</label>
+						<div class="col-sm-12">
+							<input type="email" class="form-control" id="Email" placeholder="email@xyz.com">
+						</div>
+				</div>
+				<legend>Contact Request</legend>
+				<label for="callme" class="col-sm-3 control-label">Please call me</label>
+				<div class="col-sm-3">
+					<input type="checkbox" id="callme" class="form-control col-sm-3">
+				</div>
+				<label for="Phone" class="col-sm-3 control-label">Phone</label>
+				<div class="col-sm-3">
+					<input type="Phone" class="form-control" id="Phone" placeholder="Phone Number">
+				</div>
+				<div class="form-group formgroupsample">
+						<label for="EditRequest" class="col-sm-2 control-label">		    Get Sample Edit</label>
+						<div class="col-sm-2 control-label">
+							<input type="checkbox" class="form-control" id="EditRequest">
+						</div>
+				</div>
+				<div class="form-group">
+					<label for="Sample">Sample to Edit</label>
+					<textarea class="form-control" id="Sample" placeholder="Paste your sample to be edited here."></textarea>
+				</div>
+				<div class="form-group formgroupcomments">
+					<label for="Comments">Comments</label>
+					<input type="textarea" class="form-control" id="Comments" placeholder="Add questions or comments here.">
+				</div>
+				<div class="form-group formgroupservices ">
+					<label for="services">Service(s) Requested</label>
+					<select multiple class="form-control" id="services" autofocus>
+						<option>Proofreading</option>
+						<option>Copy Editing</option>
+						<option>ePublish Formatting</option>
+					</select>
+				</div>
+				<div class="form-group col-sm-2 ">
+					<input type="text" class="form-control" id="WordCount" placeholder="Estimated word count">
+				</div>
+				<button type="submit" class="btn btn-primary float-left">Submit></button>
+				<button type="reset" class="btn btn-default float-left">Clear Form></button>
+				<button type="submit" class="btn btn-primary float-left ">Email John></button>
+		</form>
+		</div>
+	</div><!--wrapper-->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="•http://cdn.jsdelivr.net/jquery.validation/1.14.0/jquery.validate.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="js/ie10-viewport-bug-workaround.js"></script>
+<script src="js/preserveAliases.js"></script>
+<script src="js/jquery.tablesorter.js"></script>
+
+<!-- Sorting -->
+<script type="text/javascript" id="js">
+	$(document).ready(function() {
+		// call the tablesorter plugin
+		$("table").tablesorter({
+		});
+	});
+</script>
+<script>
+	$('#LastName').validate();
+</script>
+
+</body>

@@ -1,0 +1,71 @@
+.contact-content {
+	background-image: url('../images/Scroll Vertical.png') no-repeat;
+	background-repeat: no-repeat;
+	background-position: 100% 100%;
+	background-size: cover;
+	position: relative;
+	left: 3%;
+}
+.contact-form {
+	display: flex;
+	flex-row: row wrap;
+	justify-content: center;
+	max-width: 70%;
+	font-family: 'Nothing You Could Do', cursive;
+	font-size: 1.7em;
+	line-height: 1.3em;
+	padding: 0% 10%;
+	margin: 0% 10%;
+	position: absolute;
+	/*background: red;*/
+}
+
+.formgroupcontact {
+	/*display: flex;*/
+	text-align: left;
+	position: absolute;
+	margin-left: 27%;
+	margin-right: 0%;
+	top: 14%;
+	/*background: lime;*/
+}
+
+.contact-element {
+	margin: 0 10%;
+	/*display:flex;*/
+}
+
+.services {
+	/*margin-left: 10%;*/
+}
+
+.services-requested {
+	display: flex;
+	flex-row: column;
+	justify-content: right;
+}
+
+form input[type='text'], input[type='email'], input[type='phone'],
+	input[type='checkbox'], .text-field, .comment-field {
+	display: inline;
+	align: left;
+	width: 50%;
+	background: rgba(255,255,255,.5);
+}
+
+.buttons {
+	display: flex;
+	justify-content: center;
+}
+
+.btn-submit{
+	background:rgba(99,00,00,.3);
+}
+
+.btn-clear{
+	background:rgba(00,98,00,.3);
+}
+
+.btn-email{
+	background:rgba(00,00,99,.3);
+}

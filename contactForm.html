@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width initial-scale=1">
+	<meta name="description" contents="Proofreading Editing Contact Form">
+	<title>Sic Semper Typos Contact</title>
+	<link rel="stylesheet" type="text/css" media="all" href="css/normalize.css"/>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" media="all" href="http://fonts.googleapis.com/css?family=Nothing+You+Could+Do"/>	
+	<link rel="stylesheet" type="text/css" media="all" href="css/fontface.css"/>
+	<link rel="stylesheet" type="text/css" media="all" href="css/custom.css"/>
+	<link rel="stylesheet" type="text/css" media="all" href="css/navbar.css"/>
+	<link rel="stylesheet" type="text/css" media="all" href="css/banner.css"/>
+	<link rel="stylesheet" type="text/css" media="all" href="css/stylesb.css"/>
+	<link rel="stylesheet" type="text/css" media="all" href="css/style.css"/>
+	<link rel="stylesheet" type="text/css" media="all" href="css/contactform.css"/>
+</head>
+<body>
+	<div class="container first-container">
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container navcell flex-navbar">
+				<div class="navbar-brand">
+					<a href="index.html">
+						<img src="images/sst.png" class=" navbar-brand sst-image">
+					</a>
+				</div>
+				<button class="navitem navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<div class="navitem navbar-collapse collapse navbar-responsive-collapse">
+					<ul class="nav navcell navbar-nav">
+						<li class="active"><a href="index.html"><span class="navitem glyphicon glyphicon-home"></span> Home</a></li>
+						<li><a href="#"><span class="navitem glyphicon glyphicon-edit"></span> Services & Rates</a></li>
+						<li><a href="#"><span class="navitem glyphicon glyphicon-book"></span> Portfolio</a></li>
+						<li><a href="contactForm.html"><span class="navitem glyphicon glyphicon-user"></span> About/Contact John</a></li>
+						<li><a href="#"><span class="navitem glyphicon glyphicon-log-in"></span> Log In</a></li>
+					</ul>
+					<form class="navcell navbar-form">
+						<input type="text" class="form-control" placeholder="Search" id="searchinput">
+							<button type="navbtn submit" class="btn btn-default">
+								<span class="navitem glyphicon glyphicon-search"></span>
+							</button>
+						</input>
+					</form>
+				</div><!-- Nav-collapse -->
+			</div><!-- Container -->
+		</nav>
+	</div><!--Container-->
+	<header>
+		<div class="container header-container">
+				<div class="banner header-scroll img-responsive">
+				<img class="img-responsive" src="images/Sic Semper Scroll.png"/>
+					<h1 class="visible-lg-inline">Sic Semper Typos
+						<p>Thus always to typos<p>
+					</h1>
+					<h2 class="visible-md-inline">Sic Semper Typos
+						<p>Thus always to typos<p>
+					</h2>
+					<h3 class="visible-sm-inline">Sic Semper Typos
+						<p>Thus always to typos<p>
+					</h3>
+					<h4 class="visible-xs-inline"><strong>Sic Semper Typos</strong>
+						<p>Thus always to typos<p>
+					</h4>
+				</div>
+		</div>
+	</header>	<!-- Opening scroll-->
+	<div class="container contact-content">
+		<div class="contact-form">
+			<form action="contact/form-data" method="POST" class="form-prepend" name="contact" id="contact">
+				<img class="img-responsive" src="images/Scroll Vertical.png"/>
+				<div class="form-group formgroupcontact">
+					<legend >Name & Email (required)</legend>
+					<div class="first-name contact-element">
+						<span class="first-name-item">First Name</span>
+						<input type="text" class="form-control first-name-field" id="FirstName" placeholder="First Name">
+					</div>
+					<div class="last-name contact-element">
+						<span class="last-name-item">Last Name </span>
+						<input type="text" class="form-control last-name-field" id="LastName" placeholder="Last Name">
+					</div>
+					<div class="email contact-element">
+						<span class="email-item">Email</span>
+						<input type="email" class="form-control email-field" id="Email" placeholder="email@xyz.com">
+					</div>
+					<legend>Contact Request</legend>
+					<div class="call-me contact-element">
+						<span class="call-me-item">Please call me</span>
+						<input type="checkbox" id="call-me" class="form-control">
+					</div>
+					<div class="phone contact-element">
+						<span class="phone-item">Phone Number</span>
+						<input type="phone" class="form-control phone-field" id="Phone" placeholder="Phone Number">
+					</div>
+					<legend>Sample Edit Request</legend>
+					<div class="edit-sample contact-element">
+						<input type="checkbox" class="form-control sample-edit-item" id="EditRequest">
+					</div>
+					<div class="word-count contact-element">
+						<span class="count-item">Estimated word count</span>
+						<input type="text" class="form-control count-field" id="WordCount" placeholder="Estimated word count">
+					</div>
+					<div class="edit-text contact-element">
+						<span class="text-item">Sample</span>
+						<textarea class="form-control text-field" id="Sample" placeholder="Paste your sample to be edited here."></textarea>
+					</div>
+					<legend>Services Requested</legend>
+					<div class="container services" autofocus>
+						<input type="checkbox" class="proofreading">Proofreading</input>
+						<input type="checkbox" class="copyedit">Copy Editing</input>
+						<input type="checkbox" class="epublish">ePublish Formatting</input>
+						<input type="checkbox" class="other">Other (Explain in comments)</input>
+						<br><br>
+					</div>
+					<legend>Comments</legend>
+					<div class="comment-text contact-element">
+						<input type="textarea" class="form-control comment-field" id="Comments" placeholder="Add questions or comments here.">
+					</div><br>
+					<button type="submit" class="btn btn-primary">Submit</button>
+					<button type="reset" class="btn btn-default">Clear Form</button>
+					<button type="submit" class="btn btn-primary">Email John</button>
+				</div>
+			</form>
+		</div>
+	</div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="•http://cdn.jsdelivr.net/jquery.validation/1.14.0/jquery.validate.min.js"> </script>
+	<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+	<script src="js/ie10-viewport-bug-workaround.js"></script>
+	<script src="js/preserveAliases.js"></script>
+	<script src="js/jquery.tablesorter.js"></script>
+
+	<!-- Sorting -->
+	<script type="text/javascript" id="js">
+		$(document).ready(function() {
+			// call the tablesorter plugin
+			$("table").tablesorter({
+			});
+		});
+	</script>
+	<script>
+		$('#LastName').validate();
+	</script>
+
+</body>

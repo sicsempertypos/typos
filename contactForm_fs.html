@@ -72,32 +72,32 @@
 	</header>	<!-- Opening scroll-->
 	<div class="container contact-content">
 		<div class="contact-form">
-			<form action="contactform.js" method="POST" class="form-prepend" name="contact" enctype="text/plain"id="contact">
+			<form action="#" method="post" class="form-prepend" name="contact" id="contact" onsubmit="return validate(this)">
 				<img class="img-responsive" src="images/Scroll Vertical.png"/>
 				<div class="form-group formgroupcontact">
 					<div class="name contact-element">
 						<span class="name-item">Name *</span>
-						<input type="text" class="form-control name-field" id="Name" placeholder="Name" name="username" required></input><br>
+						<input type="text" class="form-control name-field" id="Name" placeholder="Name" name="username" required><br>
 					</div><br>
 					<div class="email contact-element">
 						<span class="email-item">Email *</span>
-						<input type="email" class="form-control email-field" id="Email" placeholder="email@xyz.com" name="email" required></input>
+						<input type="email" class="form-control email-field" id="Email" placeholder="email@xyz.com" name="email" required>
 					</div><br>
 					<div class="call-me contact-element">
 						<span class="call-me-item">Please call me</span>
-						<input type="checkbox" id="call-me" class="form-control" name="callme"></input>
+						<input type="checkbox" id="call-me" class="form-control" name="callme">
 					</div><br>
 					<div class="phone contact-element">
 						<span class="phone-item">Phone Number</span>
-						<input type="phone" class="form-control phone-field" id="Phone" placeholder="Phone Number" name="phone" pattern="^\D?(\d{3})\D?\D?(\d{3})\D?(\d{4})$"></input>
+						<input type="text" class="form-control phone-field" id="Phone" placeholder="Phone Number" name="phone" pattern="^\D?(\d{3})\D?\D?(\d{3})\D?(\d{4})$">
 					</div><br>
 					<div class="edit-sample contact-element">
 						<span class="sample-item">I am interested in a sample edit</span>
-						<input type="checkbox" class="form-control sample-edit-item" name="editrequest" id="EditRequest"></input>
+						<input type="checkbox" class="form-control sample-edit-item" name="editrequest" id="EditRequest">
 					</div><br>
 					<div class="word-count contact-element">
 						<span class="count-item">Estimated word count</span>
-						<input type="text" class="form-control count-field" id="WordCount" placeholder="Estimated word count" name="words"></input>
+						<input type="text" class="form-control count-field" id="WordCount" placeholder="Estimated word count" name="words">
 					</div><br>
 					<div class="edit-text contact-element">
 						<span class="text-item">Sample</span>
@@ -106,10 +106,10 @@
 					<div class="container services" autofocus>
 						<span class="service-item">Services Requested</span><br>
 						<div class="services-requested">
-							<input type="checkbox" name="svcproof" class="proofreading">Proofreading</input>
-							<input type="checkbox" name="svccopy" class="copyedit">Copy Editing</input>
-							<input type="checkbox" name="svcepub" class="epublish">ePublish Formatting</input><br>
-							<input type="checkbox" name="svcother" class="other">Other (Explain in comments)</input>
+							<input type="checkbox" name="svcproof" class="proofreading">Proofreading
+							<input type="checkbox" name="svccopy" class="copyedit">Copy Editing
+							<input type="checkbox" name="svcepub" class="epublish">ePublish Formatting<br>
+							<input type="checkbox" name="svcother" class="other">Other (Explain in comments)
 						</div>
 					</div><br>
 					<div class="comment-text contact-element">
@@ -136,14 +136,21 @@
 	<script src="js/contactform.js">>/script>
 	<!-- Sorting -->
 	<script type="text/javascript" id="js">
-		$(document).ready(function() {
-			// call the tablesorter plugin
-			$("table").tablesorter({
-			});
-		});
-	</script>
-	<script>
-		$('#LastName').validate();
-	</script>
-
+	function validate(contactform_fs) {
+		fail = validateName(contactform_fs.username.value)
+		fail += validateEmail(contactform_fs.email.value)
+		
+		if (fail == '') return true
+		else {alert(fail); return false}
+	}
+	function validateName(field) {
+		return (field == "") ? "No User Name was entered.\n" : ""
+	}
+	function validateEmail(field) {
+		if (field == "") return "No Email was entered.\n" 
+		else if (/[a-zA-Z0-9_-])/.test(field))
+			return "Only a-z, A-Z, 0-9, - and _ are allowed in Usernames.\n"
+		return ""
+	}
+</script>
 </body>

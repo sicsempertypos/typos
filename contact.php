@@ -1,8 +1,5 @@
 <?php
-include 'core/init.php';
-if (empty($_POST) === false) {
-	$required_fields = array('username','email');
-	echo '<pre>' , print_r($_POST, true), '</pre>';
-}
-
+	require_once 'login.php';
+	$conn = new mysqli($hn, $un, $pw, $db);
+	if ($conn->connect_error) die($conn->connect_error);
 ?>

@@ -2,5 +2,5 @@
  $hn = 'localhost';
  $db = 'typos';
  $un = 'silverskunk';
- $pw = '';
+ $pw = 'Genesis0!';
 ?>

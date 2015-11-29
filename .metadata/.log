@@ -1,0 +1,19 @@
+!SESSION 2015-10-26 17:48:35.031 -----------------------------------------------
+eclipse.buildId=3.6.1.201410201044
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY com.aptana.index.core 4 0 2015-10-26 17:51:37.886
+!MESSAGE (Build 3.6.1.201410201044) [ERROR]  Failed to rename index file C:\Users\Lynne\Dropbox\Typos\sicsemper\.metadata\.plugins\com.aptana.index.core\114577082.index
+!STACK 0
+java.io.IOException: Failed to rename index file C:\Users\Lynne\Dropbox\Typos\sicsemper\.metadata\.plugins\com.aptana.index.core\114577082.index
+	at com.aptana.internal.index.core.DiskIndex.mergeWith(DiskIndex.java:951)
+	at com.aptana.index.core.Index.save(Index.java:698)
+	at com.aptana.index.core.Index.save(Index.java:671)
+	at com.aptana.editor.html.HTMLMetadataLoader.writeIndex(HTMLMetadataLoader.java:142)
+	at com.aptana.editor.html.HTMLMetadataLoader.writeIndex(HTMLMetadataLoader.java:1)
+	at com.aptana.index.core.MetadataLoader.rebuildMetadataIndex(MetadataLoader.java:171)
+	at com.aptana.index.core.MetadataLoader.run(MetadataLoader.java:183)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)

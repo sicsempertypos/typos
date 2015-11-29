@@ -1,0 +1,31 @@
+{
+  "name": "sicsemper",
+  "version": "0.0.1",
+  "authors": [
+    "silverskunk <silverskunk@gmail.com>"
+  ],
+  "description": "John's Service Pages",
+  "main": "SicSemperTypos",
+  "moduleType": [],
+  "keywords": [
+    "proofreading",
+    "copyediting",
+    "ghostwriting",
+    "epublishing"
+  ],
+  "license": "MIT",
+  "homepage": "sicsempertypos.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "angular": "~1.4.6",
+    "backbone": "~1.2.3"
+  }
+}

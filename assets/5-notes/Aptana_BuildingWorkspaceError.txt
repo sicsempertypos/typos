@@ -1,0 +1,8 @@
+Problem Occurred
+'Building workspace' has encountered a problem.
+
+Errors occurred during the build.
+
+Errors occurred during the build.
+Errors running builder 'Studio Unified Builder' on project 'sicsemper'.
+java.lang.NullPointerException

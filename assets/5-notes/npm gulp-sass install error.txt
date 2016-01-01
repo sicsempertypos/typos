@@ -1,0 +1,257 @@
+Lynne@Lynne-PC MINGW64 /f/Typos/sicsemper (master)
+$ npm install gulp-sass --save-dev
+npm WARN deprecated lodash@1.0.2: lodash@<2.0.0 is no longer maintained. Upgrade to lodash@^3.0.0
+\
+> spawn-sync@1.0.13 postinstall F:\Typos\sicsemper\node_modules\gulp-sass\node_modules\node-sass\node_modules\cross-spawn\node_modules\spawn-sync
+> node postinstall
+
+npm ERR! Windows_NT 6.1.7601
+npm ERR! argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "gulp-sass" "--save-dev"
+npm ERR! node v4.1.0
+npm ERR! npm  v2.14.3
+npm ERR! code ECONNRESET
+npm ERR! errno ECONNRESET
+npm ERR! syscall read
+
+npm ERR! network read ECONNRESET
+npm ERR! network This is most likely not a problem with npm itself
+npm ERR! network and is related to network connectivity.
+npm ERR! network In most cases you are behind a proxy or have bad network settings.
+npm ERR! network
+npm ERR! network If you are behind a proxy, please make sure that the
+npm ERR! network 'proxy' config is set properly.  See: 'npm help config'
+npm ERR! Windows_NT 6.1.7601
+npm ERR! argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "gulp-sass" "--save-dev"
+npm ERR! node v4.1.0
+npm ERR! npm  v2.14.3
+npm ERR! code ECONNRESET
+npm ERR! errno ECONNRESET
+npm ERR! syscall read
+
+
+[repeated 13 more times]
+
+npm ERR! network read ECONNRESET
+npm ERR! network This is most likely not a problem with npm itself
+npm ERR! network and is related to network connectivity.
+npm ERR! network In most cases you are behind a proxy or have bad network settings.
+npm ERR! network
+npm ERR! network If you are behind a proxy, please make sure that the
+npm ERR! network 'proxy' config is set properly.  See: 'npm help config'
+
+> node-sass@3.4.2 install F:\Typos\sicsemper\node_modules\gulp-sass\node_modules\node-sass
+> node scripts/install.js
+
+
+
+Binary downloaded and installed at F:\Typos\sicsemper\node_modules\gulp-sass\node_modules\node-sass\vendor\win32-x64-46\binding.node
+npm ERR! Windows_NT 6.1.7601
+npm ERR! argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "gulp-sass" "--save-dev"
+npm ERR! node v4.1.0
+npm ERR! npm  v2.14.3
+npm ERR! code ECONNRESET
+npm ERR! errno ECONNRESET
+npm ERR! syscall read
+npm ERR! network read ECONNRESET
+npm ERR! network This is most likely not a problem with npm itself
+npm ERR! network and is related to network connectivity.
+npm ERR! network In most cases you are behind a proxy or have bad network settings.
+npm ERR! network
+npm ERR! network If you are behind a proxy, please make sure that the
+npm ERR! network 'proxy' config is set properly.  See: 'npm help config'
+npm ERR! Windows_NT 6.1.7601
+npm ERR! argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "gulp-sass" "--save-dev"
+npm ERR! node v4.1.0
+npm ERR! npm  v2.14.3
+npm ERR! code ECONNRESET
+npm ERR! errno ECONNRESET
+npm ERR! syscall read
+npm ERR! network read ECONNRESET
+npm ERR! network This is most likely not a problem with npm itself
+npm ERR! network and is related to network connectivity.
+npm ERR! network In most cases you are behind a proxy or have bad network settings.
+npm ERR! network
+npm ERR! network If you are behind a proxy, please make sure that the
+npm ERR! network 'proxy' config is set properly.  See: 'npm help config'
+
+> node-sass@3.4.2 postinstall F:\Typos\sicsemper\node_modules\gulp-sass\node_modules\node-sass
+> node scripts/build.js
+
+` F:\Typos\sicsemper\node_modules\gulp-sass\node_modules\node-sass\vendor\win32-x64-46\binding.node ` exists.
+ testing binary.
+Binary is fine; exiting.
+npm ERR! Windows_NT 6.1.7601
+npm ERR! argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "gulp-sass" "--save-dev"
+npm ERR! node v4.1.0
+npm ERR! npm  v2.14.3
+npm ERR! code ECONNRESET
+npm ERR! errno ECONNRESET
+npm ERR! syscall read
+
+npm ERR! network read ECONNRESET
+npm ERR! network This is most likely not a problem with npm itself
+npm ERR! network and is related to network connectivity.
+npm ERR! network In most cases you are behind a proxy or have bad network settings.
+npm ERR! network
+npm ERR! network If you are behind a proxy, please make sure that the
+npm ERR! network 'proxy' config is set properly.  See: 'npm help config'
+gulp-sass@2.1.1 node_modules\gulp-sass
+├── object-assign@4.0.1
+├── vinyl-sourcemaps-apply@0.2.1 (source-map@0.5.3)
+├── through2@2.0.0 (xtend@4.0.1, readable-stream@2.0.5)
+├── gulp-util@3.0.7 (array-differ@1.0.0, array-uniq@1.0.2, lodash._reevaluate@3.0.0, beeper@1.1.0, lodash._reescape@3.0.0, object-assign@3.0.0, fancy-log@1.1.0, lod
+ash._reinterpolate@3.0.0, replace-ext@0.0.1, minimist@1.2.0, has-gulplog@0.1.0, vinyl@0.5.3, gulplog@1.0.0, chalk@1.1.1, lodash.template@3.6.2, multipipe@0.1.2, dat
+eformat@1.0.12)
+└── node-sass@3.4.2 (get-stdin@4.0.1, async-foreach@0.1.3, chalk@1.1.1, nan@2.1.0, mkdirp@0.5.1, glob@5.0.15, gaze@0.5.2, npmconf@2.1.2, meow@3.6.0, sass-graph@2.0.
+1, cross-spawn@2.1.0, request@2.67.0, node-gyp@3.2.1)
+npm ERR! Windows_NT 6.1.7601
+npm ERR! argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "gulp-sass" "--save-dev"
+npm ERR! node v4.1.0
+npm ERR! npm  v2.14.3
+npm ERR! code ECONNRESET
+npm ERR! errno ECONNRESET
+npm ERR! syscall read
+
+npm ERR! network read ECONNRESET
+npm ERR! network This is most likely not a problem with npm itself
+npm ERR! network and is related to network connectivity.
+npm ERR! network In most cases you are behind a proxy or have bad network settings.
+npm ERR! network
+npm ERR! network If you are behind a proxy, please make sure that the
+npm ERR! network 'proxy' config is set properly.  See: 'npm help config'
+npm ERR! Windows_NT 6.1.7601
+npm ERR! argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "gulp-sass" "--save-dev"
+npm ERR! node v4.1.0
+npm ERR! npm  v2.14.3
+
+npm ERR! Callback called more than once.
+npm ERR!
+npm ERR! If you need help, you may report this error at:
+npm ERR!     <https://github.com/npm/npm/issues>
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     F:\Typos\sicsemper\npm-debug.log
+
+********************************************************************
+I looked at the following:
+
+Lynne@Lynne-PC MINGW64 /f/Typos/sicsemper (master)
+$ npm help config
+
+Lynne@Lynne-PC MINGW64 /f/Typos/sicsemper (master)
+$ npm config list
+; cli configs
+user-agent = "npm/2.14.3 node/v4.1.0 win32 x64"
+
+; builtin config undefined
+prefix = "C:\\Users\\Lynne\\AppData\\Roaming\\npm"
+
+; node bin location = C:\Program Files\nodejs\node.exe
+; cwd = F:\Typos\sicsemper
+; HOME = C:\Users\Lynne
+; 'npm config ls -l' to show all defaults.
+
+
+Lynne@Lynne-PC MINGW64 /f/Typos/sicsemper (master)
+$ npm config ls -l
+; cli configs
+long = true
+user-agent = "npm/2.14.3 node/v4.1.0 win32 x64"
+
+; builtin config undefined
+prefix = "C:\\Users\\Lynne\\AppData\\Roaming\\npm"
+
+; default values
+access = null
+always-auth = false
+bin-links = true
+browser = null
+ca = null
+cache = "C:\\Users\\Lynne\\AppData\\Roaming\\npm-cache"
+cache-lock-retries = 10
+cache-lock-stale = 60000
+cache-lock-wait = 10000
+cache-max = null
+cache-min = 10
+cafile = undefined
+cert = null
+color = true
+depth = null
+description = true
+dev = false
+editor = "notepad.exe"
+engine-strict = false
+fetch-retries = 2
+fetch-retry-factor = 10
+fetch-retry-maxtimeout = 60000
+fetch-retry-mintimeout = 10000
+force = false
+git = "git"
+git-tag-version = true
+global = false
+globalconfig = "C:\\Users\\Lynne\\AppData\\Roaming\\npm\\etc\\npmrc"
+globalignorefile = "C:\\Users\\Lynne\\AppData\\Roaming\\npm\\etc\\npmignore"
+group = 0
+heading = "npm"
+https-proxy = null
+if-present = false
+ignore-scripts = false
+init-author-email = ""
+init-author-name = ""
+init-author-url = ""
+init-license = "ISC"
+init-module = "C:\\Users\\Lynne\\.npm-init.js"
+init-version = "1.0.0"
+json = false
+key = null
+link = false
+local-address = undefined
+loglevel = "warn"
+; long = false (overridden)
+message = "%s"
+node-version = "4.1.0"
+npat = false
+onload-script = null
+optional = true
+parseable = false
+; prefix = "C:\\Program Files\\nodejs" (overridden)
+production = false
+proprietary-attribs = true
+proxy = null
+rebuild-bundle = true
+registry = "https://registry.npmjs.org/"
+rollback = true
+save = false
+save-bundle = false
+save-dev = false
+save-exact = false
+save-optional = false
+save-prefix = "^"
+scope = ""
+searchexclude = null
+searchopts = ""
+searchsort = "name"
+shell = "C:\\Windows\\system32\\cmd.exe"
+shrinkwrap = true
+sign-git-tag = false
+spin = true
+strict-ssl = true
+tag = "latest"
+tag-version-prefix = "v"
+tmp = "C:\\Users\\Lynne\\AppData\\Local\\Temp"
+umask = 0
+unicode = true
+unsafe-perm = true
+usage = false
+user = 0
+; user-agent = "npm/{npm-version} node/{node-version} {platform} {arch}" (overridden)
+userconfig = "C:\\Users\\Lynne\\.npmrc"
+version = false
+versions = false
+viewer = "browser"
+
+****************************************************************************************
+
+Any suggestions on what to try would be great.  I'm trying to set up a gulp-sass build environment.
+Thanks,
+Lynne Davidson

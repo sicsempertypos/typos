@@ -1,0 +1,201 @@
+doctype html
+html(lang='eng')
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width initial-scale=1')
+    meta(name='description', contents='Sic Semper Typos')
+    title Sic Semper Typos
+    link(rel='stylesheet', type='text/css', media='all', href='css/bootstrap.min.css')
+    link(rel='stylesheet', type='text/css', media='all', href='http://fonts.googleapis.com/css?family=Nothing+You+Could+Do')
+    link(rel='stylesheet', type='text/css', media='screen, projection', href='/stylesheets/screen.css')
+    link(rel='stylesheet', type='text/css', media='print', href='/stylesheets/print.css')
+    //if IE
+      link(rel='stylesheet', text='text/css', href='/stylesheets/ie.css', media='screen, projection')
+    link(rel='stylesheet', type='text/css', media='all', href='css/navbar.css')
+    link(rel='stylesheet', type='text/css', media='all', href='css/fontface.css')
+    link(rel='stylesheet', type='text/css', media='all', href='css/banner.css')
+    link(rel='stylesheet', type='text/css', media='all', href='css/styles.css')
+  |  
+  body
+    .container.first-container
+      nav.navbar.navbar-inverse.navbar-fixed-top
+        .container.navcell.flex-navbar
+          .navbar-brand
+            a(href='index.html')
+              img.navbar-brand.sst-image(src='images/sst.png')
+          button.navitem.navbar-toggle(data-target='.navbar-responsive-collapse', data-toggle='collapse', type='button')
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          .navitem.navbar-collapse.collapse.navbar-responsive-collapse
+            ul.nav.navcell.navbar-nav
+              li.active
+                a(href='#')
+                  span.navitem.glyphicon.glyphicon-home
+                  |  Home
+              li
+                a(href='#')
+                  span.navitem.glyphicon.glyphicon-edit
+                  |  Services &amp; Rates
+              li
+                a(href='#')
+                  span.navitem.glyphicon.glyphicon-book
+                  |  Portfolio
+              li
+                a(href='contactForm.html')
+                  span.navitem.glyphicon.glyphicon-user
+                  |  About/Contact John
+              li
+                a(href='#')
+                  span.navitem.glyphicon.glyphicon-log-in
+                  |  Log In
+            form.navcell.navbar-form
+              input#searchinput.form-control(type='text', placeholder='Search')
+              button.btn.btn-default(type='navbtm submit')
+                span.navitem.glyphicon.glyphicon-search
+          // Nav-collapse
+        // Container
+    // Container
+    header
+      .container.header-container
+        .banner.header-scroll.img-responsive
+          img.img-responsive.float-left(src='images/Sic Semper Scroll.png')
+          h1.visible-lg-inline
+            | Sic Semper Typos
+            p Thus always to typos
+            p
+          h2.visible-md-inline
+            | Sic Semper Typos
+            p Thus always to typos
+            p
+          h3.visible-sm-inline
+            | Sic Semper Typos
+            p Thus always to typos
+            p
+          h4.visible-xs-inline
+            strong Sic Semper Typos
+            p Thus always to typos
+            p
+    // Opening scroll
+    .content
+      .vert.main-scroll
+        ul.para.para-scrollbar
+          | A
+        ul.para.para-1
+          li &nbsp;Your story must be told.
+          li &nbsp;It is
+          li
+            span#fontepic &nbsp;epic.
+          |  
+          li &nbsp;It is profound.
+          li &nbsp;It is like nothing
+          |  
+          li &nbsp;ever written.
+        ul.para.para-2(div='')
+          li But your grammar
+          |  
+          li &nbsp;is atrocious
+          li &nbsp;Your spelling
+          |  
+          li &nbsp;is dreadful.
+          li &nbsp;Your prose
+          |  
+          li &nbsp;is lacking
+        ul.para.para-3(div='')
+          li Your story is one for the
+          li
+            span#ages &nbsp;AGES,
+          li but you
+          li &nbsp;do not
+          |  
+          li &nbsp;have the words
+          li &nbsp;with which
+          li &nbsp;to express it.
+        ul.para.para-4(div='')
+          li
+            span#ido I do.
+        ul.para.para-5(div='')
+          li I know the tale you
+          li &nbsp;are trying to tell.
+          li &nbsp;I see the story laid out
+          li &nbsp;before me in vivid detail.
+        ul.para.para-6(div='')
+          li And I have the power
+          li &nbsp;to transform your lifeless text
+          li &nbsp;into the
+          |  
+          li &nbsp;flowing, emotional,
+          li
+            span#master &nbsp; Shakespearean
+          |  
+          li &nbsp;masterpiece your
+          li &nbsp;storyline
+          li &nbsp;deserves!
+        ul.para.para-scrollbar
+          | A
+      // class vert main-scroll
+      .john
+        ul.john-title
+          li
+            h1.name.col-sm-12 John Davidson
+          li
+            img.img(src='images/aboutjohn_400px.jpg', alt="John's photo")
+        ul.avid-reader
+          li An avid reader
+          |  
+          li &nbsp;and lifelong
+          |  
+          li &nbsp;perfectionist,
+          |  
+          li &nbsp;John has recently
+          |  
+          li &nbsp;discovered his
+          |  
+          li
+            | true passion
+            strong : 
+          li &nbsp;correcting other
+          |  
+          li &nbsp;peoples&apos;
+          |  
+          li &nbsp;mistakes!
+        // class avid-reader
+        ul.errors
+          li &nbsp;In all his
+          |  
+          li &nbsp;prior work,
+          |  
+          li &nbsp;he never could
+          |  
+          li &nbsp;resist pointing
+          |  
+          li &nbsp;out the little
+          |  
+          li &nbsp;grammatical errors
+          |  
+          li &nbsp;all around him,
+          |  
+          li &nbsp;and after years
+          |  
+          li &nbsp;of resisting
+          |  
+          li &nbsp;the urge,
+          |  
+          li &nbsp;he has finally
+          |  
+          li &nbsp;succumbed to the
+          |  
+          li &nbsp;inevitable and
+          |  
+          li &nbsp;embraced his inner
+          |  
+          li &nbsp;Grouchy
+          |  
+          li &nbsp;Grammarian!
+        // class errors
+      // class john
+    // class content
+    footer
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js')
+    script(src='js/bootstrap.min.js')

@@ -5,41 +5,41 @@
 var gulp = require('gulp'),
 	browserSync = require('browser-sync'),
 	reload = browserSync.reload,
-  autoprefixer = require('gulp-autoprefixer'),
+    autoprefixer = require('gulp-autoprefixer'),
 	compass = require('gulp-compass'),
-  del = require('del'),
-  jade = require('gulp-jade'),
+    del = require('del'),
+    jade = require('gulp-jade'),
 	plumber = require('gulp-plumber'),
 	rename = require('gulp-rename'),
-  sass = require('gulp-sass'),
-  uglify = require('gulp-uglify');
+    sass = require('gulp-sass'),
+    uglify = require('gulp-uglify');
 
 // ////////////////////////////////////////
 // Scripts Task
 // ////////////////////////////////////////
 gulp.task('scripts', function() {
-	gulp.src(['app/js/**/*.js', '!app/js/**/*.min.js'])
-	.pipe(plumber())
-	.pipe(rename({suffix:'.min'}))
-	.pipe(uglify())
-	.pipe(gulp.dest('app/js'))
-	.pipe(reload({stream:true}));
+	gulp.src(['sicsemper/js/**/*.js', '!sicsemper/js/**/*.min.js'])
+		.pipe(plumber())
+		.pipe(rename({suffix:'.min'}))
+		.pipe(uglify())
+		.pipe(gulp.dest('sicsemper/js'))
+		.pipe(reload({stream:true}));
 });
 
 // ////////////////////////////////////////
 // Compass / Sass Texts
 // ////////////////////////////////////////
 gulp.task('compass', function() {
-	gulp.src('app/scss/style.scss')
+	gulp.src('sicsemper/sass/style.sass')
 		.pipe(plumber())
 		.pipe(compass({
 			config_file: './config.rb',
-			css: 'app/css',
-			sass: 'app/scss',
+			css: 'sicsemper/css',
+			sass: 'sicsemper/sass',
 			require: ['susy']
 		}))
 		.pipe(autoprefixer('last 2 versions'))
-		.pipe(gulp.dest('app/css/'))
+		.pipe(gulp.dest('sicsemper/css/'))
 		.pipe(reload({stream:true}));
 });
 
@@ -49,7 +49,7 @@ gulp.task('compass', function() {
 //gulp.task('templates', function() {
 //  // vars YOUR_LOCALS = ();
 
-//	gulp.src('app/**/*.jade')
+//	gulp.src('sicsemper/**/*.jade')
 //    .pipe(jade({
 //      locals: YOUR_LOCALS
 //    }))
@@ -61,8 +61,8 @@ gulp.task('compass', function() {
 // HTML Tasks
 // ////////////////////////////////////////
 gulp.task('html', function() {
-	gulp.src('app/**/*.html')
-	 .pipe(reload({stream:true}));
+	gulp.src('sicsemper/**/*.html')
+	 	.pipe(reload({stream:true}));
 });
 
 // ////////////////////////////////////////
@@ -78,9 +78,9 @@ gulp.task('build:cleanfolder', function(cb) {
 
 // task to create build directory for all files
 gulp.task('build:copy', ['build:cleanfolder'], function() {
-	return gulp.src('app/**/*/')
-	.pipe(gulp.dest('build/'));
-});
+	return gulp.src('sicsemper/**/*/')
+		.pipe(gulp.dest('build/'));
+});	
 
 // task to remove unwanted build files
 // list all files and directories here that you don't want to include
@@ -93,14 +93,13 @@ gulp.task('build:remove', ['build:copy'], function(cb) {
 
 gulp.task('build', ['build:copy', 'build:remove']);
 
-
 // ////////////////////////////////////////
 // Browser-Sync Tasks
 // ////////////////////////////////////////
 gulp.task('browser-sync', function() {
 	browserSync({
 		server: {
-			baseDir: "./app/"
+			baseDir: "./sicsemper/"
 		}
 	});
 });
@@ -118,9 +117,9 @@ gulp.task('build:serve', function() {
 // Watch Tasks
 // ////////////////////////////////////////
 gulp.task('watch',function(){
-	gulp.watch('app/js/**/*.js',['scripts']);
-	gulp.watch('app/scss/**/*.scss',['compass']);
-	gulp.watch('app/**/*.html',['html']);
+	gulp.watch('sicsemper/js/**/*.js',['scripts']);
+	gulp.watch('sicsemper/sass/**/*.sass',['compass']);
+	gulp.watch('sicsemper/**/*.html',['html']);
 });
 
 // ////////////////////////////////////////

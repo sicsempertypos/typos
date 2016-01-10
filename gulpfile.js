@@ -35,11 +35,17 @@ gulp.task('compass', function() {
 		.pipe(compass({
 			config_file: './config.rb',
 			css: 'sicsemper/css',
-			sass: 'sicsemper/sass',
+			sass: 'sicsemper/assets/sass',
+			require: ['susy']
+		}))
+		.pipe(compas({
+			config_file: './config.rb',
+			css: 'sicsemper/css',
+			sass: 'sicsemper/assets/2-base',
 			require: ['susy']
 		}))
 		.pipe(autoprefixer('last 2 versions'))
-		.pipe(gulp.dest('sicsemper/css/'))
+		.pipe(gulp.dest('sicsemper/assets/css/'))
 		.pipe(reload({stream:true}));
 });
 

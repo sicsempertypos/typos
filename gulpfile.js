@@ -3,14 +3,16 @@
 // ////////////////////////////////////////
 
 var gulp = require('gulp'),
-    uglify = require('gulp-uglify'),
 	browserSync = require('browser-sync'),
 	reload = browserSync.reload,
+  autoprefixer = require('gulp-autoprefixer'),
 	compass = require('gulp-compass'),
+  del = require('del'),
+  jade = require('gulp-jade'),
 	plumber = require('gulp-plumber'),
-	autoprefixer = require('gulp-autoprefixer'),
-	del = require('del'),
-	rename = require('gulp-rename');
+	rename = require('gulp-rename'),
+  sass = require('gulp-sass'),
+  uglify = require('gulp-uglify');
 
 // ////////////////////////////////////////
 // Scripts Task
@@ -42,11 +44,25 @@ gulp.task('compass', function() {
 });
 
 // ////////////////////////////////////////
+// Jade Tasks
+// ////////////////////////////////////////
+//gulp.task('templates', function() {
+//  // vars YOUR_LOCALS = ();
+
+//	gulp.src('app/**/*.jade')
+//    .pipe(jade({
+//      locals: YOUR_LOCALS
+//    }))
+//    .pipe(gulp.dest('./dist/'))
+//	  .pipe(reload({stream:true}));
+//});
+
+// ////////////////////////////////////////
 // HTML Tasks
 // ////////////////////////////////////////
 gulp.task('html', function() {
 	gulp.src('app/**/*.html')
-	.pipe(reload({stream:true}));
+	 .pipe(reload({stream:true}));
 });
 
 // ////////////////////////////////////////
@@ -111,4 +127,3 @@ gulp.task('watch',function(){
 // Default Task
 // ////////////////////////////////////////
 gulp.task('default',['scripts', 'compass', 'html', 'browser-sync', 'watch']);
-	

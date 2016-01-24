@@ -5,14 +5,14 @@
 var gulp = require('gulp'),
 	browserSync = require('browser-sync'),
 	reload = browserSync.reload,
-    autoprefixer = require('gulp-autoprefixer'),
+  autoprefixer = require('gulp-autoprefixer'),
 	compass = require('gulp-compass'),
-    del = require('del'),
-    jade = require('gulp-jade'),
+  del = require('del'),
+  jade = require('gulp-jade'),
 	plumber = require('gulp-plumber'),
 	rename = require('gulp-rename'),
-    sass = require('gulp-sass'),
-    uglify = require('gulp-uglify');
+  sass = require('gulp-sass'),
+  uglify = require('gulp-uglify');
 
 // ////////////////////////////////////////
 // Scripts Task
@@ -86,7 +86,7 @@ gulp.task('build:cleanfolder', function(cb) {
 gulp.task('build:copy', ['build:cleanfolder'], function() {
 	return gulp.src('sicsemper/**/*/')
 		.pipe(gulp.dest('build/'));
-});	
+});
 
 // task to remove unwanted build files
 // list all files and directories here that you don't want to include

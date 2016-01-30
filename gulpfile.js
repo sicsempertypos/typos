@@ -5,14 +5,14 @@
 var gulp = require('gulp'),
 	browserSync = require('browser-sync'),
 	reload = browserSync.reload,
-  autoprefixer = require('gulp-autoprefixer'),
+    autoprefixer = require('gulp-autoprefixer'),
 	compass = require('gulp-compass'),
-  del = require('del'),
-  jade = require('gulp-jade'),
+    del = require('del'),
+    jade = require('gulp-jade'),
 	plumber = require('gulp-plumber'),
 	rename = require('gulp-rename'),
-  sass = require('gulp-sass'),
-  uglify = require('gulp-uglify');
+    sass = require('gulp-sass'),
+    uglify = require('gulp-uglify');
 
 // ////////////////////////////////////////
 // Scripts Task
@@ -30,7 +30,7 @@ gulp.task('scripts', function() {
 // Compass / Sass Texts
 // ////////////////////////////////////////
 gulp.task('compass', function() {
-	gulp.src('sicsemper/sass/style.sass')
+	gulp.src('sicsemper/stylesheets/app.sass')
 		.pipe(plumber())
 		.pipe(compass({
 			config_file: './config.rb',
@@ -41,8 +41,7 @@ gulp.task('compass', function() {
 		.pipe(compas({
 			config_file: './config.rb',
 			css: 'sicsemper/css',
-			sass: 'sicsemper/assets/2-base',
-			require: ['susy']
+			sass: 'sicsemper/assets/2-base'
 		}))
 		.pipe(autoprefixer('last 2 versions'))
 		.pipe(gulp.dest('sicsemper/assets/css/'))

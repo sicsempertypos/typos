@@ -1,12 +1,12 @@
-# Compiled source # 
-################### 
-*.com 
-*.class 
-*.dll 
-*.exe 
-*.o 
-*.so 
- 
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
 # Packages #
 ############
 # it's better to unpack these files and commit the raw source
@@ -33,17 +33,14 @@
 ._*
 .Spotlight-V100
 .Trashes
-ehthummbs.db
+ehthumbs.db
 Thumbs.db
 
-# Build Systems #
-#################
-node_modules/
-bower_components/
+# Other #
+#########
+/node_modules
+/bower_components
 .sass-cache
 *.css.map
-build/
-dist/
-assets/1-tools/bourbon
-assets/1-tools/neat
-assets/1-tools/bitters
+*.tmp
+*.bak

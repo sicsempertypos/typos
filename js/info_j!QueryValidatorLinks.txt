@@ -1,5 +1,0 @@
-jQuery.validator resources/documentation
-
-http://jqueryvalidation.org/reference/
-http://jqueryvalidation.org/documentation/
-http://jqueryvalidation.org/

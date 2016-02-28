@@ -1,0 +1,36 @@
+.container.first-container
+  nav.navbar.navbar-fixed-top
+    .flex-navbar
+      .navbar-brand
+        a(href='index.html')
+          img.navbar-brand.sst-image(src='img/logo/sst.png')
+          button.navitem.navbar-toggle(data-toggle='collapse', type='button') span.con-bar
+        span.icon-bar
+        span.icon-bar
+      .navitem.navbar-collapse.collapse.navbar-responsive-collapse
+        ul.nav.navcell.navbar-nav
+          li.active
+            a(href='#')
+              span.navitem.glyphicon.glyphicon-home
+              | Home
+          li
+            a(href='#')
+              span.navitem.glyphicon.glyhphicon-edit
+              | Services &amp; Rates
+          li
+            a(href='#')
+              span.navitem.glyphicon.glyphicon-book
+              | Portfolio
+          li
+            a(href='contactForm.html')
+              span.navitem.glyphicon.glyphicon-user
+              | About/Contact John
+          li
+            a(href='#')
+              span.navitem.glyphicon.glyphicon-log-in
+              | Log In
+        form.navcell.navbar-form
+          input#searchinput.form-control(type='text', placeholder='Search')
+            button.btn.btn-default(type='navbtn submit')
+              span.navitem.glyphicon.glyphicon-search
+              

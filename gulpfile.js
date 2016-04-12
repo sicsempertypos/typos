@@ -21,7 +21,8 @@ gulp.task('scripts', function() {
 gulp.task('jade', function() {
 	return gulp.src('jadefiles/**/*.jade')
 		.pipe(jade())
-		.pipe(gulp.dest('build/development'));
+		//.pipe(gulp.dest('build/development'));
+		.pipe(gulp.dest('/'));
 });
 
 //////////////////////////////////////////

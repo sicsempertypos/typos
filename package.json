@@ -12,6 +12,7 @@
     "lodash": "^3.10.1"
   },
   "devDependencies": {
+    "autoprefixer": "^6.3.6",
     "bitters": "^1.0.0",
     "bourbon": "^4.2.6",
     "browser-sync": "^2.11.1",
@@ -25,10 +26,12 @@
     "gulp-jade": "^1.1.0",
     "gulp-plumber": "^1.0.1",
     "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^1.6.0",
     "gulp-uglify": "^1.5.1",
     "html2jade": "^0.8.4",
     "lodash": "^3.10.1",
-    "neat": "^1.2.2"
+    "neat": "^1.2.2",
+    "sassdoc": "^2.1.20"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

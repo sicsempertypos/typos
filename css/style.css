@@ -1,3 +1,44 @@
 
+body 	{ 
+	border: 5px dotted black;
+	padding-top: 50px; 
+	background: url('../img/marble/marble-main.jpg') no-repeat ;
+	background-size: 100% }
 
-/*# sourceMappingURL=style.css.map */
+.headscroll { 
+	border: 5px dashed red;
+	background: url('../img/scroll/header.png') no-repeat;
+	text-align: center;
+	height: 250px;
+	width: 80%; }
+	
+.main { border: 5px solid coral; 
+	//height: 500px;
+	width: auto; 
+	//display: flex; 
+	//align-items: stretch; 
+	}
+	
+.main-content {
+	border: 5px solid orange;
+	display: flex; 
+	align-items: stretch; }	
+	
+//.intro {flex-grow:2;}
+
+//.about {//flex-grow:1;
+//}
+
+article { background: url('../img/scroll/old_paper.png') no-repeat; }
+
+aside { background: url('../img/scroll/scrollpaper.jpg') no-repeat; } 
+
+img.john { width: 30%;
+	height: auto; 
+	float:left; }
+		
+article { 
+	height: 500px;
+	border: 5px solid blue ; }
+
+aside {border: 5px solid yellow; }

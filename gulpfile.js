@@ -2,7 +2,7 @@
 // REQUIRED                             //
 //////////////////////////////////////////
 var gulp = require ('gulp'),
-	jade = require ('gulp-jade'),
+	jade = require ('pug'),
 	sass = require ('gulp-sass'),
 	plumber = require ('gulp-plumber');
 	//autopre = require ('gulp-autoprefixer');
@@ -16,13 +16,13 @@ gulp.task('scripts', function() {
 });
 
 //////////////////////////////////////////
-// Jade Tasks                           //
+// Pug Tasks                            //
 //////////////////////////////////////////	
 gulp.task('jade', function() {
-	return gulp.src('jadefiles/**/*.jade')
+	return gulp.src('jadefiles/**/*.pug')
 		.pipe(jade())
 		//.pipe(gulp.dest('build/development'));
-		.pipe(gulp.dest('/'));
+		.pipe(gulp.dest('/jadefiles'));
 });
 
 //////////////////////////////////////////
@@ -68,5 +68,5 @@ gulp.task('watch', function() {
 //////////////////////////////////////////
 // Default Task                         //
 //////////////////////////////////////////	
-gulp.task('default',['scripts','sass','jade','watch']);
+gulp.task('default',['scripts','sass','pug','watch']);
 //

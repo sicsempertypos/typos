@@ -2,15 +2,17 @@
 body 	{ 
 	border: 5px dotted black;
 	padding-top: 50px; 
-	background: url('../img/marble/marble-main.jpg') no-repeat ;
+	background: url('../img/marble/marble-main.jpg') y-repeat ;
 	background-size: 100% }
 
 .headscroll { 
 	border: 5px dashed red;
 	background: url('../img/scroll/header.png') no-repeat;
+	background-size: cover;
 	text-align: center;
+	padding: 10% 10%;
 	height: 250px;
-	width: 80%; }
+	width: 90%; }
 	
 .main { border: 5px solid coral; 
 	//height: 500px;
@@ -22,20 +24,29 @@ body 	{
 .main-content {
 	border: 5px solid orange;
 	display: flex; 
-	align-items: stretch; }	
+	align-items: stretch;
+	flex-wrap: wrap; }	
 	
-//.intro {flex-grow:2;}
+.intro {
+	padding: 10%;
+	self-align: stretch;
+	flex-grow: 1 }
 
-//.about {//flex-grow:1;
-//}
+.about {
+	padding: 10%; 
+	self-align: stretch;
+	flex-grow: 1 }
 
-article { background: url('../img/scroll/old_paper.png') no-repeat; }
+article { background: url('../img/scroll/old_paper.png') no-repeat; 
+	background-size: cover; }
 
-aside { background: url('../img/scroll/scrollpaper.jpg') no-repeat; } 
+aside { background: url('../img/scroll/scrollpaper.jpg') no-repeat; 
+	background-size: cover; } 
 
-img.john { width: 30%;
+img.john { width: 40%;
 	height: auto; 
-	float:left; }
+	float:left;
+	padding: 10px; }
 		
 article { 
 	height: 500px;

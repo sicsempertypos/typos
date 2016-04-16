@@ -8,6 +8,15 @@ body 	{
 	flex-direction: column;
 	 }
 
+.main { border: 5px solid purple; 
+	height: auto;
+	width: auto; 
+	flex: 1 1 auto;
+	display: flex; 
+	}
+	
+header {}
+
 .headscroll { 
 	border: 5px dashed red;
 	background: url('../img/scroll/header.png') no-repeat;
@@ -15,17 +24,9 @@ body 	{
 	text-align: center;
 	padding: 10% 15%;
 	height: auto;
-	width: 100%;
+	width: 70%;
 	flex-shrink: 1;
 	 }
-	
-.main { border: 5px solid purple; 
-	height: auto;
-	width: auto; 
-	flex: 1 1 auto;
-	display: flex; 
-	align-content: stretch; 
-	}
 	
 .main-content {
 	border: 5px solid orange;
@@ -33,29 +34,31 @@ body 	{
 	align-content: stretch;
 	flex-wrap: wrap; }	
 	
+article {  }
+
+aside { } 
+
 .intro {
 	padding: 10%;
 	/*self-align: stretch;*/
-	flex: 1 1 auto; }
+	flex: 1 1 auto; 
+	background: url('../img/scroll/old_paper.png') no-repeat; 
+	background-size: cover;
+	height: 500px;
+	border: 5px solid blue ;
+	}
 
 .about {
 	padding: 7%; 
 	/*self-align: stretch;*/
-	flex: 1 1 auto; }
-
-article { background: url('../img/scroll/old_paper.png') no-repeat; 
-	background-size: cover; }
-
-aside { background: url('../img/scroll/scrollpaper.jpg') no-repeat; 
-	background-size: cover; } 
+	flex: 1 1 auto;
+	background: url('../img/scroll/scrollpaper.jpg') no-repeat; 
+	background-size: cover; 
+	border: 5px solid yellow;
+	}
 
 img.john { width: 40%;
 	height: auto; 
 	float:left;
 	padding: 10px; }
 		
-article { 
-	height: 500px;
-	border: 5px solid blue ; }
-
-aside {border: 5px solid yellow; }

@@ -1,24 +1,27 @@
 
 body 	{ 
-	border: 5px dotted black;
+	/*border: 5px dotted black;*/
 	padding-top: 50px; 
-	background: url('../img/marble/marble-main.jpg') y-repeat ;
+	background: url('../img/marble/marble-main.jpg') ;
 	background-size: 100%;
 	display: flex;
 	flex-direction: column;
+	/*height: 100vh;*/
 	 }
 
-.main { border: 5px solid purple; 
+header { flex: 1 1 auto;
+	}
+
+.main { /*border: 5px solid purple;*/ 
 	height: auto;
 	width: auto; 
-	flex: 1 1 auto;
-	display: flex; 
+	/*flex: 1 1 auto;*/
+	display: flex;
+	/*flex-direction: column;*/ 
 	}
 	
-header {}
-
 .headscroll { 
-	border: 5px dashed red;
+	/*border: 5px dashed red;*/
 	background: url('../img/scroll/header.png') no-repeat;
 	background-size: cover;
 	text-align: center;
@@ -29,9 +32,9 @@ header {}
 	 }
 	
 .main-content {
-	border: 5px solid orange;
+	/*border: 5px solid orange;*/
 	display: flex; 
-	align-content: stretch;
+	align-items: stretch;
 	flex-wrap: wrap; }	
 	
 article {  }
@@ -40,21 +43,21 @@ aside { }
 
 .intro {
 	padding: 10%;
-	/*self-align: stretch;*/
+	align-self: stretch;
 	flex: 1 1 auto; 
 	background: url('../img/scroll/old_paper.png') no-repeat; 
 	background-size: cover;
-	height: 500px;
-	border: 5px solid blue ;
+	/*height: 500px;*/
+	/*border: 5px solid blue ;*/
 	}
 
 .about {
-	padding: 7%; 
-	/*self-align: stretch;*/
+	padding: 10%; 
+	align-self: stretch;
 	flex: 1 1 auto;
-	background: url('../img/scroll/scrollpaper.jpg') no-repeat; 
+	background: url('../img/scroll/old_paper.png') no-repeat; 
 	background-size: cover; 
-	border: 5px solid yellow;
+	/*border: 5px solid yellow;*/
 	}
 
 img.john { width: 40%;

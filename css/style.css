@@ -3,39 +3,45 @@ body 	{
 	border: 5px dotted black;
 	padding-top: 50px; 
 	background: url('../img/marble/marble-main.jpg') y-repeat ;
-	background-size: 100% }
+	background-size: 100%;
+	display: flex;
+	flex-direction: column;
+	 }
 
 .headscroll { 
 	border: 5px dashed red;
 	background: url('../img/scroll/header.png') no-repeat;
 	background-size: cover;
 	text-align: center;
-	padding: 10% 10%;
-	height: 250px;
-	width: 90%; }
+	padding: 10% 15%;
+	height: auto;
+	width: 100%;
+	flex-shrink: 1;
+	 }
 	
-.main { border: 5px solid coral; 
-	//height: 500px;
+.main { border: 5px solid purple; 
+	height: auto;
 	width: auto; 
-	//display: flex; 
-	//align-items: stretch; 
+	flex: 1 1 auto;
+	display: flex; 
+	align-content: stretch; 
 	}
 	
 .main-content {
 	border: 5px solid orange;
 	display: flex; 
-	align-items: stretch;
+	align-content: stretch;
 	flex-wrap: wrap; }	
 	
 .intro {
 	padding: 10%;
-	self-align: stretch;
-	flex-grow: 1 }
+	/*self-align: stretch;*/
+	flex: 1 1 auto; }
 
 .about {
-	padding: 10%; 
-	self-align: stretch;
-	flex-grow: 1 }
+	padding: 7%; 
+	/*self-align: stretch;*/
+	flex: 1 1 auto; }
 
 article { background: url('../img/scroll/old_paper.png') no-repeat; 
 	background-size: cover; }

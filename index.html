@@ -9,6 +9,8 @@
     <!-- Bootstrap -->
     <link href="css/0-plugins/bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" text="text/css" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Nothing+You+Could+Do" type="text/css"
+    	media="all" rel="stylesheet">
 	<!-- if IE]>
 		<link rel="stylesheet" text="text/css" href="/stylesheets/ie.css" media="screen, projection"/>
 	<![endif]-->
@@ -49,36 +51,43 @@
   		</div>
   	</nav>
 
-  	<header class="container">
-	  	<div class="container headscroll">
-	  		<row class="scroll col-sm-12">
-	  			<!--<img src="img/scroll/header.png" alt="scroll" class="img-responsive">-->
-	    		<h1>Sic Semper Typos <small>Thus always to typos</small></h1>
-	    	</row>
-		</div>
+  	<header class="container-fluid">
+  		<div class="quote col-sm-3">
+  			<blockquote class="lint">No one else sees the world the way you do, so no one else can tell the stories that you have to tell.
+  				<small>Charles de Lint, writer</small>
+  			</blockquote>
+  		</div>
+  		<div class="scroll col-sm-9">
+    		<p>Sic Semper Typos <small>Thus always to typos</small></p>
+    	</div>
 	</header>
 
 	<div class="container main">
 		<div class="row main-content">
 			<article class="intro col-sm-6 col-xs-12">
-				<h1>TRIASDIUOAF </h1>
-				<p>Your story must be told. It is epic. It is profound. It is like nothing ever written. But your grammar is atrocious. Your spelling is dreadful. Your prose is lacking. Your story is one for the ages, but you do not have the words with which to express it.</p>
-            	<p>I do.</p>
- 				<p>I know the tale you are trying to tell. I see the story laid out before me in vivid detail. And I have the power to transform your lifeless text into the flowing, emotional, Shakespearean masterpiece your storyline deserves!</p>
+				<h1 class="title"><strong>Your Story</strong></h1>
+				<p>Your story must be told. It is <span id="fontepic"><em>epic</em></span>. It is profound. It is like nothing ever written. But your grammar is atrocious. Your spelling is dreadful. Your prose is lacking. Your story is one for the <span id="ages"><em>ages</em></span>, but you do not have the words with which to express it.</p>
+            	<p><strong><span id="ido">I do.</span></strong></p>
+ 				<p>I know the tale you are trying to tell. I see the story laid out before me in vivid detail. And I have the power to transform your lifeless text into the flowing, emotional, <span id="master"><em>Shakespearean</em></span> masterpiece your storyline deserves!</p>
 			</article>
 			<aside class="about col-sm-6 col-xs-12">
 				<h1>JOHN </h1>
 				<p><img sr-only="john-bearded" src="img/john/AboutJohn_400px.jpg"  class="john">An avid reader and lifelong perfectionist, John has recently discovered his true passion: correcting other people's mistakes.</p>
-                <p>In all his prior work, he never could resist pointing out the little grammatical errors all around him, and after years of resisting the urge, he has finally succumbed to the inevitable and embraced his inner Grouchy Grammarian.</p>
+                <p>In all his prior work, he never could resist pointing out the little grammatical errors all around him, and after years of resisting the urge, he has finally succumbed to the inevitable and embraced his inner Grouchy Grammarian.*</p>
 			</aside>
 		</div>
 	</div>
+	
 	<footer>
-		<h2>This is the footer</h2>
+		<p>*The Grouchy Grammarian: A How-Not-To Guide to the 47 Most Common Mistakes in English<br>
+		Made by Journalists, Broadcasters, and Others Who Should Know Better
+		<small>by Thomas Parrish</small></p>
 	</footer>
+	
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
   </body>
+  
 </html>

@@ -1,64 +1,57 @@
 
-body 	{ 
-	/*border: 5px dotted black;*/
+body 	{ border: 5px dashed black;
 	padding-top: 50px; 
 	background: url('../img/marble/marble-main.jpg') ;
+	/*background: url('../img/wall/stone_texture_23.jpg');*/
 	background-size: 100%;
 	display: flex;
-	flex-direction: column;
-	/*height: 100vh;*/
-	 }
+	flex-direction: column; }
 
-header { flex: 1 1 auto;
-	}
+.navigation { border: 5px dashed red;
+	background: url('../img/scroll/papergrunge.jpg');
+	background-size: cover; }
+	
+header { border: 5px dashed green;
+	display: flex;
+	flex: 1 1 auto; 
+	max-height: 200px;
+	margin-top: 30px; }
 
-.main { /*border: 5px solid purple;*/ 
+.main { border: 5px dashed blue;
 	height: auto;
 	width: auto; 
-	/*flex: 1 1 auto;*/
-	display: flex;
-	/*flex-direction: column;*/ 
-	}
+	display: flex; }
 	
-.headscroll { 
-	/*border: 5px dashed red;*/
+.headscroll { border: 5 px dashed yellow;
 	background: url('../img/scroll/header.png') no-repeat;
 	background-size: cover;
 	text-align: center;
 	padding: 10% 15%;
 	height: auto;
 	width: 70%;
-	flex-shrink: 1;
-	 }
+	flex: 1 1 auto; }
 	
-.main-content {
-	/*border: 5px solid orange;*/
+.main-content {border: 5px dotted yellow;
 	display: flex; 
 	align-items: stretch;
-	flex-wrap: wrap; }	
+	flex-wrap: wrap;
+	/*margin-top: 20px;*/ }	
 	
-article {  }
+article { border: 5px solid green; }
 
-aside { } 
+aside { border: 5px solid red; } 
 
-.intro {
-	padding: 10%;
+.intro { padding: 10%;
 	align-self: stretch;
 	flex: 1 1 auto; 
 	background: url('../img/scroll/old_paper.png') no-repeat; 
-	background-size: cover;
-	/*height: 500px;*/
-	/*border: 5px solid blue ;*/
-	}
+	background-size: cover;	}
 
-.about {
-	padding: 10%; 
+.about { padding: 10%; 
 	align-self: stretch;
 	flex: 1 1 auto;
 	background: url('../img/scroll/old_paper.png') no-repeat; 
-	background-size: cover; 
-	/*border: 5px solid yellow;*/
-	}
+	background-size: cover; }
 
 img.john { width: 40%;
 	height: auto; 

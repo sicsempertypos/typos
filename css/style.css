@@ -64,21 +64,32 @@
     font-weight: normal;
     font-style: normal; }
 
+article, aside, figure, figcaption,footer,header,main,nav,section, summary
+	{display:block; }
+
 body 	{ border: 5px dashed black;
 	padding-top: 50px; 
-	background: url('../img/marble/marble-main.jpg') ;
+	/*background: url('../img/marble/marble-main.jpg');*/
+	background: url('../img/marble/grayscalemarbleinvert.bmp');
 	/*background: url('../img/wall/stone_texture_23.jpg');*/
 	background-size: 100%;
 	display: flex;
 	flex-direction: column; }
 
 .navigation { border: 5px dashed red;
-	background: url('../img/scroll/papergrunge.jpg');
-	background-size: cover; 
-	margin: 10px; }
+	/*background: url('../img/marble/grayscalemarble.bmp');*/
+	background: url('../img/marble/marble-main.jpg');
+	background-size: cover;
+	justify-content: space-around; }
 	
-a { color: white; }
-	
+.navigation a { /*color: white;*/ }
+
+.form-group.btn {
+	/*background: url('../img/marble/marble-main.jpg');*/
+	background: url('../img/marble/grayscalemarbleinvert.bmp');
+	background-size: cover;
+	}	
+
 header { border: 5px dashed green;
 	display: flex;
 	/*flex: 1 1 auto;*/ 
@@ -87,39 +98,72 @@ header { border: 5px dashed green;
 	max-height: 200px;
 	margin-top: 50px; }
 
+/*.quote { border: 5px dotted blue;
+	
+	flex: 0 1 auto;
+	margin: auto; }	*/
+	
+.lint { font-family: 'Nothing You Could Do', cursive; 
+	font-size: 18px;
+	background: url('../img/scroll/worn-parchment-paper.jpg') no-repeat;
+	background-size: cover;
+	margin: auto; 
+	flex: 1 1 0;
+	border: 5px dashed orange; }
+
 .main { border: 5px dashed blue;
 	height: auto;
 	width: auto; 
 	display: flex; }
 
-.quote { border: 5px dotted blue;
-	font-family: 'toyland_nfregular';
-	/*flex: 0 1 auto;*/
-	/*margin: auto;*/ }	
-	
-blockquote { font-family: 'toyland_nfregular'; 
-	margin: auto; }
-
 .scroll { border: 5px dashed purple;
 	background: url('../img/scroll/header.png') no-repeat;
 	background-size: cover; 
 	display: flex;
-	/*flex-direction: column;*/
-	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
-	/*flex: 1 0 auto;*/
+	flex: 1 0 auto;
 	/*margin: auto;*/
 	align-content: center;
 	/*text-align: center;*/ }
+	
+.scroll ul { border: 5px dashed orange; 
+	font-family: 'Almendra', serif;
+	display: flex;
+	flex-wrap: wrap;
+	max-height: auto;
+	max-width: auto;
+	align-content: center;}
 
-.scroll p { font-family: 'atlas_of_the_magiregular', cursive; 
-	font-size: 500%;
-	/*margin: auto;*/
-	padding-top: 30px;
+.scroll li.name { 
+	font-weight: 700italic; 
+	font-size: 400%;
+	flex: 1 1 0;
+	list-style-type: none;
+	color: #663300;
+	border: 5px dotted blue;
+	}
+	
+.scroll li.trans { 
+	font-weight: 700italic; 
+	font-size: 300%;
+	flex: 1 1 0;
+	list-style-type: none;
+	color: #663300;
+	border: 5px dotted blue;
+	}
+	
+.scroll li.tell { 
+	font-weight: 700italic; 
+	font-size: 250%;
+	flex: 1 1 0;
+	list-style-type: none;
+	color: #663300;
+	border: 5px dotted blue;
 	}
 	
 .scroll small { font-size: 50%;
+	border: 5px solid red;
 	/*margin: auto;*/ }
 	
 .main-content {border: 5px dotted yellow;
@@ -129,36 +173,69 @@ blockquote { font-family: 'toyland_nfregular';
 	/*margin-top: 20px;*/ }	
 	
 article.intro { font-family: 'Nothing You Could Do', cursive; 
-	font-size: 170%;
+	font-size: 200%;
 	border: 5px solid green;
 	padding: 6%;
 	align-self: stretch;
-	flex: 1 1 auto; 
+	flex: 5 3 0; 
 	background: url('../img/scroll/old_paper.png') no-repeat; 
 	background-size: cover; }
 
-article.intro h1 {text-align: center; }
+article.intro h1 {text-align: center; 
+	margin-top: 40px;
+	margin-bottom: 20px; }
 
 aside.about { font-family: 'sf_foxboro_scriptitalic';
 	font-size: 170%;
 	border: 5px solid red;
-	padding: 6%; 
-	align-self: stretch;
-	flex: 0 1 auto;
-	background: url('../img/scroll/old_paper.png') no-repeat; 
-	background-size: cover; } 
+	/*align-self: stretch;*/
+	flex: 3 5 0;
+	display: flex;
+	flex-direction: column; 
+	 }
 	
-aside.about h1 { font-family: 'sf_foxboro_scriptitalic';
-	text-align: center; }
+.home-cta { border: 5px dotted blue;
+	--margin-top: 25px;
+	--max-height: 300px;
+	max-width: 100%;
+	background: url('../img/scroll/old_paper_b&e.jpg') no-repeat;
+	background-size: cover;
+	display: flex;
+	
+	 }
 
-img.john { max-width: 40%;
+.home-cta a { color: green;
+	align-self: center; 
+	/*margin: 5%;*/
+	/*margin-top:10%;*/
+	padding: 10%; }
+	
+.about-john { font-family: 'sf_foxboro_scriptitalic'; 
+	border: 5px dashed orange;
+	font-size: 100%;
+	/*line-height:300px;*/
+	align-self: stretch;
+	/*display:flex;
+	flex-direction: column;*/
+	background: url('../img/scroll/old_paper.png') no-repeat; 
+	background-size: cover;
+	padding: 15%; } 
+	
+.about-john h1 { font-family: 'sf_foxboro_scriptitalic';
+	text-align: center; 
+	padding: 25px;
+	border: 5px solid yellow;
+	/*align-self: stretch*/}
+
+img.john { max-width: 30%;
 	height: auto; 
 	float:left;
-	padding: 10px; }
+	padding: 10px; 
+	border: 5px dotted red;*}
 	
-.john { font-family: 'sf_foxboro_scriptitalic'; 
-	font-size: 1.4em; 
-	line-height: 1em; }
+footer { background: url('../img/marble/marble-main.jpg');
+	background-size: cover;
+	border: 5px solid blue;}*/
 	
 #fontepic, #ages, #master { font-family: 'blackchanceryregular';
 	font-size: 1.1em;
@@ -167,6 +244,4 @@ img.john { max-width: 40%;
 	
 #ido { font-family: 'Nothing You Could Do', cursive;;
 	font-size: 1.1em; 
-	/*color: brown;*/
-	/*text-shadow: 2px 2px 3px #777;*/
 	text-align: center; }

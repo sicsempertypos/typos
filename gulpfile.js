@@ -19,7 +19,7 @@ gulp.task('scripts', function() {
 // Pug Tasks                            //
 //////////////////////////////////////////	
 gulp.task('jade', function() {
-	return gulp.src('jadefiles/**/*.pug')
+	return gulp.src('jadefiles/**/*.jade')
 		.pipe(jade())
 		//.pipe(gulp.dest('build/development'));
 		.pipe(gulp.dest('/jadefiles'));
@@ -68,5 +68,5 @@ gulp.task('watch', function() {
 //////////////////////////////////////////
 // Default Task                         //
 //////////////////////////////////////////	
-gulp.task('default',['scripts','sass','pug','watch']);
+gulp.task('default',['scripts','sass','jade','watch']);
 //

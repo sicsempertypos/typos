@@ -10,6 +10,16 @@
     font-style: normal; }	
 
 @font-face {
+    font-family: 'inkcalig';
+    src: url('../fonts/Inkcalig/inkcalig-webfont.eot');
+    src: url('../fonts/Inkcalig/inkcalig-webfont.woff2') format('woff2')
+    	 url('../fonts/Inkcalig/inkcalig-webfont.woff') format('woff'),
+    	 url('../fonts/Inkcalig/inkcalig-webfont.ttf') format('truetype'),
+    	 url('../fonts/Inkcalig/inkcalig-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal; }
+
+@font-face {
     font-family: 'blackchanceryregular';
     src: url('../fonts/TTFEdit/blkchcry-webfont.eot');
     src: url('../fonts/TTFEdit/blkchcry-webfont.eot?#iefix') format('embedded-opentype'),
@@ -44,23 +54,23 @@
 
 }@font-face {
     font-family: 'toyland_nfregular';
-    src: url('../fonts/TTFEdit/toyland-outlinea.regular.eot');
-    src: url('../fonts/TTFEdit/toyland-outlinea.regular.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/TTFEdit/toyland-outlinea.regular.woff2') format('woff2'),
-         url('../fonts/TTFEdit/toyland-outlinea.regular.woff') format('woff'),
-         url('../fonts/TTFEdit/toyland-outlinea.regular.ttf') format('truetype'),
-         url('../fonts/TTFEdit/toyland-outlinea.regular.svg#toyland_nfregular') format('svg');
+    src: url('../fonts/toyland-outlinea.regular.eot');
+    src: url('../fonts/toyland-outlinea.regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/toyland-outlinea.regular.woff2') format('woff2'),
+         url('../fonts/toyland-outlinea.regular.woff') format('woff'),
+         url('../fonts/toyland-outlinea.regular.ttf') format('truetype'),
+         url('../fonts/toyland-outlinea.regular.svg#toyland_nfregular') format('svg');
     font-weight: normal;
     font-style: normal; }
 
 @font-face {
     font-family: 'vikingregular';
-    src: url('../fonts/TTFEdit/viking.regular-webfont.eot');
-    src: url('../fonts/TTFEdit/viking.regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/TTFEdit/viking.regular-webfont.woff2') format('woff2'),
-         url('../fonts/TTFEdit/viking.regular-webfont.woff') format('woff'),
-         url('../fonts/TTFEdit/viking.regular-webfont.ttf') format('truetype'),
-         url('../fonts/TTFEdit/viking.regular-webfont.svg#vikingregular') format('svg');
+    src: url('../fonts/viking.regular-webfont.eot');
+    src: url('../fonts/viking.regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/viking.regular-webfont.woff2') format('woff2'),
+         url('../fonts/viking.regular-webfont.woff') format('woff'),
+         url('../fonts/viking.regular-webfont.ttf') format('truetype'),
+         url('../fonts/viking.regular-webfont.svg#vikingregular') format('svg');
     font-weight: normal;
     font-style: normal; }
 
@@ -69,26 +79,19 @@ article, aside, figure, figcaption,footer,header,main,nav,section, summary
 
 body 	{ border: 5px dashed black;
 	padding-top: 50px; 
-	/*background: url('../img/marble/marble-main.jpg');*/
 	background: url('../img/marble/grayscalemarbleinvert.bmp');
-	/*background: url('../img/wall/stone_texture_23.jpg');*/
 	background-size: 100%;
 	display: flex;
 	flex-direction: column; }
 
 .navigation { border: 5px dashed red;
-	/*background: url('../img/marble/grayscalemarble.bmp');*/
 	background: url('../img/marble/marble-main.jpg');
 	background-size: cover;
 	justify-content: space-around; }
 	
-.navigation a { /*color: white;*/ }
-
 .form-group.btn {
-	/*background: url('../img/marble/marble-main.jpg');*/
 	background: url('../img/marble/grayscalemarbleinvert.bmp');
-	background-size: cover;
-	}	
+	background-size: cover; }	
 
 header { border: 5px dashed green;
 	display: flex;
@@ -98,23 +101,15 @@ header { border: 5px dashed green;
 	max-height: 200px;
 	margin-top: 50px; }
 
-/*.quote { border: 5px dotted blue;
-	
-	flex: 0 1 auto;
-	margin: auto; }	*/
-	
-.lint { font-family: 'Nothing You Could Do', cursive; 
-	font-size: 18px;
+.lint { font-family: 'inkcalig', cursive; 
+	font-size: 25px;
+	font-color: brown;
 	background: url('../img/scroll/worn-parchment-paper.jpg') no-repeat;
 	background-size: cover;
+	line-height: 85%;
 	margin: auto; 
 	flex: 1 1 0;
 	border: 5px dashed orange; }
-
-.main { border: 5px dashed blue;
-	height: auto;
-	width: auto; 
-	display: flex; }
 
 .scroll { border: 5px dashed purple;
 	background: url('../img/scroll/header.png') no-repeat;
@@ -123,35 +118,33 @@ header { border: 5px dashed green;
 	justify-content: center;
 	align-items: center;
 	flex: 1 0 auto;
-	/*margin: auto;*/
-	align-content: center;
-	/*text-align: center;*/ }
+	align-content: center; }
 	
 .scroll ul { border: 5px dashed orange; 
 	font-family: 'Almendra', serif;
+	/*line-height: 85%;*/
 	display: flex;
 	flex-wrap: wrap;
 	max-height: auto;
 	max-width: auto;
-	align-content: center;}
+	align-items: baseline;
+	justify-content: center; }
 
 .scroll li.name { 
 	font-weight: 700italic; 
-	font-size: 400%;
+	font-size: 500%;
 	flex: 1 1 0;
 	list-style-type: none;
 	color: #663300;
-	border: 5px dotted blue;
-	}
+	border: 5px dotted blue; }
 	
 .scroll li.trans { 
 	font-weight: 700italic; 
-	font-size: 300%;
+	font-size: 200%;
 	flex: 1 1 0;
 	list-style-type: none;
 	color: #663300;
-	border: 5px dotted blue;
-	}
+	border: 5px dotted blue; }
 	
 .scroll li.tell { 
 	font-weight: 700italic; 
@@ -159,18 +152,20 @@ header { border: 5px dashed green;
 	flex: 1 1 0;
 	list-style-type: none;
 	color: #663300;
-	border: 5px dotted blue;
-	}
+	border: 5px dotted blue; }
 	
 .scroll small { font-size: 50%;
-	border: 5px solid red;
-	/*margin: auto;*/ }
+	border: 5px solid red; }
 	
+.main { border: 5px dashed blue;
+	height: auto;
+	width: auto; 
+	display: flex; }
+
 .main-content {border: 5px dotted yellow;
 	display: flex; 
 	align-items: stretch;
-	flex-wrap: wrap;
-	/*margin-top: 20px;*/ }	
+	flex-wrap: wrap; }	
 	
 article.intro { font-family: 'Nothing You Could Do', cursive; 
 	font-size: 200%;
@@ -185,49 +180,42 @@ article.intro h1 {text-align: center;
 	margin-top: 40px;
 	margin-bottom: 20px; }
 
-aside.about { font-family: 'sf_foxboro_scriptitalic';
+aside.about { font-family: 'inkcalig';
 	font-size: 170%;
 	border: 5px solid red;
-	/*align-self: stretch;*/
 	flex: 3 5 0;
 	display: flex;
-	flex-direction: column; 
-	 }
+	flex-direction: column; }
 	
 .home-cta { border: 5px dotted blue;
-	--margin-top: 25px;
-	--max-height: 300px;
 	max-width: 100%;
 	background: url('../img/scroll/old_paper_b&e.jpg') no-repeat;
 	background-size: cover;
-	display: flex;
-	
-	 }
+	display: flex; }
 
-.home-cta a { color: green;
+.home-cta a { font-family: 'blackchanceryregular'; 
+	font-size: 1.1em;
+	color: brown;
+	text-shadow: 2px 2px 3px #777;
 	align-self: center; 
-	/*margin: 5%;*/
-	/*margin-top:10%;*/
 	padding: 10%; }
 	
-.about-john { font-family: 'sf_foxboro_scriptitalic'; 
+.about-john { font-family: 'inkcalig'; 
 	border: 5px dashed orange;
-	font-size: 100%;
-	/*line-height:300px;*/
+	font-size: 125%;
+	line-height: 120%;
 	align-self: stretch;
-	/*display:flex;
-	flex-direction: column;*/
 	background: url('../img/scroll/old_paper.png') no-repeat; 
 	background-size: cover;
 	padding: 15%; } 
 	
-.about-john h1 { font-family: 'sf_foxboro_scriptitalic';
+.about-john h1 { font-family: 'inkcalig';
+	font-size: 200%;
 	text-align: center; 
 	padding: 25px;
-	border: 5px solid yellow;
-	/*align-self: stretch*/}
+	border: 5px solid yellow; }
 
-img.john { max-width: 30%;
+img.john { max-width: 40%;
 	height: auto; 
 	float:left;
 	padding: 10px; 
@@ -235,9 +223,24 @@ img.john { max-width: 30%;
 	
 footer { background: url('../img/marble/marble-main.jpg');
 	background-size: cover;
-	border: 5px solid blue;}*/
+	border: 5px solid blue;}
 	
-#fontepic, #ages, #master { font-family: 'blackchanceryregular';
+img.grouchy {max-width: 10%;
+	max-height: 100px;
+	float: left;
+	padding: 5 px; }
+	
+#fontepic { font-family: 'toyland_nfregular';
+	font-size: 1em;
+	color: brown;
+	text-shadow: 2px 2px 3px #777; } 
+
+#ages {font-family: 'vikingregular';
+	font-size: .8em;
+	color: brown;
+	text-shadow: 2px 2px 3px #777; }
+
+#master { font-family: 'blackchanceryregular';
 	font-size: 1.1em;
 	color: brown;
 	text-shadow: 2px 2px 3px #777; }

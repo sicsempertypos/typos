@@ -1,0 +1,290 @@
+@font-face {
+    font-family: 'atlas_of_the_magiregular';
+    src: url('../fonts/TTFEdit/atlas_of_the_magi-webfont.eot');
+    src: url('../fonts/TTFEdit/atlas_of_the_magi-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/TTFEdit/atlas_of_the_magi-webfont.woff2') format('woff2'),
+         url('../fonts/TTFEdit/atlas_of_the_magi-webfont.woff') format('woff'),
+         url('../fonts/TTFEdit/atlas_of_the_magi-webfont.ttf') format('truetype'),
+         url('../fonts/TTFEdit/atlas_of_the_magi-webfont.svg#atlas_of_the_magiregular') format('svg');
+    font-weight: normal;
+    font-style: normal; }	
+
+@font-face {
+    font-family: 'inkcalig';
+    src: url('../fonts/Inkcalig/inkcalig-webfont.eot');
+    src: url('../fonts/Inkcalig/inkcalig-webfont.woff2') format('woff2')
+    	 url('../fonts/Inkcalig/inkcalig-webfont.woff') format('woff'),
+    	 url('../fonts/Inkcalig/inkcalig-webfont.ttf') format('truetype'),
+    	 url('../fonts/Inkcalig/inkcalig-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal; }
+
+@font-face {
+    font-family: 'blackchanceryregular';
+    src: url('../fonts/TTFEdit/blkchcry-webfont.eot');
+    src: url('../fonts/TTFEdit/blkchcry-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/TTFEdit/blkchcry-webfont.woff2') format('woff2'),
+         url('../fonts/TTFEdit/blkchcry-webfont.woff') format('woff'),
+         url('../fonts/TTFEdit/blkchcry-webfont.ttf') format('truetype'),
+         url('../fonts/TTFEdit/blkchcry-webfont.svg#blackchanceryregular') format('svg');
+    font-weight: normal;
+    font-style: normal; }
+
+@font-face {
+    font-family: 'sf_foxboro_scriptregular';
+    src: url('../fonts/TTFEdit/sf-foxboro-script.regular-webfont.eot');
+    src: url('../fonts/TTFEdit/sf-foxboro-script.regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/TTFEdit/sf-foxboro-script.regular-webfont.woff2') format('woff2'),
+         url('../fonts/TTFEdit/sf-foxboro-script.regular-webfont.woff') format('woff'),
+         url('../fonts/TTFEdit/sf-foxboro-script.regular-webfont.ttf') format('truetype'),
+         url('../fonts/TTFEdit/sf-foxboro-script.regular-webfont.svg#sf_foxboro_scriptregular') format('svg');
+    font-weight: normal;
+    font-style: normal; }
+
+@font-face {
+    font-family: 'sf_foxboro_scriptitalic';
+    src: url('../fonts/TTFEdit/sf-foxboro-script.italic-webfont.eot');
+    src: url('../fonts/TTFEdit/sf-foxboro-script.italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/TTFEdit/sf-foxboro-script.italic-webfont.woff2') format('woff2'),
+         url('../fonts/TTFEdit/sf-foxboro-script.italic-webfont.woff') format('woff'),
+         url('../fonts/TTFEdit/sf-foxboro-script.italic-webfont.ttf') format('truetype'),
+         url('../fonts/TTFEdit/sf-foxboro-script.italic-webfont.svg#sf_foxboro_scriptitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}@font-face {
+    font-family: 'toyland_nfregular';
+    src: url('../fonts/toyland-outlinea.regular.eot');
+    src: url('../fonts/toyland-outlinea.regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/toyland-outlinea.regular.woff2') format('woff2'),
+         url('../fonts/toyland-outlinea.regular.woff') format('woff'),
+         url('../fonts/toyland-outlinea.regular.ttf') format('truetype'),
+         url('../fonts/toyland-outlinea.regular.svg#toyland_nfregular') format('svg');
+    font-weight: normal;
+    font-style: normal; }
+
+@font-face {
+    font-family: 'vikingregular';
+    src: url('../fonts/viking.regular-webfont.eot');
+    src: url('../fonts/viking.regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/viking.regular-webfont.woff2') format('woff2'),
+         url('../fonts/viking.regular-webfont.woff') format('woff'),
+         url('../fonts/viking.regular-webfont.ttf') format('truetype'),
+         url('../fonts/viking.regular-webfont.svg#vikingregular') format('svg');
+    font-weight: normal;
+    font-style: normal; }
+
+article, aside, figure, figcaption,footer,header,main,nav,section, summary
+	{display:block; }
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	}
+
+body 	{ border: 2px dashed black;
+	padding-top: 50px; 
+	background: url('../img/marble/grayscalemarbleinvert.bmp');
+	background-size: 100%;
+	display: flex;
+	flex-direction: column; }
+
+.navigation { border: 2px dashed red;
+	background: url('../img/marble/marble-main.jpg');
+	background-size: cover;
+	justify-content: space-around; }
+	
+.form-group.btn {
+	background: url('../img/marble/grayscalemarbleinvert.bmp');
+	background-size: cover; }	
+
+header { border: 2px dashed green;
+	display: flex;
+	align-items: stretch;
+	flex-wrap: nowrap;
+	max-height: 200px;
+	margin-top: 50px; }
+
+.lint { border: 2px dashed orange;
+	font-family: 'inkcalig', cursive; 
+	font-size: 25px;
+	font-color: brown;
+	background: url('../img/scroll/worn-parchment-paper.jpg') no-repeat;
+	background-size: cover;
+	line-height: 85%;
+	margin: auto; 
+	flex: 1 1 0; }
+
+.scroll { border: 2px dashed purple;
+	background: url('../img/scroll/header_small.png') no-repeat;
+	background-size: cover; 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 1 0 auto;
+	align-content: center; }
+	
+.scroll ul { border: 2px dashed orange; 
+	font-family: 'Almendra', serif;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	max-height: auto;
+	max-width: auto;
+	align-items: baseline; }
+
+ul li.name { border: 2px dotted blue; 
+	font-weight: 700italic; 
+	font-size: 500%;
+	flex: 1 1 0;
+	list-style-type: none;
+	color: #663300; }
+	
+ul li.trans { border: 2px dotted blue; 
+	font-weight: 700italic; 
+	font-size: 200%;
+	flex: 1 1 0;
+	list-style-type: none;
+	color: #663300; }
+	
+ul li.tell { border: 2px dotted blue;
+	font-weight: 700italic; 
+	font-size: 250%;
+	flex: 1 1 0;
+	list-style-type: none;
+	color: #663300; }
+	
+/*.scroll small { border: 2px solid red;
+	font-size: 50%; }*/
+	
+.main { border: 2px dashed blue;
+	height: auto;
+	width: auto; 
+	display: flex; }
+
+.main-content {border: 2px dotted yellow;
+	display: flex; 
+	align-items: stretch;
+	flex-wrap: wrap; }	
+	
+article.intro { border: 2px solid green;
+	font-family: 'Nothing You Could Do', cursive; 
+	font-size: 200%;
+	padding: 6%;
+	align-self: stretch;
+	flex: 1 1 0; 
+	background: url('../img/scroll/old_paper.png') no-repeat; 
+	background-size: cover; }
+
+article.intro h1 {text-align: center; 
+	margin-top: 40px;
+	margin-bottom: 20px; }
+
+aside.about { border: 2px solid red;
+	font-family: 'inkcalig';
+	font-size: 170%;
+	flex: 1 1 0;
+	display: flex;
+	flex-direction: column; }
+	
+.ctas { border: 2px dotted blue;
+	font-family: 'inkcalig';
+	color: brown;
+	max-width: 100%;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: space-around; 
+	margin-top: 20px; }
+
+.ctas a { font-family: 'Almendra'; 
+	font-size: 200%;
+	color: #663300;
+	text-shadow: 1px 1px 1px #730;
+	align-self: center; 
+	align-content: center;
+	justify-content: center;
+	margin-top: 20%;
+	padding: 10%; 
+	border: 10px; }
+	
+.home-cta-right { border: 2px dotted blue;
+	width: 40%;
+	height: 120px;
+	/*font-size: 300%;*/
+	color: brown;
+	background: url('../img/marble/marble-main.jpg') no-repeat;
+	background-size: cover;
+	/*border: 25px;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	/*align-content: center;*/
+	flex: 1 1 0; }
+
+.home-cta-left { border: 2px dotted blue;
+	width: 40%;
+	height: 120px;
+	/*font-size: 300%;*/
+	background: url('../img/marble/marble-main.jpg') no-repeat;
+	background-size: cover;
+	/*border: 25px;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex: 1 1 0; }
+
+.about-john { border: 2px dashed orange;
+	font-family: 'inkcalig'; 
+	font-size: 125%;
+	line-height: 120%;
+	align-self: stretch;
+	background: url('../img/scroll/old_paper.png') no-repeat; 
+	background-size: cover;
+	padding: 15%; } 
+	
+.about-john h1 { border: 2px solid yellow;
+	font-family: 'inkcalig';
+	font-size: 200%;
+	text-align: center; 
+	padding: 25px; }
+
+img.john { border: 2px dotted red;
+	max-width: 40%;
+	height: auto; 
+	float:left;
+	padding: 10px; }
+	
+footer { border: 2px solid blue;
+	background: url('../img/marble/marble-main.jpg');
+	background-size: cover;
+	font-family: 'inkcalig'; 
+	font-size: 175%;
+	line-height: 100%;
+	padding: 15px; }
+	
+img.grouchy {max-width: 10%;
+	max-height: 80px;
+	float: left;
+	padding-left: 15px;
+	padding-right: 25px; }
+	
+#fontepic { font-family: 'toyland_nfregular';
+	font-size: 1em;
+	color: brown;
+	text-shadow: 2px 2px 3px #777; } 
+
+#ages {font-family: 'vikingregular';
+	font-size: .8em;
+	color: brown;
+	text-shadow: 2px 2px 3px #777; }
+
+#master { font-family: 'blackchanceryregular';
+	font-size: 1.1em;
+	color: brown;
+	text-shadow: 2px 2px 3px #777; }
+	
+#ido { font-family: 'Nothing You Could Do', cursive;;
+	font-size: 1.1em; 
+	text-align: center; }

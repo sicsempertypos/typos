@@ -169,6 +169,14 @@ ul li.tell { border: $size $style blue;
 	align-items: stretch;
 	flex-wrap: wrap; }	
 	
+.contactmain {
+  border: $size $style orange;
+  background: url("../img/scroll/worn-parchment-paper.jpg") no-repeat;
+  background-size: cover;
+  max-height: 800px;
+  min-height: 500px;
+  display: flex; }
+
 article.intro { border: $size $style green;
 	font-family: 'Nothing You Could Do', cursive; 
 	font-size: 200%;

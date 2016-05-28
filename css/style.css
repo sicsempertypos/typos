@@ -155,6 +155,17 @@ ul li.tell {
   align-items: stretch;
   flex-wrap: wrap; }
 
+.contentmain {
+  border: 5px dashed orange;
+  font-family: 'inkcalig', cursive;
+  font-size: 25px;
+  font-color: brown;
+  background: url("../img/scroll/worn-parchment-paper.jpg") no-repeat;
+  background-size: cover;
+  line-height: 85%;
+  margin: auto;
+  flex: 1 1 0; }
+
 /* line 172, ../sass/style.scss */
 article.intro {
   border: 0px dashed green;

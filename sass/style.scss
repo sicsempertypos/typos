@@ -1,11 +1,15 @@
+@import "compass";
+@import "compass/css3";
+@import "_partials/mixins.scss";
+
 @font-face {
     font-family: 'atlas_of_the_magiregular';
-    src: url('../fonts/TTFEdit/atlas_of_the_magi-webfont.eot');
-    src: url('../fonts/TTFEdit/atlas_of_the_magi-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/TTFEdit/atlas_of_the_magi-webfont.woff2') format('woff2'),
-         url('../fonts/TTFEdit/atlas_of_the_magi-webfont.woff') format('woff'),
-         url('../fonts/TTFEdit/atlas_of_the_magi-webfont.ttf') format('truetype'),
-         url('../fonts/TTFEdit/atlas_of_the_magi-webfont.svg#atlas_of_the_magiregular') format('svg');
+    src: url('../fonts/AtlasOfTheMagi/atlas_of_the_magi-webfont.eot');
+    src: url('../fonts/AtlasOfTheMagi/atlas_of_the_magi-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/AtlasOfTheMagi/atlas_of_the_magi-webfont.woff2') format('woff2'),
+         url('../fonts/AtlasOfTheMagi/atlas_of_the_magi-webfont.woff') format('woff'),
+         url('../fonts/AtlasOfTheMagi/atlas_of_the_magi-webfont.ttf') format('truetype'),
+         url('../fonts/AtlasOfTheMagi/atlas_of_the_magi-webfont.svg#atlas_of_the_magiregular') format('svg');
     font-weight: normal;
     font-style: normal; }	
 
@@ -21,60 +25,60 @@
 
 @font-face {
     font-family: 'blackchanceryregular';
-    src: url('../fonts/TTFEdit/blkchcry-webfont.eot');
-    src: url('../fonts/TTFEdit/blkchcry-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/TTFEdit/blkchcry-webfont.woff2') format('woff2'),
-         url('../fonts/TTFEdit/blkchcry-webfont.woff') format('woff'),
-         url('../fonts/TTFEdit/blkchcry-webfont.ttf') format('truetype'),
-         url('../fonts/TTFEdit/blkchcry-webfont.svg#blackchanceryregular') format('svg');
+    src: url('../fonts/BlackChancery/blkchcry-webfont.eot');
+    src: url('../fonts/BlackChancery/blkchcry-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/BlackChancery/blkchcry-webfont.woff2') format('woff2'),
+         url('../fonts/BlackChancery/blkchcry-webfont.woff') format('woff'),
+         url('../fonts/BlackChancery/blkchcry-webfont.ttf') format('truetype'),
+         url('../fonts/BlackChancery/blkchcry-webfont.svg#blackchanceryregular') format('svg');
     font-weight: normal;
     font-style: normal; }
 
 @font-face {
     font-family: 'sf_foxboro_scriptregular';
-    src: url('../fonts/TTFEdit/sf-foxboro-script.regular-webfont.eot');
-    src: url('../fonts/TTFEdit/sf-foxboro-script.regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/TTFEdit/sf-foxboro-script.regular-webfont.woff2') format('woff2'),
-         url('../fonts/TTFEdit/sf-foxboro-script.regular-webfont.woff') format('woff'),
-         url('../fonts/TTFEdit/sf-foxboro-script.regular-webfont.ttf') format('truetype'),
-         url('../fonts/TTFEdit/sf-foxboro-script.regular-webfont.svg#sf_foxboro_scriptregular') format('svg');
+    src: url('../fonts/Foxboro/sf-foxboro-script.regular-webfont.eot');
+    src: url('../fonts/Foxboro/sf-foxboro-script.regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Foxboro/sf-foxboro-script.regular-webfont.woff2') format('woff2'),
+         url('../fonts/Foxboro/sf-foxboro-script.regular-webfont.woff') format('woff'),
+         url('../fonts/Foxboro/sf-foxboro-script.regular-webfont.ttf') format('truetype'),
+         url('../fonts/Foxboro/sf-foxboro-script.regular-webfont.svg#sf_foxboro_scriptregular') format('svg');
     font-weight: normal;
     font-style: normal; }
 
 @font-face {
     font-family: 'sf_foxboro_scriptitalic';
-    src: url('../fonts/TTFEdit/sf-foxboro-script.italic-webfont.eot');
-    src: url('../fonts/TTFEdit/sf-foxboro-script.italic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/TTFEdit/sf-foxboro-script.italic-webfont.woff2') format('woff2'),
-         url('../fonts/TTFEdit/sf-foxboro-script.italic-webfont.woff') format('woff'),
-         url('../fonts/TTFEdit/sf-foxboro-script.italic-webfont.ttf') format('truetype'),
-         url('../fonts/TTFEdit/sf-foxboro-script.italic-webfont.svg#sf_foxboro_scriptitalic') format('svg');
+    src: url('../fonts/Foxboro/sf-foxboro-script.italic-webfont.eot');
+    src: url('../fonts/Foxboro/sf-foxboro-script.italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Foxboro/sf-foxboro-script.italic-webfont.woff2') format('woff2'),
+         url('../fonts/Foxboro/sf-foxboro-script.italic-webfont.woff') format('woff'),
+         url('../fonts/Foxboro/sf-foxboro-script.italic-webfont.ttf') format('truetype'),
+         url('../fonts/Foxboro/sf-foxboro-script.italic-webfont.svg#sf_foxboro_scriptitalic') format('svg');
     font-weight: normal;
-    font-style: normal;
+    font-style: normal; }
 
-}@font-face {
+@font-face {
     font-family: 'toyland_nfregular';
-    src: url('../fonts/toyland-outlinea.regular.eot');
-    src: url('../fonts/toyland-outlinea.regular.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/toyland-outlinea.regular.woff2') format('woff2'),
-         url('../fonts/toyland-outlinea.regular.woff') format('woff'),
-         url('../fonts/toyland-outlinea.regular.ttf') format('truetype'),
-         url('../fonts/toyland-outlinea.regular.svg#toyland_nfregular') format('svg');
+    src: url('../fonts/Toyland/toyland-outlinea.regular.eot');
+    src: url('../fonts/Toyland/toyland-outlinea.regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Toyland/toyland-outlinea.regular.woff2') format('woff2'),
+         url('../fonts/Toyland/toyland-outlinea.regular.woff') format('woff'),
+         url('../fonts/Toyland/toyland-outlinea.regular.ttf') format('truetype'),
+         url('../fonts/Toyland/toyland-outlinea.regular.svg#toyland_nfregular') format('svg');
     font-weight: normal;
     font-style: normal; }
 
 @font-face {
     font-family: 'vikingregular';
-    src: url('../fonts/viking.regular-webfont.eot');
-    src: url('../fonts/viking.regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/viking.regular-webfont.woff2') format('woff2'),
-         url('../fonts/viking.regular-webfont.woff') format('woff'),
-         url('../fonts/viking.regular-webfont.ttf') format('truetype'),
-         url('../fonts/viking.regular-webfont.svg#vikingregular') format('svg');
+    src: url('../fonts/Viking/viking.regular-webfont.eot');
+    src: url('../fonts/Viking/viking.regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Viking/viking.regular-webfont.woff2') format('woff2'),
+         url('../fonts/Viking/viking.regular-webfont.woff') format('woff'),
+         url('../fonts/Viking/viking.regular-webfont.ttf') format('truetype'),
+         url('../fonts/Viking/viking.regular-webfont.svg#vikingregular') format('svg');
     font-weight: normal;
     font-style: normal; }
 
-article, aside, figure, figcaption,footer,header,main,nav,section, summary
+article, aside, figure, figcaption, footer, header, main, nav, section, summary
 	{display:block; }
 
 * {
@@ -83,14 +87,14 @@ article, aside, figure, figcaption,footer,header,main,nav,section, summary
 	box-sizing: border-box;
 	}
 
-body 	{ border: 2px dashed black;
+body 	{ border: $size $style black;
 	padding-top: 50px; 
 	background: url('../img/marble/grayscalemarbleinvert.bmp');
 	background-size: 100%;
 	display: flex;
 	flex-direction: column; }
 
-.navigation { border: 2px dashed red;
+.navcell { border: $size $style red;
 	background: url('../img/marble/marble-main.jpg');
 	background-size: cover;
 	justify-content: space-around; }
@@ -99,14 +103,14 @@ body 	{ border: 2px dashed black;
 	background: url('../img/marble/grayscalemarbleinvert.bmp');
 	background-size: cover; }	
 
-header { border: 2px dashed green;
+header { border: $size $style green;
 	display: flex;
 	align-items: stretch;
 	flex-wrap: nowrap;
 	max-height: 200px;
 	margin-top: 50px; }
 
-.lint { border: 2px dashed orange;
+.lint { border: $size $style orange;
 	font-family: 'inkcalig', cursive; 
 	font-size: 25px;
 	font-color: brown;
@@ -116,7 +120,7 @@ header { border: 2px dashed green;
 	margin: auto; 
 	flex: 1 1 0; }
 
-.scroll { border: 2px dashed purple;
+.scroll { border: $size $style purple;
 	background: url('../img/scroll/header_small.png') no-repeat;
 	background-size: cover; 
 	display: flex;
@@ -125,7 +129,7 @@ header { border: 2px dashed green;
 	flex: 1 0 auto;
 	align-content: center; }
 	
-.scroll ul { border: 2px dashed orange; 
+.scroll ul { border: $size $style orange; 
 	font-family: 'Almendra', serif;
 	display: flex;
 	flex-direction: column;
@@ -134,41 +138,38 @@ header { border: 2px dashed green;
 	max-width: auto;
 	align-items: baseline; }
 
-ul li.name { border: 2px dotted blue; 
+ul li.name { border: $size $style blue; 
 	font-weight: 700italic; 
 	font-size: 500%;
 	flex: 1 1 0;
 	list-style-type: none;
 	color: #663300; }
 	
-ul li.trans { border: 2px dotted blue; 
+ul li.trans { border: $size $style blue; 
 	font-weight: 700italic; 
 	font-size: 200%;
 	flex: 1 1 0;
 	list-style-type: none;
 	color: #663300; }
 	
-ul li.tell { border: 2px dotted blue;
+ul li.tell { border: $size $style blue;
 	font-weight: 700italic; 
 	font-size: 250%;
 	flex: 1 1 0;
 	list-style-type: none;
 	color: #663300; }
 	
-/*.scroll small { border: 2px solid red;
-	font-size: 50%; }*/
-	
-.main { border: 2px dashed blue;
+.main { border: $size $style blue;
 	height: auto;
 	width: auto; 
 	display: flex; }
 
-.main-content {border: 2px dotted yellow;
+.main-content {border: $size $style yellow;
 	display: flex; 
 	align-items: stretch;
 	flex-wrap: wrap; }	
 	
-article.intro { border: 2px solid green;
+article.intro { border: $size $style green;
 	font-family: 'Nothing You Could Do', cursive; 
 	font-size: 200%;
 	padding: 6%;
@@ -181,14 +182,14 @@ article.intro h1 {text-align: center;
 	margin-top: 40px;
 	margin-bottom: 20px; }
 
-aside.about { border: 2px solid red;
+aside.about { border: $size $style red;
 	font-family: 'inkcalig';
 	font-size: 170%;
 	flex: 1 1 0;
 	display: flex;
 	flex-direction: column; }
 	
-.ctas { border: 2px dotted blue;
+.ctas { border: $size $style blue;
 	font-family: 'inkcalig';
 	color: brown;
 	max-width: 100%;
@@ -209,33 +210,28 @@ aside.about { border: 2px solid red;
 	padding: 10%; 
 	border: 10px; }
 	
-.home-cta-right { border: 2px dotted blue;
+.home-cta-right { border: $size $style blue;
 	width: 40%;
 	height: 120px;
-	/*font-size: 300%;*/
 	color: brown;
-	background: url('../img/marble/marble-main.jpg') no-repeat;
+	background: url('../img/marble/marble-main_b&e.jpg') no-repeat;
 	background-size: cover;
-	/*border: 25px;*/
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	/*align-content: center;*/
 	flex: 1 1 0; }
 
-.home-cta-left { border: 2px dotted blue;
+.home-cta-left { border: $size $style blue;
 	width: 40%;
 	height: 120px;
-	/*font-size: 300%;*/
-	background: url('../img/marble/marble-main.jpg') no-repeat;
+	background: url('../img/marble/marble-main_b&e.jpg') no-repeat;
 	background-size: cover;
-	/*border: 25px;*/
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	flex: 1 1 0; }
 
-.about-john { border: 2px dashed orange;
+.about-john { border: $size $style orange;
 	font-family: 'inkcalig'; 
 	font-size: 125%;
 	line-height: 120%;
@@ -244,19 +240,19 @@ aside.about { border: 2px solid red;
 	background-size: cover;
 	padding: 15%; } 
 	
-.about-john h1 { border: 2px solid yellow;
+.about-john h1 { border: $size $style yellow;
 	font-family: 'inkcalig';
 	font-size: 200%;
 	text-align: center; 
 	padding: 25px; }
 
-img.john { border: 2px dotted red;
+img.john { border: $size $style red;
 	max-width: 40%;
 	height: auto; 
 	float:left;
 	padding: 10px; }
 	
-footer { border: 2px solid blue;
+footer { border: $size $style blue;
 	background: url('../img/marble/marble-main.jpg');
 	background-size: cover;
 	font-family: 'inkcalig'; 

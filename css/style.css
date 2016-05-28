@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'atlas_of_the_magiregular';
-  src: url("../fonts/TTFEdit/atlas_of_the_magi-webfont.eot");
-  src: url("../fonts/TTFEdit/atlas_of_the_magi-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/TTFEdit/atlas_of_the_magi-webfont.woff2") format("woff2"), url("../fonts/TTFEdit/atlas_of_the_magi-webfont.woff") format("woff"), url("../fonts/TTFEdit/atlas_of_the_magi-webfont.ttf") format("truetype"), url("../fonts/TTFEdit/atlas_of_the_magi-webfont.svg#atlas_of_the_magiregular") format("svg");
+  src: url("../fonts/AtlasOfTheMagi/atlas_of_the_magi-webfont.eot");
+  src: url("../fonts/AtlasOfTheMagi/atlas_of_the_magi-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/AtlasOfTheMagi/atlas_of_the_magi-webfont.woff2") format("woff2"), url("../fonts/AtlasOfTheMagi/atlas_of_the_magi-webfont.woff") format("woff"), url("../fonts/AtlasOfTheMagi/atlas_of_the_magi-webfont.ttf") format("truetype"), url("../fonts/AtlasOfTheMagi/atlas_of_the_magi-webfont.svg#atlas_of_the_magiregular") format("svg");
   font-weight: normal;
   font-style: normal; }
 @font-face {
@@ -12,77 +12,77 @@
   font-style: normal; }
 @font-face {
   font-family: 'blackchanceryregular';
-  src: url("../fonts/TTFEdit/blkchcry-webfont.eot");
-  src: url("../fonts/TTFEdit/blkchcry-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/TTFEdit/blkchcry-webfont.woff2") format("woff2"), url("../fonts/TTFEdit/blkchcry-webfont.woff") format("woff"), url("../fonts/TTFEdit/blkchcry-webfont.ttf") format("truetype"), url("../fonts/TTFEdit/blkchcry-webfont.svg#blackchanceryregular") format("svg");
+  src: url("../fonts/BlackChancery/blkchcry-webfont.eot");
+  src: url("../fonts/BlackChancery/blkchcry-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/BlackChancery/blkchcry-webfont.woff2") format("woff2"), url("../fonts/BlackChancery/blkchcry-webfont.woff") format("woff"), url("../fonts/BlackChancery/blkchcry-webfont.ttf") format("truetype"), url("../fonts/BlackChancery/blkchcry-webfont.svg#blackchanceryregular") format("svg");
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: 'sf_foxboro_scriptregular';
-  src: url("../fonts/TTFEdit/sf-foxboro-script.regular-webfont.eot");
-  src: url("../fonts/TTFEdit/sf-foxboro-script.regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/TTFEdit/sf-foxboro-script.regular-webfont.woff2") format("woff2"), url("../fonts/TTFEdit/sf-foxboro-script.regular-webfont.woff") format("woff"), url("../fonts/TTFEdit/sf-foxboro-script.regular-webfont.ttf") format("truetype"), url("../fonts/TTFEdit/sf-foxboro-script.regular-webfont.svg#sf_foxboro_scriptregular") format("svg");
+  src: url("../fonts/Foxboro/sf-foxboro-script.regular-webfont.eot");
+  src: url("../fonts/Foxboro/sf-foxboro-script.regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Foxboro/sf-foxboro-script.regular-webfont.woff2") format("woff2"), url("../fonts/Foxboro/sf-foxboro-script.regular-webfont.woff") format("woff"), url("../fonts/Foxboro/sf-foxboro-script.regular-webfont.ttf") format("truetype"), url("../fonts/Foxboro/sf-foxboro-script.regular-webfont.svg#sf_foxboro_scriptregular") format("svg");
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: 'sf_foxboro_scriptitalic';
-  src: url("../fonts/TTFEdit/sf-foxboro-script.italic-webfont.eot");
-  src: url("../fonts/TTFEdit/sf-foxboro-script.italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/TTFEdit/sf-foxboro-script.italic-webfont.woff2") format("woff2"), url("../fonts/TTFEdit/sf-foxboro-script.italic-webfont.woff") format("woff"), url("../fonts/TTFEdit/sf-foxboro-script.italic-webfont.ttf") format("truetype"), url("../fonts/TTFEdit/sf-foxboro-script.italic-webfont.svg#sf_foxboro_scriptitalic") format("svg");
+  src: url("../fonts/Foxboro/sf-foxboro-script.italic-webfont.eot");
+  src: url("../fonts/Foxboro/sf-foxboro-script.italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Foxboro/sf-foxboro-script.italic-webfont.woff2") format("woff2"), url("../fonts/Foxboro/sf-foxboro-script.italic-webfont.woff") format("woff"), url("../fonts/Foxboro/sf-foxboro-script.italic-webfont.ttf") format("truetype"), url("../fonts/Foxboro/sf-foxboro-script.italic-webfont.svg#sf_foxboro_scriptitalic") format("svg");
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: 'toyland_nfregular';
-  src: url("../fonts/toyland-outlinea.regular.eot");
-  src: url("../fonts/toyland-outlinea.regular.eot?#iefix") format("embedded-opentype"), url("../fonts/toyland-outlinea.regular.woff2") format("woff2"), url("../fonts/toyland-outlinea.regular.woff") format("woff"), url("../fonts/toyland-outlinea.regular.ttf") format("truetype"), url("../fonts/toyland-outlinea.regular.svg#toyland_nfregular") format("svg");
+  src: url("../fonts/Toyland/toyland-outlinea.regular.eot");
+  src: url("../fonts/Toyland/toyland-outlinea.regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Toyland/toyland-outlinea.regular.woff2") format("woff2"), url("../fonts/Toyland/toyland-outlinea.regular.woff") format("woff"), url("../fonts/Toyland/toyland-outlinea.regular.ttf") format("truetype"), url("../fonts/Toyland/toyland-outlinea.regular.svg#toyland_nfregular") format("svg");
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: 'vikingregular';
-  src: url("../fonts/viking.regular-webfont.eot");
-  src: url("../fonts/viking.regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/viking.regular-webfont.woff2") format("woff2"), url("../fonts/viking.regular-webfont.woff") format("woff"), url("../fonts/viking.regular-webfont.ttf") format("truetype"), url("../fonts/viking.regular-webfont.svg#vikingregular") format("svg");
+  src: url("../fonts/Viking/viking.regular-webfont.eot");
+  src: url("../fonts/Viking/viking.regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Viking/viking.regular-webfont.woff2") format("woff2"), url("../fonts/Viking/viking.regular-webfont.woff") format("woff"), url("../fonts/Viking/viking.regular-webfont.ttf") format("truetype"), url("../fonts/Viking/viking.regular-webfont.svg#vikingregular") format("svg");
   font-weight: normal;
   font-style: normal; }
-/* line 77, ../sass/style.scss */
+/* line 81, ../sass/style.scss */
 article, aside, figure, figcaption, footer, header, main, nav, section, summary {
   display: block; }
 
-/* line 80, ../sass/style.scss */
+/* line 84, ../sass/style.scss */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-/* line 86, ../sass/style.scss */
+/* line 90, ../sass/style.scss */
 body {
-  border: 2px dashed black;
+  border: 0px dashed black;
   padding-top: 50px;
   background: url("../img/marble/grayscalemarbleinvert.bmp");
   background-size: 100%;
   display: flex;
   flex-direction: column; }
 
-/* line 93, ../sass/style.scss */
-.navigation {
-  border: 2px dashed red;
+/* line 97, ../sass/style.scss */
+.navcell {
+  border: 0px dashed red;
   background: url("../img/marble/marble-main.jpg");
   background-size: cover;
   justify-content: space-around; }
 
-/* line 98, ../sass/style.scss */
+/* line 102, ../sass/style.scss */
 .form-group.btn {
   background: url("../img/marble/grayscalemarbleinvert.bmp");
   background-size: cover; }
 
-/* line 102, ../sass/style.scss */
+/* line 106, ../sass/style.scss */
 header {
-  border: 2px dashed green;
+  border: 0px dashed green;
   display: flex;
   align-items: stretch;
   flex-wrap: nowrap;
   max-height: 200px;
   margin-top: 50px; }
 
-/* line 109, ../sass/style.scss */
+/* line 113, ../sass/style.scss */
 .lint {
-  border: 2px dashed orange;
+  border: 0px dashed orange;
   font-family: 'inkcalig', cursive;
   font-size: 25px;
   font-color: brown;
@@ -92,9 +92,9 @@ header {
   margin: auto;
   flex: 1 1 0; }
 
-/* line 119, ../sass/style.scss */
+/* line 123, ../sass/style.scss */
 .scroll {
-  border: 2px dashed purple;
+  border: 0px dashed purple;
   background: url("../img/scroll/header_small.png") no-repeat;
   background-size: cover;
   display: flex;
@@ -103,9 +103,9 @@ header {
   flex: 1 0 auto;
   align-content: center; }
 
-/* line 128, ../sass/style.scss */
+/* line 132, ../sass/style.scss */
 .scroll ul {
-  border: 2px dashed orange;
+  border: 0px dashed orange;
   font-family: 'Almendra', serif;
   display: flex;
   flex-direction: column;
@@ -114,52 +114,50 @@ header {
   max-width: auto;
   align-items: baseline; }
 
-/* line 137, ../sass/style.scss */
+/* line 141, ../sass/style.scss */
 ul li.name {
-  border: 2px dotted blue;
+  border: 0px dashed blue;
   font-weight: 700italic;
   font-size: 500%;
   flex: 1 1 0;
   list-style-type: none;
   color: #663300; }
 
-/* line 144, ../sass/style.scss */
+/* line 148, ../sass/style.scss */
 ul li.trans {
-  border: 2px dotted blue;
+  border: 0px dashed blue;
   font-weight: 700italic;
   font-size: 200%;
   flex: 1 1 0;
   list-style-type: none;
   color: #663300; }
 
-/* line 151, ../sass/style.scss */
+/* line 155, ../sass/style.scss */
 ul li.tell {
-  border: 2px dotted blue;
+  border: 0px dashed blue;
   font-weight: 700italic;
   font-size: 250%;
   flex: 1 1 0;
   list-style-type: none;
   color: #663300; }
 
-/*.scroll small { border: 2px solid red;
-	font-size: 50%; }*/
-/* line 161, ../sass/style.scss */
+/* line 162, ../sass/style.scss */
 .main {
-  border: 2px dashed blue;
+  border: 0px dashed blue;
   height: auto;
   width: auto;
   display: flex; }
 
-/* line 166, ../sass/style.scss */
+/* line 167, ../sass/style.scss */
 .main-content {
-  border: 2px dotted yellow;
+  border: 0px dashed yellow;
   display: flex;
   align-items: stretch;
   flex-wrap: wrap; }
 
-/* line 171, ../sass/style.scss */
+/* line 172, ../sass/style.scss */
 article.intro {
-  border: 2px solid green;
+  border: 0px dashed green;
   font-family: 'Nothing You Could Do', cursive;
   font-size: 200%;
   padding: 6%;
@@ -168,24 +166,24 @@ article.intro {
   background: url("../img/scroll/old_paper.png") no-repeat;
   background-size: cover; }
 
-/* line 180, ../sass/style.scss */
+/* line 181, ../sass/style.scss */
 article.intro h1 {
   text-align: center;
   margin-top: 40px;
   margin-bottom: 20px; }
 
-/* line 184, ../sass/style.scss */
+/* line 185, ../sass/style.scss */
 aside.about {
-  border: 2px solid red;
+  border: 0px dashed red;
   font-family: 'inkcalig';
   font-size: 170%;
   flex: 1 1 0;
   display: flex;
   flex-direction: column; }
 
-/* line 191, ../sass/style.scss */
+/* line 192, ../sass/style.scss */
 .ctas {
-  border: 2px dotted blue;
+  border: 0px dashed blue;
   font-family: 'inkcalig';
   color: brown;
   max-width: 100%;
@@ -195,7 +193,7 @@ aside.about {
   justify-content: space-around;
   margin-top: 20px; }
 
-/* line 201, ../sass/style.scss */
+/* line 202, ../sass/style.scss */
 .ctas a {
   font-family: 'Almendra';
   font-size: 200%;
@@ -208,39 +206,34 @@ aside.about {
   padding: 10%;
   border: 10px; }
 
-/* line 212, ../sass/style.scss */
+/* line 213, ../sass/style.scss */
 .home-cta-right {
-  border: 2px dotted blue;
+  border: 0px dashed blue;
   width: 40%;
   height: 120px;
-  /*font-size: 300%;*/
   color: brown;
-  background: url("../img/marble/marble-main.jpg") no-repeat;
+  background: url("../img/marble/marble-main_b&e.jpg") no-repeat;
   background-size: cover;
-  /*border: 25px;*/
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /*align-content: center;*/
   flex: 1 1 0; }
 
-/* line 226, ../sass/style.scss */
+/* line 224, ../sass/style.scss */
 .home-cta-left {
-  border: 2px dotted blue;
+  border: 0px dashed blue;
   width: 40%;
   height: 120px;
-  /*font-size: 300%;*/
-  background: url("../img/marble/marble-main.jpg") no-repeat;
+  background: url("../img/marble/marble-main_b&e.jpg") no-repeat;
   background-size: cover;
-  /*border: 25px;*/
   display: flex;
   flex-direction: column;
   justify-content: center;
   flex: 1 1 0; }
 
-/* line 238, ../sass/style.scss */
+/* line 234, ../sass/style.scss */
 .about-john {
-  border: 2px dashed orange;
+  border: 0px dashed orange;
   font-family: 'inkcalig';
   font-size: 125%;
   line-height: 120%;
@@ -249,25 +242,25 @@ aside.about {
   background-size: cover;
   padding: 15%; }
 
-/* line 247, ../sass/style.scss */
+/* line 243, ../sass/style.scss */
 .about-john h1 {
-  border: 2px solid yellow;
+  border: 0px dashed yellow;
   font-family: 'inkcalig';
   font-size: 200%;
   text-align: center;
   padding: 25px; }
 
-/* line 253, ../sass/style.scss */
+/* line 249, ../sass/style.scss */
 img.john {
-  border: 2px dotted red;
+  border: 0px dashed red;
   max-width: 40%;
   height: auto;
   float: left;
   padding: 10px; }
 
-/* line 259, ../sass/style.scss */
+/* line 255, ../sass/style.scss */
 footer {
-  border: 2px solid blue;
+  border: 0px dashed blue;
   background: url("../img/marble/marble-main.jpg");
   background-size: cover;
   font-family: 'inkcalig';
@@ -275,7 +268,7 @@ footer {
   line-height: 100%;
   padding: 15px; }
 
-/* line 267, ../sass/style.scss */
+/* line 263, ../sass/style.scss */
 img.grouchy {
   max-width: 10%;
   max-height: 80px;
@@ -283,28 +276,28 @@ img.grouchy {
   padding-left: 15px;
   padding-right: 25px; }
 
-/* line 273, ../sass/style.scss */
+/* line 269, ../sass/style.scss */
 #fontepic {
   font-family: 'toyland_nfregular';
   font-size: 1em;
   color: brown;
   text-shadow: 2px 2px 3px #777; }
 
-/* line 278, ../sass/style.scss */
+/* line 274, ../sass/style.scss */
 #ages {
   font-family: 'vikingregular';
   font-size: .8em;
   color: brown;
   text-shadow: 2px 2px 3px #777; }
 
-/* line 283, ../sass/style.scss */
+/* line 279, ../sass/style.scss */
 #master {
   font-family: 'blackchanceryregular';
   font-size: 1.1em;
   color: brown;
   text-shadow: 2px 2px 3px #777; }
 
-/* line 288, ../sass/style.scss */
+/* line 284, ../sass/style.scss */
 #ido {
   font-family: 'Nothing You Could Do', cursive;
   font-size: 1.1em;

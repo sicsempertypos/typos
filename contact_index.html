@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Page Title</title>
+</head>
+<body>
+	<section>
+		<h2>Basic Textboxes</h2>
+		<div class="contact>
+		<form method="POST" action="contact_Process.php" id="contactform">
+			<fieldset>
+				<legend>Contact Information</legend>
+				<table>
+				<tr><td>First Name*</td><td><input type="text" id="fname" 
+							class="forminput" autofocus required></td>
+					<td><span class="errmsg id="errfname"></span></td></tr>
+				<tr><td>Last Name*</td><td><input type="text" id="lname" class="forminput" required></td>
+					<td><span id="errlname" class="errmsg"></span></td></tr>
+				<tr><td>Phone</td><td><input type="tel" id="phone" class="forminput" optional></td>
+					<td><span id="errphone" class="errmsg"></span></td></tr>
+				<tr><td>Email*</td><td><input type="email" id="email" class="forminput" required></td>
+					<td></td><span id="erremail" class="errmsg"></span></td></tr>
+				</table>
+			</fieldset>
+			<fieldset>
+				<legend>Sample Edit</legend>
+				<label for="request"><input type="checkbox" id="request" class="forminput">
+							Please edit my sample</label><br>
+				<label for="sample"><textarea id="sample" class="forminput" maxlength="1000" wrap="soft"
+					cols="70" rows="6">Please limit to 1,000 words</textarea></label>
+			</fieldset>
+			<fieldset>
+				<Legend>Service Interests</Legend>
+				<label for="proof"><input type="checkbox" id="proof" class="forminput">Proofreading</label>
+				<label for="copy"><input type="checkbox" id="copy" class="forminput">Copy Editing</label>
+				<label for="publish"><input type="checkbox" id="publish" class="forminput">ePublish</label>
+				<label for="format"><input type="checkbox" id="format" class="forminput">Formatting</label>
+				<label for="other"><input type="checkbox" id="other" class="forminput">Other (Explain)</label>
+			</fieldset>
+			<fieldset>
+				<legend>Comments</legend>
+				<textarea id="comments" class="forminput" cols="70" rows="4"></textarea>
+			</fieldset>
+				<p><input type="submit" value="Send Form"><input type="reset" value="Clear Form">
+					<input type="button" value="email John">
+				</p>
+				<input type="hidden" name="parse_var" id="parse_var" value="contact_index" />
+		</form>
+		</div>
+	</section>
+</body>
+</html>

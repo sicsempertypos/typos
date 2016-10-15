@@ -1,0 +1,49 @@
+    <link href="css/style.css" text="text/css" rel="stylesheet">
+
+  <body>	
+  	<div class="container first-container">
+  		<nav class="navbar navbar-fixed-top">
+	  		<div class="container-fluid navcell flex-navbar">
+				<div class="navbar-brand">
+					<a href="index.html">
+						<img scr="img/logo/ico/sst.png" class="navbar-brand sst-image">
+				<button class="navitem navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse"
+							type="button">
+					<span class="sr-only">Toggle navigation</span>
+				<a class="navbar-brand" href="#">
+					<img alt="Brand" src="img/logo/ico/sst_48.ico">
+	  			<div class="collapse navbar-collapse" id="bs-navbar-collapse">
+	  				<ul class="nav navbar-nav">
+	  					<li><a href="#">Home</a></li>
+	  				<form class="navbar-form navbar-right" role="search">
+	  					<div class="form-group">
+	  						<input type="text" class="form=control" placeholder="Search">
+	  					<button type="submit" class="btn btn-default">Submit</button>
+  	<header class="container-fluid">
+  		<div class="quote col-md-3">
+  			<blockquote class="lint">
+  				<small>Charles de Lint, writer</small>
+  		<div class="scroll col-md-9">
+	  		<ul class="list">
+	    		<li class="name">Sic Semper Typos<br></li>
+
+	<div class="container main">
+		<div class="row main-content">
+			<article class="intro col-sm-6 col-xs-12">
+				<h1 class="title"><strong>Your Story</strong></h1>
+			<aside class="about col-sm-6 col-xs-12">
+				<div class="ctas">
+					<div class="home-cta-left">
+						<div class="left"><a href="mailto:loganfifty@gmail.com" class="contact">Contact</a></div>
+					<div class="home-cta-right">
+						<div class="right"><a href="#" class="services">Services</a></div>
+				<div class="about-john">
+					<h1><img sr-only="john-bearded" src="img/john/AboutJohn_400px.jpg"  class="john">JOHN DAVIDSON</h1>
+	<footer>
+		<p><img sr-only="the grouchy grammarian" src="img/john/grouchygrammarian.jpg" class="grouchy"><br>
+		<br>by Thomas Parrish</p>
+	
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>

@@ -94,6 +94,9 @@ body 	{ border: $size $style black;
 	display: flex;
 	flex-direction: column; }
 
+.navbar-nav li a { border: $size $style blue;
+  font-color: black; }
+
 .navcell { border: $size $style red;
 	background: url('../img/marble/marble-main.jpg');
 	background-size: cover;

@@ -59,6 +59,8 @@ body {
   display: flex;
   flex-direction: column; }
 
+body.contact { height: 800px; 
+	width: 1000px; }
 /* line 97, ../sass/style.scss */
 .navcell {
   border: 0px dashed red;

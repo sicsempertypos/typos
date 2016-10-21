@@ -10,16 +10,8 @@
 
 
 <?php
-	//loop
-	
-	//While loop
-	//Do while loop
-	//For loop
-	//Foreach loop
-	
-	for ($i=0; $i < 9; $i+=1;) {
-		echo "hi <br>";
-	}
+//include 'contact_index.php';
+echo "This  page works fine";
 ?>	
 
 </body>

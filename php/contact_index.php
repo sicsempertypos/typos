@@ -2,8 +2,8 @@
 <html>
 <head>
 	<title>contact_index.php</title>
-	<link rel="stylesheet" type-="text/css" src="../css/normalize.css">
-	<link rel="stylesheet" type="text/css" src="../css/stylemain.css">
+	<link rel="stylesheet" type-="text/css" href="../css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="../css/stylecontact.css">
 </head>
 <body>
 	<section class="contact-form">

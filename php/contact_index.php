@@ -8,34 +8,38 @@
 <body>
 	<section class="contact-form">
 		<!--<img src="../img/scroll/anniv-old-paper.png">-->
-		<h2>Contact Sic Semper Typos</h2>
 		<div class="form-box">
 			<div class="wrapper">
+				<h2>Contact Sic Semper Typos</h2>
 				<form method="POST" action="contact_process.php">
 					<fieldset>
 						<legend>Contact Information</legend>
-						First Name* <input type="text" name="fname" id="fname" 
-								class="forminput" autofocus required>
+						First Name* <span class="lineup"><input type="text" name="fname" id="fname" 
+								class="forminput" required></span>
+							<br><br>
 							<span id="errfname" class="errmsg"></span>
-							<br>
-						First Name* <input type="text" name="lname" id="lname" 
-								class="forminput" autofocus required>
+							<wbr>
+						Last Name* <span class="lineup"><input type="text" name="lname" id="lname" 
+								class="forminput" required></span>
+							<br><br>
 							<span id="errlname" class="errmsg"></span>
-							<br>
-						Phone <input type="tel" name="phone" id="phone"
-								class="forminput" optional>
+							<wbr>
+						Phone <span class="lineup"><input type="tel" name="phone" id="phone"
+								class="forminput" optional></span>
+							<br><br>
 							<span id="errphone" class="errmsg"></span>
-							<br>
-						Email* <input type="email" name="email" id="email"
-								class="forminput" required>
+							<wbr>
+						Email* <span class="lineup"><input type="email" name="email" id="email"
+								class="forminput" required></span>
+							<br<br>>
 							<span id="erremail" class="errmsg"></span>
-							<br>
+							<wbr>
 					</fieldset>
 					<fieldset>
 						<legend>Sample Edit</legend>
-						<label for="request">Please edit my sample - 1000 characters max.</label>
 						<br>
 							<input type="checkbox" name="request" id="request" class="forminput">
+								Please edit my sample - 1000 characters max.
 							<br>
 						<textarea name="sample" id="sample" class="forminput" maxlength="1000" wrap="soft"
 							cols="70" rows="6" ></textarea>

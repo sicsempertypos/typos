@@ -6,7 +6,9 @@
   font-style: normal; }
 
 h2 {
-	position: 50%;	
+	font-size: 30px;
+	text-align: center;
+	padding: 10px 5%;
 }
 
 .contact-form {
@@ -18,33 +20,42 @@ h2 {
 }
 
 .form-box {
-	width: 100%;
+	width: 80%;
 	padding: 10px 0px;
 	margin: 10% 10%;
 }
 
 fieldset {
-	border: 1px solid #fff;	
+	border: 1px solid white;	
 	width: 80%;
-	padding: 5px;
+	padding: 10px;
+	margin: 20px 10% 25px 10%;
+	position: relative;
 }
 
-.form-box form input{
-	width: 30%
-	height: 30px;
-	margin-bottom: 4px;
+fieldset span {
+	width: 75%;
+	margin-left: auto;
+	margin-right: 10%;
+	position: absolute;
+}
+
+.form-box form fieldset input{
+	width: 80%
+	height: 40px;
+	margin: 0px 5% 4px auto;
 	padding: 0px .5%;
 	border: 1px solid #282828;
-	opacity: 0.6;
+	opacity: 0.5;
 }
 
 .form-box form textarea {
-	width: 50%
+	width: 80%
 	height: 300px;
 	margin-bottom: 4px;
 	padding: 0px .5%;
 	border: 1px solid #282828;
-	opacity: 0.6;
+	opacity: 0.4;
 }
 
 .form-box form p {
@@ -52,15 +63,14 @@ fieldset {
 	color: #202020;
 	font-family: "atlas_of_the_magiregular";
 	/*float: left;*/
-	padding-top: 10px;
 	resize: none;
 }
 
 .form-box form textarea {
 	clear: both;
-	width: 60%;
+	width: 90%;
 	height: 100px;
-	margin-bottom: 4px;
+	margin: 4px 5% 4px 5%;
 	padding: 6px 0.5$;
 	border: 1px solid #202020;
 	font-size: 16px;

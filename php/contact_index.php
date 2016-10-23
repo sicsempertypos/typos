@@ -14,18 +14,22 @@
 				<form method="POST" action="contact_process.php">
 					<fieldset>
 						<legend>Contact Information</legend>
-						<p>First Name*<input type="text" name="fname" id="fname" size="70"
+						First Name* <input type="text" name="fname" id="fname" 
 								class="forminput" autofocus required>
-							<span class="errmsg id="errfname"></span></p>
-						<p>Last Name*<input type="text" name="lname" "id="lname" size="70"
-								class="forminput" required>
-							<span id="errlname" class="errmsg"></span></p>
-						<p>Phone<input type="tel" name="phone" id="phone" size="70"
+							<span id="errfname" class="errmsg"></span>
+							<br>
+						First Name* <input type="text" name="lname" id="lname" 
+								class="forminput" autofocus required>
+							<span id="errlname" class="errmsg"></span>
+							<br>
+						Phone <input type="tel" name="phone" id="phone"
 								class="forminput" optional>
-							<span id="errphone" class="errmsg"></span></p>
-						<p>Email*<input type="email" name="email" id="email" size="70"
+							<span id="errphone" class="errmsg"></span>
+							<br>
+						Email* <input type="email" name="email" id="email"
 								class="forminput" required>
-							<span id="erremail" class="errmsg"></span></p>
+							<span id="erremail" class="errmsg"></span>
+							<br>
 					</fieldset>
 					<fieldset>
 						<legend>Sample Edit</legend>
@@ -63,7 +67,6 @@
 				</form>
 			</div>
 		</div>
-
 	</section>
 </body>
 </html>

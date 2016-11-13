@@ -1,17 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Sic Semper Typos</title>
-    <!-- Bootstrap -->
-    <link href="css/0-plugins/bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet">
-	<link href="php/style.css" rel="stylesheet" text="text/css">
-    <link href="css/stylemain.css" text="text/css" rel="stylesheet">
-    <link href="http://fonts.googleapis.com/css?family=Nothing+You+Could+Do" type="text/css"
-    	media="all" rel="stylesheet">
+ 	<link rel="stylesheet" type-="text/css" href="../css/normalize.css">
+	<!--<link rel="stylesheet" type="text/css" href="../css/stylecontact.css">-->
+    <link href="css/stylehome.css" text="text/css" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Nothing+You+Could+Do" rel="stylesheet" type="text/css" media="all" >
     <link href='https://fonts.googleapis.com/css?family=Almendra:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
 	<!-- if IE]>
 		<link rel="stylesheet" text="text/css" href="/stylesheets/ie.css" media="screen, projection"/>
@@ -24,85 +22,104 @@
     <![endif]-->
   </head>
 
-  <body>	
-  	<div class="container first-container">
-  		<nav class="navbar navbar-fixed-top">
-	  		<div class="container navcell flex-navbar">
-				<div class="navbar-brand">
-					<a href="index.html">
-						<img scr="img/logo/ico/sst.png" class="navbar-brand sst-image">
-					</a>
-				</div>				
-				<button class="navitem navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse"
-							type="button">
-					<span class="sr-only">Toggle navigation</span>
+  <body>
+	<div class="wrappernav">
+		<header class="navbarhead">
+			<img src="img/logo/sst70.png" alt="logo sst sic semper typos">
+			<nav class="container">
+				<div class="brand">
+					<a href="index.html"></a>
+						<!--<img scr="img/logo/ico/sst.png" class="navbar-brand sst-image">-->
+					<span class="sr-only" alt="Toggle navigation"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>		
-				</button>
-	  			<div class="navitem navbar-collapse collapse navbar-responsive-collapse">
-	  				<ul class="nav navcell navbar-nav">
-	  					<li><class="active"><a href="index.html"><span class="navitem glyphicon-home"></span>Home</a></class></li>
-	  					<li><a href="#">Services &amp; Rates </a></li>
-	  					<li><a href="#">About John</a></li>
-	  					<li><a href="#">Portfolio</a></li>
-	  				</ul>
-	  				<form class="navbar-form navbar-right" role="search">
-	  					<div class="form-group">
-	  						<input type="text" class="form=control" placeholder="Search">
-	  					</div>
-	  					<button type="submit" class="btn btn-default">Submit</button>
-	  				</form>
-	  			</div>
-	  		</div>
-  		</nav>
-	</div>
-  	<header class="container-fluid">
-  		<div class="quote col-md-3">
-  			<blockquote class="lint">No one else sees the world the way you do, so no one else can tell the stories that you have to tell.
-  				<small>Charles de Lint, writer</small>
-  			</blockquote>
-  		</div>
-  		<div class="scroll col-md-9">
-	  		<ul class="list">
-	    		<li class="name">Sic Semper Typos<br></li>
-	    		<li class="trans">Thus always to typos</li>
-	    		<li class="tell">Proofreading - Copyediting - Writing</li>
-	    	</ul>
-	    </div>
-	</header>
-
-	<div class="container main">
-		<div class="row main-content">
-			<article class="intro col-sm-6 col-xs-12">
-				<br><br>
-				<h1 class="title"><strong>Your Story</strong></h1>
-				<p>Your story must be told. It is <span id="fontepic"><em>epic</em></span>. It is profound. It is like nothing ever written. But your grammar is atrocious. Your spelling is dreadful. Your prose is lacking. Your story is one for the <span id="ages"><em>ages</em></span>, but you do not have the words with which to express it.</p>
-            	<p><strong><span id="ido">I do.</span></strong></p>
- 				<p>I know the tale you are trying to tell. I see the story laid out before me in vivid detail. And I have the power to transform your lifeless text into the flowing, emotional, <span id="master"><em>Shakespearean</em></span> masterpiece your storyline deserves!</p>
-			</article>
-			<aside class="about col-sm-6 col-xs-12">
-				<div class="ctas">
-					<div class="home-cta-left">
-						<div class="left"><a href="mailto:loganfifty@gmail.com" class="contact">Contact</a></div>
-					</div>
-					<div class="home-cta-right">
-						<div class="right"><a href="#" class="services">Services</a></div>
-					</div>
 				</div>
-				<div class="about-john">
-					<h1><img sr-only="john-bearded" src="img/john/AboutJohn_400px.jpg"  class="john">JOHN DAVIDSON</h1>
-					<p>An avid reader and lifelong perfectionist, John has recently discovered his true passion: correcting other people's mistakes.</p>
-	                <p>In all his prior work, he never could resist pointing out the little grammatical errors all around him, and after years of resisting the urge, he has finally succumbed to the inevitable and embraced his inner Grouchy Grammarian.*</p>
+				<div class="navbar">
+					<form class="navform" role="search">
+						<div class="form-group">
+							<input type="text" class="search" placeholder="Search">
+						</div>
+						<button type="submit" class="submit">Submit</button>
+					</form>
+					<ul class="navbarul">
+						<li class="active">
+							<a href="index.html">
+								<span class="navitem"></span>Home
+							</a>
+						</li>
+						<li><a href="#">Services &amp; Rates </a></li>
+						<li><a href="#">About John</a></li>
+						<li><a href="php/contact_index.php">Contact</a></li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+	</div>
+  	<header class="titlehead">
+		<div class="title">
+			<p><span class="name">Sic Semper Typos</span>
+				<br><span class="trans">Thus always to typos</span>
+				<br><span class="svcs">Proofreading - Copyediting - Writing</span>
+			</p>
+		</div>
+	</header>
+	<div class="wrappercta">
+		<div class="lint">No one else sees the world the way you do, 
+			so no one else can tell the stories that you have to tell.
+			<br><small>Charles de Lint, writer</small>
+		</div>
+		<div class="cta">
+			<div class="contactdiv">
+				<a href="mailto:loganfifty@gmail.com" class="contact">
+					<!--<img src="img/marble/marble-main_b&e.jpg" alt="button contact sic semper typos">-->
+					Contact
+				</a>
+			</div>
+			<div class="servicesdiv">
+				<a href="#" class="services">
+					<!--<img src="img/marble/marble-main_b&e.jpg" alt="button services sic semper typos">-->
+					Services
+				</a>
+			</div>
+		</div>
+	</div>
+	<section>
+		<div class="wrappermain">
+			<article class="story">
+				<h2 class="titlestory">Your Story</h2>
+				<p>Your story must be told. It is <span class="epic" id="fontepic"><em>epic</em></span>. 
+					It is profound. It is like nothing ever written. 
+					But your grammar is atrocious. Your spelling is dreadful.
+					Your prose is lacking. Your story is one for the 
+					<span class= "ages" id="ages"><em>ages</em></span>, but you do not have 
+					the words with which to express it.</p>
+				<p><strong><span id="ido">I do.</span></strong></p>
+				<p>I know the tale you are trying to tell. 
+					I see the story laid out before me in vivid detail. 
+					And I have the power to transform your lifeless text 
+					into the flowing, emotional, <span class="shks" id="master"><em>Shakespearean &nbsp;</em></span> 
+					masterpiece your storyline deserves!</p>
+			</article>
+			<aside class="about">
+				<div class"john">
+					<h1><img sr-only="john bearded" src="img/john/AboutJohn_400px.jpg"  class="john">JOHN DAVIDSON</h1>
+					<p>An avid reader and lifelong perfectionist, John has recently 
+						discovered his true passion: correcting other people's mistakes.</p>
+					<p>In all his prior work, he never could resist pointing out 
+						the little grammatical errors all around him, and after years of 
+						resisting the urge, he has finally succumbed to the inevitable and 
+						embraced his inner Grouchy Grammarian.*</p>
 				</div>
 			</aside>
 		</div>
-	</div>
-	
+	</section>
 	<footer>
-		<p><img sr-only="the grouchy grammarian" src="img/john/grouchygrammarian.jpg" class="grouchy">*The Grouchy Grammarian: A How-Not-To Guide to the 47 Most Common Mistakes in English<br>
-		Made by Journalists, Broadcasters, and Others Who Should Know Better
-		<br>by Thomas Parrish</p>
+		<p><img sr-only="the grouchy grammarian" src="img/john/grouchygrammarian.jpg" class="grouchy">
+			*The Grouchy Grammarian: A How-Not-To Guide to the 47 Most Common Mistakes in English<br>
+			Made by Journalists, Broadcasters, and Others Who Should Know Better
+			<br>by Thomas Parrish
+		</p>
 	</footer>
 	
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

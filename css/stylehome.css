@@ -134,10 +134,10 @@ header .title {
 }
 
 .cta {
-	position: relative;
+	/*position: relative;*/
 }
 .cta .contactdiv, .servicesdiv {
-	border: 2px solid green;
+	border: 2px solid red;
 	height: 100%;
 	width: 150px;
 	position: relative;

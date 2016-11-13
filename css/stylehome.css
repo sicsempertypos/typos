@@ -51,7 +51,9 @@
   
   .wrappernav {
 	width: 100%;
-	margin: 0 0;
+	top: 0px;
+	position:fixed;
+	margin: 0px;
 	/*border: 0px solid green;*/
 }
   
@@ -67,14 +69,9 @@
 	margin-top: 15px;
 }
 
-.navform {
-	float: right;
-	font-size: 20px;
-}
-  
 .navbarul li {
 	display: inline-block;
-	margin-right: 40px;
+	margin-right: 30px;
 	list-style: none;
 }
 
@@ -86,6 +83,15 @@
 .form-group {
 	display: inline-block;
 	margin-top: 15px;
+}
+
+.navform {
+	float: right;
+	font-size: 20px;
+}
+  
+.submit {
+	margin-right: 20px;
 }
 
 /* Logo */

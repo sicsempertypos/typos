@@ -43,14 +43,21 @@
 
   
   /* CONTENT */
-.wrappernav {
+  
+  body {
+	  /*background-image: url(../img/wall/stone_texture_23.jpg);*/
+	  background-image: url(../img/wall/stone-3x4.jpg);
+  }
+  
+  .wrappernav {
 	width: 100%;
-	/*margin: 0 auto;*/
-	border: 0px solid green;
+	margin: 0 0;
+	/*border: 0px solid green;*/
 }
   
 .navbarhead {
 	width:100%;
+	margin: 0 0;
 	height: 50px;
 	background-color: black;
 }
@@ -91,7 +98,7 @@ header img {
 
 header .title {
 	border: 0px dashed red;
-	background-image: url(../img/scroll/1164_1164_5.jpg);
+	background-image: url(../img/scroll/parchment_texture.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -139,6 +146,7 @@ header .title {
 	background-image: url(../img/marble/marble-main_b&e.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
+	background-size: cover;
 }
 
 .cta a {

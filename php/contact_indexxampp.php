@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>contact_index.php</title>
+	<title>Sic Semper Typos</title>
 	<link rel="stylesheet" type-="text/css" href="../css/normalize.css">
-	<link rel="stylesheet" type="text/css" href="../css/stylecontact.css">
+	<link rel="stylesheet" type="text/css" href="../css/stylecontactxampp.css">
 </head>
 <body>
 	<section class="contact-form">

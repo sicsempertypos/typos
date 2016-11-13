@@ -8,7 +8,7 @@
     <title>Contact Sic Semper Typos</title>
  	<link rel="stylesheet" type-="text/css" href="../css/normalize.css">
 	<!--<link rel="stylesheet" type="text/css" href="../css/stylecontact.css">-->
-    <link href="../css/stylecontactgit.css" text="text/css" rel="stylesheet">
+    <link href="css/stylecontactgit.css" text="text/css" rel="stylesheet">
     <link href="http://fonts.googleapis.com/css?family=Nothing+You+Could+Do" rel="stylesheet" type="text/css" media="all" >
     <link href='https://fonts.googleapis.com/css?family=Almendra:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
 	<!-- if IE]>

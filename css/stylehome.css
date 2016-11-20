@@ -232,7 +232,7 @@ aside {
 	background-size: cover;
 	background-repeat: no-repeat;
 	border: 0px double coral;
-	font-family: 'Handlee';
+	font-family: 'papyrus','Handlee';
 	font-size: 21px;
 }
 
@@ -240,19 +240,22 @@ aside {
 	display: flex;
 	justify-content: left;
 	border: 0px dashed coral;
-	margin-top: 75px;
+	margin-top: 50px;
 	margin-left 25px;
 }
 
 .john .johnimg {
 	border: 0px double #000;
-	width: 25%;
+	width: 30%;
+	height: 30%;
 	margin-left: 5%;
+	margin-top: 45px;
 	/*margin: 45px 10px 10px 15px;*/
 	box-shadow: 0 4px 3px -2px gray;
 }
 
 .john h1 {
+	margin-top: 50px;
 	margin-left: 20px;
 	padding-left: 5%;
 	padding-top: 35px;
@@ -261,7 +264,7 @@ aside {
 }
 
 .reader {
-	margin: 15px 12%;
+	margin: 15px 8% 25px 12%;
 	border: 0px solid green;
 }
 

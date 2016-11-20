@@ -45,9 +45,8 @@
   /* CONTENT */
   
   body {
-	  /*background-image: url(../img/wall/stone_texture_23.jpg);*/
-	  /*background-image: url(../img/wall/stone-3x4.jpg);*/
 	  background-image: url(../img/marble/marble-main.jpg);
+	  background-size:cover;
   }
   
   .wrappernav {
@@ -55,7 +54,8 @@
 	top: 0px;
 	position:fixed;
 	margin: 0px;
-	/*border: 0px solid green;*/
+	border: 0px solid green;
+	font-family: 'Almendra', serif;
 }
   
 .navbarhead {
@@ -104,7 +104,7 @@ header img {
 }
 
 header .title {
-	border: 1px dashed red;
+	border: 0px dashed red;
 	/*background-image: url(../img/scroll/parchment_texture.jpg);*/
 	background-image: url(../img/scroll/header.png);
 	background-repeat: no-repeat;
@@ -112,9 +112,9 @@ header .title {
 	background-size: cover;
 	margin: 60px 60px 10px 60px;
 	/*padding: 30px;*/
-	padding-top: 10px;
+	padding-top: 5px;
 	padding-bottom: 10px;
-	box-shadow: 0 4px 3px -2px gray;
+	/*box-shadow: 0 4px 3px -2px gray;*/
 }
 
 .title p {
@@ -135,13 +135,13 @@ header .title {
 }
 
 .svcs {
-	font-size: 20px;
+	font-size: 25px;
 	text-align: center;
-	margin: 20px auto;
+	margin: 25px auto;
 }
   
 .wrappercta {
-	border: 2px dashed blue;
+	border: 0px dashed blue;
 	display: flex;
 	padding: 5 px 5%;
 	margin: 5px 15px;
@@ -149,7 +149,7 @@ header .title {
 }
 
 .contactdiv, .servicesdiv {
-	border: 2px solid red;
+	border: 0px solid red;
 	height: 100px;
 	width: 30%;
 	position: relative;
@@ -174,7 +174,7 @@ header .title {
 }
 
 .lint{
-	border: 2px dashed red;
+	border: 0px dashed red;
 	width: 35%;
 	text-align: center;
 	padding: 20px 5% 0px 5%;
@@ -198,23 +198,105 @@ header .title {
 }
 
 section {
-	border: 2px solid gray;
+	border: 0px solid gray;
 }
 
+.wrappermain {
+	display: flex;
+	border: 0px dashed red;
+}
 article {
-	border: 2px solid lime;
+	background-image: url("../img/scroll/anniv-old-paper-half.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 0px solid lime;
 	font-family: 'Nothing You Could Do', cursive;
-	position: relative;
+	/*position: relative;*/
+	font-size: 21px;
+	padding-top: 30px:
+}
+
+.story {
+	padding: 25px 7% 5px 7%;
+	border: 0px solid black;
+}
+
+.story h2 {
+	text-align: center;
+	padding-top: 100 px;
+	border: 0px dashed lime;
 }
 
 aside {
-	border: 2px double coral;
-	font-family: 'inkcalig';
-	float: left;
+	background-image: url("../img/scroll/a-half.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	border: 0px double coral;
+	font-family: 'Handlee';
+	font-size: 21px;
+}
+
+.john {
+	display: flex;
+	justify-content: left;
+	border: 0px dashed coral;
+	margin-top: 75px;
+	margin-left 25px;
+}
+
+.john .johnimg {
+	border: 0px double #000;
+	width: 25%;
+	margin-left: 5%;
+	/*margin: 45px 10px 10px 15px;*/
+	box-shadow: 0 4px 3px -2px gray;
+}
+
+.john h1 {
+	margin-left: 20px;
+	padding-left: 5%;
+	padding-top: 35px;
+	text-align: center;
+	border: 0px double black;
+}
+
+.reader {
+	margin: 15px 12%;
+	border: 0px solid green;
 }
 
 footer {
-	
+	font-family: 'Handlee';
+	font-size: 15px;
+	margin-left: 20px;
+	margin-top: 10px;
+	/*float:left;*/
+}
+
+footer {
+	display: flex;
+	justify-content: space-around;
+}
+
+footer img {
+	border: 2px double #000;
+	width: 50px;
+	left: 10px;
+	margin: 10px 10px 10px 15px;
+	box-shadow: 0 4px 3px -2px gray;
+	/*float: left;*/
+}
+
+footer .title {
+	flex-shrink: 3;	
+}
+
+footer .copyright {
+	align-self: flex-end;
+	font-family: 'papyrus','Handlee';
+	border: 2px double #000;
+	padding: 10px;
+	margin-left: 80px;
 }
 
 

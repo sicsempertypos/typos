@@ -52,11 +52,11 @@ body {
   
 .wrappernav {
 	width: 100%;
-	top: 0px;
+	top: 0;
 	position:fixed;
 	margin: 0px;
 	border: 0px solid green;
-	/*font-family: 'Almendra', serif;*/
+	z-index: 10;
 }
   
 .navbarhead {
@@ -188,7 +188,7 @@ form textarea {
 	width: 90%;
 	height: 100px;
 	margin: 4px 5% 4px 5%;
-	padding: 6px 0.5$;
+	padding: 6px 0.5%;
 	border: 1px solid #202020;
 	font-size: 16px;
 	color: #202020;

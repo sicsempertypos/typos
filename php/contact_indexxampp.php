@@ -4,8 +4,42 @@
 	<title>Sic Semper Typos</title>
 	<link rel="stylesheet" type-="text/css" href="../css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="../css/stylecontactxampp.css">
+    <link href='https://fonts.googleapis.com/css?family=Almendra:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
 </head>
 <body>
+	<div class="wrappernav">
+		<header class="navbarhead">
+			<img src="../img/logo/sst70.png" alt="logo sst sic semper typos">
+			<nav class="container">
+				<div class="brand">
+					<a href="index.html"></a>
+						<!--<img scr="img/logo/ico/sst.png" class="navbar-brand sst-image">-->
+					<span class="sr-only" alt="Toggle navigation"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>		
+				</div>
+				<div class="navbar">
+					<form class="navform" role="search">
+						<div class="form-group">
+							<input type="text" class="search" placeholder="Search">
+						</div>
+						<button type="submit" class="submit">Search</button>
+					</form>
+					<ul class="navbarul">
+						<li class="active">
+							<a href="../index.html">
+								<span class="navitem"></span>Home
+							</a>
+						</li>
+						<li><a href="#">Services &amp; Rates </a></li>
+						<li><a href="#">About John</a></li>
+						<li><a href="contact_indexxampp.php">Contact</a></li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+	</div>
 	<section class="contact-form">
 		<!--<img src="../img/scroll/anniv-old-paper.png">-->
 		<div class="form-box">

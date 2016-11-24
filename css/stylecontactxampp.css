@@ -4,11 +4,109 @@
   src: url("../fonts/AtlasOfTheMagi/atlas_of_the_magi-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/AtlasOfTheMagi/atlas_of_the_magi-webfont.woff2") format("woff2"), url("../fonts/AtlasOfTheMagi/atlas_of_the_magi-webfont.woff") format("woff"), url("../fonts/AtlasOfTheMagi/atlas_of_the_magi-webfont.ttf") format("truetype"), url("../fonts/AtlasOfTheMagi/atlas_of_the_magi-webfont.svg#atlas_of_the_magiregular") format("svg");
   font-weight: normal;
   font-style: normal; }
+@font-face {
+  font-family: 'inkcalig';
+  src: url("../fonts/Inkcalig/inkcalig-webfont.eot");
+  src: url("../fonts/Inkcalig/inkcalig-webfont.woff2") format("woff2") url("../fonts/Inkcalig/inkcalig-webfont.woff") format("woff"), url("../fonts/Inkcalig/inkcalig-webfont.ttf") format("truetype"), url("../fonts/Inkcalig/inkcalig-webfont.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'blackchanceryregular';
+  src: url("../fonts/BlackChancery/blkchcry-webfont.eot");
+  src: url("../fonts/BlackChancery/blkchcry-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/BlackChancery/blkchcry-webfont.woff2") format("woff2"), url("../fonts/BlackChancery/blkchcry-webfont.woff") format("woff"), url("../fonts/BlackChancery/blkchcry-webfont.ttf") format("truetype"), url("../fonts/BlackChancery/blkchcry-webfont.svg#blackchanceryregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'sf_foxboro_scriptregular';
+  src: url("../fonts/Foxboro/sf-foxboro-script.regular-webfont.eot");
+  src: url("../fonts/Foxboro/sf-foxboro-script.regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Foxboro/sf-foxboro-script.regular-webfont.woff2") format("woff2"), url("../fonts/Foxboro/sf-foxboro-script.regular-webfont.woff") format("woff"), url("../fonts/Foxboro/sf-foxboro-script.regular-webfont.ttf") format("truetype"), url("../fonts/Foxboro/sf-foxboro-script.regular-webfont.svg#sf_foxboro_scriptregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'sf_foxboro_scriptitalic';
+  src: url("../fonts/Foxboro/sf-foxboro-script.italic-webfont.eot");
+  src: url("../fonts/Foxboro/sf-foxboro-script.italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Foxboro/sf-foxboro-script.italic-webfont.woff2") format("woff2"), url("../fonts/Foxboro/sf-foxboro-script.italic-webfont.woff") format("woff"), url("../fonts/Foxboro/sf-foxboro-script.italic-webfont.ttf") format("truetype"), url("../fonts/Foxboro/sf-foxboro-script.italic-webfont.svg#sf_foxboro_scriptitalic") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'toyland_nfregular';
+  src: url("../fonts/Toyland/toyland-outlinea.regular.eot");
+  src: url("../fonts/Toyland/toyland-outlinea.regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Toyland/toyland-outlinea.regular.woff2") format("woff2"), url("../fonts/Toyland/toyland-outlinea.regular.woff") format("woff"), url("../fonts/Toyland/toyland-outlinea.regular.ttf") format("truetype"), url("../fonts/Toyland/toyland-outlinea.regular.svg#toyland_nfregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'vikingregular';
+  src: url("../fonts/Viking/viking.regular-webfont.eot");
+  src: url("../fonts/Viking/viking.regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Viking/viking.regular-webfont.woff2") format("woff2"), url("../fonts/Viking/viking.regular-webfont.woff") format("woff"), url("../fonts/Viking/viking.regular-webfont.ttf") format("truetype"), url("../fonts/Viking/viking.regular-webfont.svg#vikingregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
 
+  
+  /* CONTENT */
+body {
+	background-image: url(../img/marble/marble-main.jpg);
+	background-size:cover;	font-family: 'Almendra', serif;
+	font-family: 'Almendra', serif;
+
+}
+  
+.wrappernav {
+	width: 100%;
+	top: 0px;
+	position:fixed;
+	margin: 0px;
+	border: 0px solid green;
+	/*font-family: 'Almendra', serif;*/
+}
+  
+.navbarhead {
+	width:100%;
+	margin: 0 0;
+	height: 40px;
+	background-color: black;
+}
+
+.navbarul {
+	float: right;
+	margin-top: 10px;
+}
+
+.navbarul li {
+	display: inline-block;
+	margin-right: 30px;
+	list-style: none;
+}
+
+.navbarul li a {
+	color: #fff;
+	font-size: 15px;
+}
+
+.form-group {
+	display: inline-block;
+	margin-top: 10px;
+}
+
+.navform {
+	float: right;
+	font-size: 15px;
+}
+  
+.submit {
+	margin-right: 20px;
+}
+/* Logo */
+header img {
+	margin-left: 5px;
+	height: 95%;
+	margin-top: 5px;
+	float: left;
+}
 
 .contact-form {
 	width: 100%;
 	padding: 10px 0px;
+	margin-top: 50px;
 	background-image: url("../img/scroll/anniv-old-paper.png");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
@@ -27,7 +125,7 @@ h2 {
 }
 
 fieldset {
-	border: 1px solid white;	
+	border: 1px solid gray;	
 	width: 80%;
 	font-size: 5vh;
 	padding: 10px;
@@ -94,7 +192,7 @@ form textarea {
 	border: 1px solid #202020;
 	font-size: 16px;
 	color: #202020;
-	font-family: "atlas_of_the_magiregular";
+	font-family: 'Almendra', serif;
 	float: left;
 	resize: none;
 	opacity: 0.4;
@@ -120,4 +218,5 @@ form textarea {
 	opacity: .75;
 	flex-shrink: 1;
 	box-shadow: 0 4px 3px -2px gray;
+	font-family: 'Almendra', serif;
 }

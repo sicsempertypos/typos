@@ -147,6 +147,7 @@ header .title {
 	display: flex;
 	padding: 5 px 5%;
 	margin: 5px 15px;
+	justify-content: center;
 
 }
 
@@ -158,21 +159,28 @@ header .title {
 	margin: 5px 10px;
 	padding: 5px 15 px;
 	text-align: center;
-	/*display: flex;*/
-	background-image: url(../img/scroll/old_paper_b&e.jpg);
+	display: flex;
+	background-image: url(../img/scroll/old_paper_b&e.png);
 	background-size: cover;
 	font-family: 'Almendra', serif;
 	font-size: 40px;
 	color: black;
-	/*justify-content: center;*/
+	justify-content: center;
 }
 
-.contactdiv a, .servicesdiv a {
-	/*margin: 50% 50%;*/
-	left: 25%;
+.contactdiv a  {
+	left: 20%;
 	top: 18%;
 	color: #000;
 	position: absolute;
+}
+
+.servicesdiv a {
+	right:: 25%;
+	top: 18%;
+	padding-top: 20%;
+	color: #000;
+	/*position: absolute;*/
 }
 
 .lint{
@@ -190,8 +198,8 @@ header .title {
 .services {
 	width: 30%;
 	text-align: center;
-	padding: 30% auto;
-	float: right;
+	/*padding: 30% auto;*/
+	/*float: right;*/
 }
 
 .contact {

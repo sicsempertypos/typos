@@ -7,59 +7,53 @@ font-weight : normal;
 font-style : normal;
 }
 @font-face {
-{
 font-family : "'inkcalig'";
 src : url("../fonts/Inkcalig/inkcalig-webfont.eot");
 src : url("../fonts/Inkcalig/inkcalig-webfont.woff2") format("woff2");
 font-weight : normal;
 font-style : normal;
 }
-}
+
 @font-face {
-{
 font-family : "'blackchanceryregular'";
 src : url("../fonts/BlackChancery/blkchcry-webfont.eot");
 src : url("../fonts/BlackChancery/blkchcry-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/BlackChancery/blkchcry-webfont.woff2") format("woff2"), url("../fonts/BlackChancery/blkchcry-webfont.woff") format("woff"), url("../fonts/BlackChancery/blkchcry-webfont.ttf") format("truetype"), url("../fonts/BlackChancery/blkchcry-webfont.svg#blackchanceryregular") format("svg");
 font-weight : normal;
 font-style : normal;
 }
-}
+
 @font-face {
-{
 font-family : "'sf_foxboro_scriptregular'";
 src : url("../fonts/Foxboro/sf-foxboro-script.regular-webfont.eot");
 src : url("../fonts/Foxboro/sf-foxboro-script.regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Foxboro/sf-foxboro-script.regular-webfont.woff2") format("woff2"), url("../fonts/Foxboro/sf-foxboro-script.regular-webfont.woff") format("woff"), url("../fonts/Foxboro/sf-foxboro-script.regular-webfont.ttf") format("truetype"), url("../fonts/Foxboro/sf-foxboro-script.regular-webfont.svg#sf_foxboro_scriptregular") format("svg");
 font-weight : normal;
 font-style : normal;
 }
-}
+
 @font-face {
-{
 font-family : "'sf_foxboro_scriptitalic'";
 src : url("../fonts/Foxboro/sf-foxboro-script.italic-webfont.eot");
 src : url("../fonts/Foxboro/sf-foxboro-script.italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Foxboro/sf-foxboro-script.italic-webfont.woff2") format("woff2"), url("../fonts/Foxboro/sf-foxboro-script.italic-webfont.woff") format("woff"), url("../fonts/Foxboro/sf-foxboro-script.italic-webfont.ttf") format("truetype"), url("../fonts/Foxboro/sf-foxboro-script.italic-webfont.svg#sf_foxboro_scriptitalic") format("svg");
 font-weight : normal;
 font-style : normal;
 }
-}
+
 @font-face {
-{
 font-family : "'toyland_nfregular'";
 src : url("../fonts/Toyland/toyland-outlinea.regular.eot");
 src : url("../fonts/Toyland/toyland-outlinea.regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Toyland/toyland-outlinea.regular.woff2") format("woff2"), url("../fonts/Toyland/toyland-outlinea.regular.woff") format("woff"), url("../fonts/Toyland/toyland-outlinea.regular.ttf") format("truetype"), url("../fonts/Toyland/toyland-outlinea.regular.svg#toyland_nfregular") format("svg");
 font-weight : normal;
 font-style : normal;
 }
-}
+
 @font-face {
-{
 font-family : "'vikingregular'";
 src : url("../fonts/Viking/viking.regular-webfont.eot");
 src : url("../fonts/Viking/viking.regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Viking/viking.regular-webfont.woff2") format("woff2"), url("../fonts/Viking/viking.regular-webfont.woff") format("woff"), url("../fonts/Viking/viking.regular-webfont.ttf") format("truetype"), url("../fonts/Viking/viking.regular-webfont.svg#vikingregular") format("svg");
 font-weight : normal;
 font-style : normal;
 }
-}
+
 body {
 background-image : url(../img/marble/marble-main.jpg);
 background-size : cover;
@@ -110,7 +104,7 @@ margin-top : 5px;
 float : left;
 }
 header .title {
-border : red dashed 0;
+border : red dashed 1;
 background-image : url(../img/scroll/header.png);
 background-repeat : no-repeat;
 background-position : center;
@@ -125,138 +119,35 @@ text-align : center;
 font-family : 'Almendra', serif;
 }
 .name {
-font-size : 60px;
+font-size : 50px;
 text-align : center;
 }
-.trans {
+.ps {
 font-size : 25px;
 text-align : center;
 margin : 25px auto;
 }
-.svcs {
-font-size : 30px;
+.sst {
+font-size : 40px;
 text-align : center;
 margin : 25px auto;
 }
-.wrappercta {
-border : blue dashed 0;
-display : flex;
-padding : 5px 5%;
-margin : 5px 15px;
-justify-content : center;
-}
-.contactdiv, .servicesdiv {
-border : red solid 0;
-height : 100px;
-width : 30%;
-position : relative;
-margin : 5px 10px;
-padding : 5px 15px;
-text-align : center;
-display : flex;
-background-image : url(../img/scroll/old_paper_b&e.png);
-background-size : cover;
-font-family : 'Almendra', serif;
-font-size : 40px;
-color : black;
-justify-content : center;
-}
-.contactdiv a {
-left : 20%;
-top : 18%;
-color : #000;
-position : absolute;
-}
-.servicesdiv a {
-right : 25%;
-top : 18%;
-padding-top : 20%;
-color : #000;
-}
-.lint {
-border : red dashed 0;
-width : 35%;
-text-align : center;
-padding : 20px 5% 0 5%;
-margin : 5px 5px;
-background-image : url(../img/scroll/scroll3.png);
-background-size : cover;
-font-family : 'Almendra', serif;
-}
-.services {
-width : 30%;
-text-align : center;
-}
-.contact {
-width : 25%;
-text-align : center;
-}
-section {
-border : gray solid 0;
-}
-.wrappermain {
-display : flex;
-border : red dashed 0;
-}
+
 article {
-background-image : url("../img/scroll/anniv-old-paper-half.png");
-background-repeat : no-repeat;
-background-size : cover;
-border : lime solid 0;
-font-family : 'Nothing You Could Do', cursive;
-font-size : 21px;
-padding-top : 30px;
+	width: 100%;
+	padding: 10px 0;
+	margin-top: 50px;
+	background-image: url("../img/scroll/anniv-old-paper.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	font-size: 16px;
 }
-.story {
-padding : 25px 7% 5px 7%;
-border : black solid 0;
-}
-.story h2 {
-text-align : center;
-padding-top : 100px;
-border : lime dashed 0;
-}
-aside {
-background-image : url("../img/scroll/a-half.png");
-background-size : cover;
-background-repeat : no-repeat;
-border : coral double 0;
-font-family : 'papyrus', 'Handlee';
-font-size : 21px;
-}
-.john {
-display : flex;
-border : coral dashed 0;
-margin-top : 50px;
-margin-left : 25px;
-}
-.john .johnimg {
-border : #000 double 0;
-width : 30%;
-height : 30%;
-margin-left : 5%;
-margin-top : 45px;
-box-shadow : 0 4px 3px -2px gray;
-}
-.john h1 {
-margin-top : 50px;
-margin-left : 20px;
-padding-left : 5%;
-padding-top : 35px;
-text-align : center;
-border : black double 0;
-}
-.reader {
-margin : 15px 8% 25px 12%;
-border : green solid 0;
-}
+
 footer {
 font-family : 'Handlee';
 font-size : 15px;
 margin-left : 20px;
 margin-top : 10px;
-}
-footer {
 display : flex;
 justify-content : space-around;
 }

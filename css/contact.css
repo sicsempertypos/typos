@@ -47,14 +47,13 @@ body {
 	background-image: url(../img/marble/marble-main.jpg);
 	background-size:cover;	font-family: 'Almendra', serif;
 	font-family: 'Almendra', serif;
-
 }
   
 .wrappernav {
 	width: 100%;
 	top: 0;
 	position:fixed;
-	margin: 0px;
+	margin: 0;
 	border: 0px solid green;
 	z-index: 10;
 }
@@ -105,7 +104,7 @@ header img {
 
 .contact-form {
 	width: 100%;
-	padding: 10px 0px;
+	padding: 10px 0;
 	margin-top: 50px;
 	background-image: url("../img/scroll/anniv-old-paper.png");
 	background-repeat: no-repeat;
@@ -219,4 +218,30 @@ form textarea {
 	flex-shrink: 1;
 	box-shadow: 0 4px 3px -2px gray;
 	font-family: 'Almendra', serif;
+}
+
+footer {
+font-family : 'Handlee';
+font-size : 15px;
+margin-left : 20px;
+margin-top : 10px;
+display : flex;
+justify-content : space-around;
+}
+footer img {
+border : #000 double 2px;
+width : 50px;
+left : 10px;
+margin : 10px 10px 10px 15px;
+box-shadow : 0 4px 3px -2px gray;
+}
+footer .title {
+flex-shrink : 3;
+}
+footer .copyright {
+align-self : flex-end;
+font-family : 'papyrus', 'Handlee';
+border : #000 double 2px;
+padding : 10px;
+margin-left : 80px;
 }

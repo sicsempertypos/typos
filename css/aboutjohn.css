@@ -1,0 +1,135 @@
+
+@font-face {
+font-family : "'atlas_of_the_magiregular'";
+src : url("../fonts/AtlasOfTheMagi/atlas_of_the_magi-webfont.eot");
+src : url("../fonts/AtlasOfTheMagi/atlas_of_the_magi-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/AtlasOfTheMagi/atlas_of_the_magi-webfont.woff2") format("woff2"), url("../fonts/AtlasOfTheMagi/atlas_of_the_magi-webfont.woff") format("woff"), url("../fonts/AtlasOfTheMagi/atlas_of_the_magi-webfont.ttf") format("truetype"), url("../fonts/AtlasOfTheMagi/atlas_of_the_magi-webfont.svg#atlas_of_the_magiregular") format("svg");
+font-weight : normal;
+font-style : normal;
+}
+@font-face {
+font-family : "'inkcalig'";
+src : url("../fonts/Inkcalig/inkcalig-webfont.eot");
+src : url("../fonts/Inkcalig/inkcalig-webfont.woff2") format("woff2");
+font-weight : normal;
+font-style : normal;
+}
+
+
+@font-face {
+font-family : "'sf_foxboro_scriptregular'";
+src : url("../fonts/Foxboro/sf-foxboro-script.regular-webfont.eot");
+src : url("../fonts/Foxboro/sf-foxboro-script.regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Foxboro/sf-foxboro-script.regular-webfont.woff2") format("woff2"), url("../fonts/Foxboro/sf-foxboro-script.regular-webfont.woff") format("woff"), url("../fonts/Foxboro/sf-foxboro-script.regular-webfont.ttf") format("truetype"), url("../fonts/Foxboro/sf-foxboro-script.regular-webfont.svg#sf_foxboro_scriptregular") format("svg");
+font-weight : normal;
+font-style : normal;
+}
+
+@font-face {
+font-family : "'sf_foxboro_scriptitalic'";
+src : url("../fonts/Foxboro/sf-foxboro-script.italic-webfont.eot");
+src : url("../fonts/Foxboro/sf-foxboro-script.italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Foxboro/sf-foxboro-script.italic-webfont.woff2") format("woff2"), url("../fonts/Foxboro/sf-foxboro-script.italic-webfont.woff") format("woff"), url("../fonts/Foxboro/sf-foxboro-script.italic-webfont.ttf") format("truetype"), url("../fonts/Foxboro/sf-foxboro-script.italic-webfont.svg#sf_foxboro_scriptitalic") format("svg");
+font-weight : normal;
+font-style : normal;
+}
+
+
+body {
+background-image : url(../img/marble/marble-main.jpg);
+background-size : cover;
+}
+.wrappernav {
+width : 100%;
+top : 0;
+position : fixed;
+margin : 0;
+border : green solid 0;
+font-family : 'Almendra', serif;
+z-index : 10;
+}
+.navbarhead {
+width : 100%;
+margin : 0 0;
+height : 40px;
+background-color : black;
+}
+.navbarul {
+float : right;
+margin-top : 10px;
+}
+.navbarul li {
+display : inline-block;
+margin-right : 30px;
+list-style : none;
+}
+.navbarul li a {
+color : #fff;
+font-size : 15px;
+}
+.form-group {
+display : inline-block;
+margin-top : 10px;
+}
+.navform {
+float : right;
+font-size : 15px;
+}
+.submit {
+margin-right : 20px;
+}
+header img {
+margin-left : 5px;
+height : 95%;
+margin-top : 5px;
+float : left;
+}
+header .title {
+border : red dashed 0;
+background-image : url(../img/scroll/header.png);
+background-repeat : no-repeat;
+background-position : center;
+background-size : cover;
+margin : 60px 60px 10px 60px;
+padding-top : 5px;
+padding-bottom : 10px;
+}
+.title p {
+width : 100%;
+text-align : center;
+font-family : 'Almendra', serif;
+}
+.name {
+font-size : 50px;
+text-align : center;
+}
+.ps {
+font-size : 25px;
+text-align : center;
+margin : 25px auto;
+}
+.sst {
+font-size : 40px;
+text-align : center;
+margin : 25px auto;
+}
+.article {
+	width: 100%;
+	padding: 10px 0;
+	margin-top: 50px;
+	background-image: url("../img/scroll/anniv-old-paper.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	font-size: 16px;
+}
+
+footer {
+	display : flex;
+	justify-content : space-around;
+}
+
+footer .copyright {
+	align-self : flex-end;
+	font-family : 'papyrus', 'Handlee';
+	border : #000 double 2px;
+	padding : 10px;
+	margin-left : 80px;
+}
+

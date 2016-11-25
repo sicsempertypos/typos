@@ -235,7 +235,7 @@ aside {
 	border : black double 0;
 }
 .reader {
-	margin : 15px 8% 15% 12%;
+	margin : 15px 8% 20% 12%;
 	border : green solid 0;
 }
 footer {
@@ -258,7 +258,8 @@ footer .title {
 }
 footer .copyright {
 	align-self : flex-end;
-	font-family : 'papyrus', 'Handlee';
+	font-family : 'papyrus',cursive;
+	font-size: 12px;
 	border : #000 double 2px;
 	padding : 10px;
 	margin-left : 80px;

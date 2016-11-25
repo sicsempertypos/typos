@@ -113,9 +113,9 @@
 	</section>
 	<hr>
 	<footer>
-		<p class="copyright">
-			Copyright: 2017 <br> Silver Skunk Web Works
-		</p>
+		<div class="copyright">
+			&#169;: 2017<br>Silver Skunk<br>Web Works
+		</div>
 	</footer>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

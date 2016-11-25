@@ -13,7 +13,6 @@
 			<nav class="container">
 				<div class="brand">
 					<a href="index.html"></a>
-						<!--<img scr="img/logo/ico/sst.png" class="navbar-brand sst-image">-->
 					<span class="sr-only" alt="Toggle navigation"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
@@ -41,7 +40,6 @@
 		</header>
 	</div>
 	<section class="contact-form">
-		<!--<img src="../img/scroll/anniv-old-paper.png">-->
 		<div class="form-box">
 			<div class="wrapper">
 				<h2>Contact Sic Semper Typos</h2>
@@ -119,10 +117,8 @@
 			Copyright: 2017 <br> Silver Skunk Web Works
 		</p>
 	</footer>
-	
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-
 </body>
 </html>

@@ -40,15 +40,12 @@
   src: url("../fonts/Viking/viking.regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Viking/viking.regular-webfont.woff2") format("woff2"), url("../fonts/Viking/viking.regular-webfont.woff") format("woff"), url("../fonts/Viking/viking.regular-webfont.ttf") format("truetype"), url("../fonts/Viking/viking.regular-webfont.svg#vikingregular") format("svg");
   font-weight: normal;
   font-style: normal; }
-
-  
   /* CONTENT */
 body {
 	background-image: url(../img/marble/marble-main.jpg);
 	background-size:cover;	font-family: 'Almendra', serif;
 	font-family: 'Almendra', serif;
-}
-  
+}  
 .wrappernav {
 	width: 100%;
 	top: 0;
@@ -56,41 +53,33 @@ body {
 	margin: 0;
 	border: 0px solid green;
 	z-index: 10;
-}
-  
+}  
 .navbarhead {
 	width:100%;
 	margin: 0 0;
 	height: 40px;
 	background-color: black;
 }
-
 .navbarul {
 	float: right;
 	margin-top: 10px;
 }
-
 .navbarul li {
 	display: inline-block;
 	margin-right: 30px;
 	list-style: none;
 }
-
 .navbarul li a {
 	color: #fff;
 	font-size: 15px;
-}
-
-.form-group {
+}.form-group {
 	display: inline-block;
 	margin-top: 10px;
 }
-
 .navform {
 	float: right;
 	font-size: 15px;
 }
-  
 .submit {
 	margin-right: 20px;
 }
@@ -101,7 +90,6 @@ header img {
 	margin-top: 5px;
 	float: left;
 }
-
 .contact-form {
 	width: 100%;
 	padding: 10px 0;
@@ -111,18 +99,15 @@ header img {
 	background-size: 100% 100%;
 	font-size: 16px;
 }
-
 .form-box {
 	width: 85%;
 	margin: 10% 10%;
 }
-
 h2 {
 	font-size: 50px;
 	text-align: center;
 	padding: 10px 5%;
 }
-
 fieldset {
 	border: 1px solid gray;	
 	width: 80%;
@@ -130,7 +115,6 @@ fieldset {
 	padding: 10px;
 	margin: 20px 10% 25px 5%;
 }
-
 .flex-wrapper {
 	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
 	display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
@@ -139,7 +123,6 @@ fieldset {
 	display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
  	flex-direction: row;
 }
-
 .box-contact {
 	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
 	display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
@@ -148,7 +131,6 @@ fieldset {
 	display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
 	flex: 1;
 }
-
 .col-1 {
 	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
 	display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
@@ -159,7 +141,6 @@ fieldset {
 	flex-direction: column;
 	flex: 1 1 0;
 }
-
 .col-2 {
 	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
 	display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
@@ -169,7 +150,6 @@ fieldset {
 	flex-direction: column;
 	flex: 3 0 0;
 }
-
 fieldset input{
 	height: 25px;
 	/*margin-right: 0px 5% 4px auto;*/
@@ -177,12 +157,10 @@ fieldset input{
 	border: 1px solid #202020;
 	opacity: 0.4;
 }
-
 .forminputck {
 	width: 10%;
 	margin-left: 10%;
 }
-
 form textarea {
 	width: 90%;
 	height: 100px;
@@ -196,7 +174,6 @@ form textarea {
 	resize: none;
 	opacity: 0.4;
 }
-
 .buttons {
 	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
 	display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
@@ -205,13 +182,11 @@ form textarea {
 	display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
 	justify-content: space-around;
 }
-
 .button {
 	font-size: 18px;
 	height: 40px;
 	width: 150px;
 	background-color: #F6DF9C;
-	/*color: white;*/
 	margin: 8px;
 	padding: 6px;
 	opacity: .75;
@@ -219,7 +194,10 @@ form textarea {
 	box-shadow: 0 4px 3px -2px gray;
 	font-family: 'Almendra', serif;
 }
-
+hr {
+	color: #000;
+	height: 2px;
+}
 footer {
 font-family : 'Handlee';
 font-size : 15px;

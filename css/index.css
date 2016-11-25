@@ -1,4 +1,3 @@
-
 @font-face {
 	font-family : "'atlas_of_the_magiregular'";
 	src : url("../fonts/AtlasOfTheMagi/atlas_of_the_magi-webfont.eot");
@@ -13,7 +12,6 @@
 	font-weight : normal;
 	font-style : normal;
 }
-
 @font-face {
 	font-family : "'blackchanceryregular'";
 	src : url("../fonts/BlackChancery/blkchcry-webfont.eot");
@@ -21,7 +19,6 @@
 	font-weight : normal;
 	font-style : normal;
 }
-
 @font-face {
 	font-family : "'sf_foxboro_scriptregular'";
 	src : url("../fonts/Foxboro/sf-foxboro-script.regular-webfont.eot");
@@ -29,7 +26,6 @@
 	font-weight : normal;
 	font-style : normal;
 }
-
 @font-face {
 	font-family : "'sf_foxboro_scriptitalic'";
 	src : url("../fonts/Foxboro/sf-foxboro-script.italic-webfont.eot");
@@ -37,7 +33,6 @@
 	font-weight : normal;
 	font-style : normal;
 }
-
 @font-face {
 	font-family : "'toyland_nfregular'";
 	src : url("../fonts/Toyland/toyland-outlinea.regular.eot");
@@ -45,7 +40,6 @@
 	font-weight : normal;
 	font-style : normal;
 }
-
 @font-face {
 	font-family : "'vikingregular'";
 	src : url("../fonts/Viking/viking.regular-webfont.eot");
@@ -53,12 +47,10 @@
 	font-weight : normal;
 	font-style : normal;
 }
-
 body {
 	background-image : url(../img/marble/marble-main.jpg);
 	background-size : cover;
 }
-
 .wrappernav {
 	width : 100%;
 	top : 0;
@@ -68,51 +60,43 @@ body {
 	font-family : 'Almendra', serif;
 	z-index : 10;
 }
-
 .navbarhead {
 	width : 100%;
 	margin : 0 0;
 	height : 40px;
 	background-color : black;
 }
-
 .navbarul {
 	float : right;
 	margin-top : 10px;
 }
-
 .navbarul li {
 	display : inline-block;
 	margin-right : 30px;
 	list-style : none;
 }
-
 .navbarul li a {
 	color : #fff;
 	font-size : 15px;
+	text-decoration: none;
 }
-
 .form-group {
 	display : inline-block;
 	margin-top : 10px;
 }
-
 .navform {
 	float : right;
 	font-size : 15px;
 }
-
 .submit {
 	margin-right : 20px;
 }
-
 header img {
 	margin-left : 5px;
 	height : 95%;
 	margin-top : 5px;
 	float : left;
 }
-
 header .title {
 	border : red dashed 0;
 	background-image : url(../img/scroll/header.png);
@@ -123,30 +107,25 @@ header .title {
 	padding-top : 5px;
 	padding-bottom : 10px;
 }
-
 .title p {
 	width : 100%;
 	text-align : center;
 	font-family : 'Almendra', serif;
 }
-
 .name {
 	font-size : 60px;
 	text-align : center;
 }
-
 .trans {
-	font-size : 25px;
+	font-size : 30px;
 	text-align : center;
 	margin : 25px auto;
 }
-
 .svcs {
 	font-size : 30px;
 	text-align : center;
 	margin : 25px auto;
 }
-
 .wrappercta {
 	border : blue dashed 0;
 	display : flex;
@@ -154,7 +133,6 @@ header .title {
 	margin : 5px 15px;
 	justify-content : center;
 }
-
 .contactdiv, .servicesdiv {
 	border : red solid 0;
 	height : 100px;
@@ -171,21 +149,18 @@ header .title {
 	color : black;
 	justify-content : center;
 }
-
 .contactdiv a {
-	left : 20%;
-	top : 18%;
 	color : #000;
-	position : absolute;
+	-webkit-align-self: center;
+    align-self: center;
+    text-decoration: none;
 }
-
 .servicesdiv a {
-	right : 25%;
-	top : 18%;
-	padding-top : 20%;
 	color : #000;
+    -webkit-align-self: center;
+    align-self: center;
+    text-decoration: none;
 }
-
 .lint {
 	border : red dashed 0;
 	width : 35%;
@@ -196,26 +171,21 @@ header .title {
 	background-size : 100% 100%;
 	font-family : 'Almendra', serif;
 }
-
 .services {
 	width : 30%;
 	text-align : center;
 }
-
 .contact {
 	width : 25%;
 	text-align : center;
 }
-
 section {
 	border : gray solid 0;
 }
-
 .wrappermain {
 	display : flex;
 	border : red dashed 0;
 }
-
 article {
 	background-image : url("../img/scroll/anniv-old-paper-half.png");
 	background-repeat : no-repeat;
@@ -225,18 +195,15 @@ article {
 	font-size : 21px;
 	padding-top : 30px;
 }
-
 .story {
 	padding : 25px 7% 5px 7%;
 	border : black solid 0;
 }
-
 .story h2 {
 	text-align : center;
 	padding-top : 30px;
 	border : lime dashed 0;
 }
-
 aside {
 	background-image : url("../img/scroll/a-half.png");
 	background-size : 100% 100%;
@@ -245,14 +212,12 @@ aside {
 	font-family : 'papyrus', 'Handlee';
 	font-size : 21px;
 }
-
 .john {
 	display : flex;
 	border : coral dashed 0;
 	margin-top : 50px;
 	margin-left : 25px;
 }
-
 .john .johnimg {
 	border : #000 double 0;
 	width : 30%;
@@ -261,7 +226,6 @@ aside {
 	margin-top : 45px;
 	box-shadow : 0 4px 3px -2px gray;
 }
-
 .john h1 {
 	margin-top : 50px;
 	margin-left : 20px;
@@ -270,12 +234,10 @@ aside {
 	text-align : center;
 	border : black double 0;
 }
-
 .reader {
-	margin : 15px 8% 25px 12%;
+	margin : 15px 8% 15% 12%;
 	border : green solid 0;
 }
-
 footer {
 	font-family : 'Handlee';
 	font-size : 15px;
@@ -284,7 +246,6 @@ footer {
 	display : flex;
 	justify-content : space-around;
 }
-
 footer img {
 	border : #000 double 2px;
 	width : 50px;
@@ -292,11 +253,9 @@ footer img {
 	margin : 10px 10px 10px 15px;
 	box-shadow : 0 4px 3px -2px gray;
 }
-
 footer .title {
 	flex-shrink : 3;
 }
-
 footer .copyright {
 	align-self : flex-end;
 	font-family : 'papyrus', 'Handlee';
@@ -304,28 +263,24 @@ footer .copyright {
 	padding : 10px;
 	margin-left : 80px;
 }
-
 #fontepic {
 	font-family : 'toyland_nfregular';
 	font-size : 1em;
 	color : brown;
 	text-shadow : 2px 2px 3px #777;
 }
-
 #ages {
 	font-family : 'vikingregular';
 	font-size : 0.8em;
 	color : brown;
 	text-shadow : 2px 2px 3px #777;
 }
-
 #master {
 	font-family : 'blackchanceryregular';
 	font-size : 1.1em;
 	color : brown;
 	text-shadow : 2px 2px 3px #777;
 }
-
 #ido {
 	font-family : 'Nothing You Could Do', cursive;
 	font-size : 1.1em;

@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Sic Semper Typos</title>
+	<title>Contact Sic Semper Typos</title>
 	<link rel="stylesheet" type-="text/css" href="../css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="../css/contact.css">
     <link href='https://fonts.googleapis.com/css?family=Almendra:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Aref+Ruqaa" rel="stylesheet"> 
 </head>
 <body>
 	<div class="wrappernav">
@@ -43,7 +44,7 @@
 		<div class="form-box">
 			<div class="wrapper">
 				<h2>Contact Sic Semper Typos</h2>
-				<form method="POST" action="contact_process.php">
+				<form method="POST" action="contactprocess.php">
 					<fieldset class="container">
 						<legend>Contact Information</legend>
 						<div class="flex-wrapper">

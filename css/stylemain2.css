@@ -1,0 +1,317 @@
+@font-face {
+  font-family: 'atlas_of_the_magiregular';
+  src: url("../fonts/AtlasOfTheMagi/atlas_of_the_magi-webfont.eot");
+  src: url("../fonts/AtlasOfTheMagi/atlas_of_the_magi-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/AtlasOfTheMagi/atlas_of_the_magi-webfont.woff2") format("woff2"), url("../fonts/AtlasOfTheMagi/atlas_of_the_magi-webfont.woff") format("woff"), url("../fonts/AtlasOfTheMagi/atlas_of_the_magi-webfont.ttf") format("truetype"), url("../fonts/AtlasOfTheMagi/atlas_of_the_magi-webfont.svg#atlas_of_the_magiregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'inkcalig';
+  src: url("../fonts/Inkcalig/inkcalig-webfont.eot");
+  src: url("../fonts/Inkcalig/inkcalig-webfont.woff2") format("woff2") url("../fonts/Inkcalig/inkcalig-webfont.woff") format("woff"), url("../fonts/Inkcalig/inkcalig-webfont.ttf") format("truetype"), url("../fonts/Inkcalig/inkcalig-webfont.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'blackchanceryregular';
+  src: url("../fonts/BlackChancery/blkchcry-webfont.eot");
+  src: url("../fonts/BlackChancery/blkchcry-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/BlackChancery/blkchcry-webfont.woff2") format("woff2"), url("../fonts/BlackChancery/blkchcry-webfont.woff") format("woff"), url("../fonts/BlackChancery/blkchcry-webfont.ttf") format("truetype"), url("../fonts/BlackChancery/blkchcry-webfont.svg#blackchanceryregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'sf_foxboro_scriptregular';
+  src: url("../fonts/Foxboro/sf-foxboro-script.regular-webfont.eot");
+  src: url("../fonts/Foxboro/sf-foxboro-script.regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Foxboro/sf-foxboro-script.regular-webfont.woff2") format("woff2"), url("../fonts/Foxboro/sf-foxboro-script.regular-webfont.woff") format("woff"), url("../fonts/Foxboro/sf-foxboro-script.regular-webfont.ttf") format("truetype"), url("../fonts/Foxboro/sf-foxboro-script.regular-webfont.svg#sf_foxboro_scriptregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'sf_foxboro_scriptitalic';
+  src: url("../fonts/Foxboro/sf-foxboro-script.italic-webfont.eot");
+  src: url("../fonts/Foxboro/sf-foxboro-script.italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Foxboro/sf-foxboro-script.italic-webfont.woff2") format("woff2"), url("../fonts/Foxboro/sf-foxboro-script.italic-webfont.woff") format("woff"), url("../fonts/Foxboro/sf-foxboro-script.italic-webfont.ttf") format("truetype"), url("../fonts/Foxboro/sf-foxboro-script.italic-webfont.svg#sf_foxboro_scriptitalic") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'toyland_nfregular';
+  src: url("../fonts/Toyland/toyland-outlinea.regular.eot");
+  src: url("../fonts/Toyland/toyland-outlinea.regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Toyland/toyland-outlinea.regular.woff2") format("woff2"), url("../fonts/Toyland/toyland-outlinea.regular.woff") format("woff"), url("../fonts/Toyland/toyland-outlinea.regular.ttf") format("truetype"), url("../fonts/Toyland/toyland-outlinea.regular.svg#toyland_nfregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'vikingregular';
+  src: url("../fonts/Viking/viking.regular-webfont.eot");
+  src: url("../fonts/Viking/viking.regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Viking/viking.regular-webfont.woff2") format("woff2"), url("../fonts/Viking/viking.regular-webfont.woff") format("woff"), url("../fonts/Viking/viking.regular-webfont.ttf") format("truetype"), url("../fonts/Viking/viking.regular-webfont.svg#vikingregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+/* line 81, ../sass/style.scss */
+article, aside, figure, figcaption, footer, header, main, nav, section, summary {
+  display: block; }
+
+/* line 84, ../sass/style.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 90, ../sass/style.scss */
+body {
+  border: 0px dashed black;
+  padding-top: 50px;
+  background: url("../img/marble/grayscalemarbleinvert.bmp");
+  background-size: 100%;
+  display: flex;
+  flex-direction: column; }
+
+body.contact { height: 800px; 
+	width: 1000px; }
+/* line 97, ../sass/style.scss */
+.navcell {
+  border: 0px dashed red;
+  background: url("../img/marble/marble-main.jpg");
+  background-size: cover;
+  justify-content: space-around; }
+
+/* line 102, ../sass/style.scss */
+.form-group.btn {
+  background: url("../img/marble/grayscalemarbleinvert.bmp");
+  background-size: cover; }
+
+/* line 106, ../sass/style.scss */
+header {
+  border: 0px dashed green;
+  display: flex;
+  align-items: stretch;
+  flex-wrap: nowrap;
+  max-height: 200px;
+  margin-top: 50px; }
+
+/* line 113, ../sass/style.scss */
+.lint {
+  border: 0px dashed orange;
+  font-family: 'inkcalig', cursive;
+  font-size: 25px;
+  font-color: brown;
+  background: url("../img/scroll/worn-parchment-paper.jpg") no-repeat;
+  background-size: cover;
+  line-height: 85%;
+  margin: auto;
+  flex: 1 1 0; }
+
+/* line 123, ../sass/style.scss */
+.scroll {
+  border: 0px dashed purple;
+  background: url("../img/scroll/header_small.png") no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1 0 auto;
+  align-content: center; }
+
+/* line 132, ../sass/style.scss */
+.scroll ul {
+  border: 0px dashed orange;
+  font-family: 'Almendra', serif;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-height: auto;
+  max-width: auto;
+  align-items: baseline; }
+
+/* line 141, ../sass/style.scss */
+ul li.name {
+  border: 0px dashed blue;
+  font-weight: 700italic;
+  font-size: 500%;
+  flex: 1 1 0;
+  list-style-type: none;
+  color: #663300; }
+
+/* line 148, ../sass/style.scss */
+ul li.trans {
+  border: 0px dashed blue;
+  font-weight: 700italic;
+  font-size: 200%;
+  flex: 1 1 0;
+  list-style-type: none;
+  color: #663300; }
+
+/* line 155, ../sass/style.scss */
+ul li.tell {
+  border: 0px dashed blue;
+  font-weight: 700italic;
+  font-size: 250%;
+  flex: 1 1 0;
+  list-style-type: none;
+  color: #663300; }
+
+/* line 162, ../sass/style.scss */
+.main {
+  border: 0px dashed blue;
+  height: auto;
+  width: auto;
+  display: flex; }
+
+/* line 167, ../sass/style.scss */
+.main-content {
+  border: 0px dashed yellow;
+  display: flex;
+  align-items: stretch;
+  flex-wrap: wrap; }
+
+.contentmain {
+  border: 5px dashed orange;
+  font-family: 'inkcalig', cursive;
+  font-size: 25px;
+  font-color: brown;
+  background: url("../img/scroll/worn-parchment-paper.jpg") no-repeat;
+  background-size: cover;
+  line-height: 85%;
+  margin: auto;
+  flex: 1 1 0; }
+
+/* line 172, ../sass/style.scss */
+article.intro {
+  border: 0px dashed green;
+  font-family: 'Nothing You Could Do', cursive;
+  font-size: 200%;
+  padding: 6%;
+  align-self: stretch;
+  flex: 1 1 0;
+  background: url("../img/scroll/old_paper.png") no-repeat;
+  background-size: cover; }
+
+/* line 181, ../sass/style.scss */
+article.intro h1 {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px; }
+
+/* line 185, ../sass/style.scss */
+aside.about {
+  border: 0px dashed red;
+  font-family: 'inkcalig';
+  font-size: 170%;
+  flex: 1 1 0;
+  display: flex;
+  flex-direction: column; }
+
+/* line 192, ../sass/style.scss */
+.ctas {
+  border: 0px dashed blue;
+  font-family: 'inkcalig';
+  color: brown;
+  max-width: 100%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20px; }
+
+/* line 202, ../sass/style.scss */
+.ctas a {
+  font-family: 'Almendra';
+  font-size: 200%;
+  color: #663300;
+  text-shadow: 1px 1px 1px #730;
+  align-self: center;
+  align-content: center;
+  justify-content: center;
+  margin-top: 20%;
+  padding: 10%;
+  border: 10px; }
+
+/* line 213, ../sass/style.scss */
+.home-cta-right {
+  border: 0px dashed blue;
+  width: 40%;
+  height: 120px;
+  color: brown;
+  background: url("../img/marble/marble-main_b&e.jpg") no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1 1 0; }
+
+/* line 224, ../sass/style.scss */
+.home-cta-left {
+  border: 0px dashed blue;
+  width: 40%;
+  height: 120px;
+  background: url("../img/marble/marble-main_b&e.jpg") no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1 1 0; }
+
+/* line 234, ../sass/style.scss */
+.about-john {
+  border: 0px dashed orange;
+  font-family: 'inkcalig';
+  font-size: 125%;
+  line-height: 120%;
+  align-self: stretch;
+  background: url("../img/scroll/old_paper.png") no-repeat;
+  background-size: cover;
+  padding: 15%; }
+
+/* line 243, ../sass/style.scss */
+.about-john h1 {
+  border: 0px dashed yellow;
+  font-family: 'inkcalig';
+  font-size: 200%;
+  text-align: center;
+  padding: 25px; }
+
+/* line 249, ../sass/style.scss */
+img.john {
+  border: 0px dashed red;
+  max-width: 40%;
+  height: auto;
+  float: left;
+  padding: 10px; }
+
+/* line 255, ../sass/style.scss */
+footer {
+  border: 0px dashed blue;
+  background: url("../img/marble/marble-main.jpg");
+  background-size: cover;
+  font-family: 'inkcalig';
+  font-size: 175%;
+  line-height: 100%;
+  padding: 15px; }
+
+/* line 263, ../sass/style.scss */
+img.grouchy {
+  max-width: 10%;
+  max-height: 80px;
+  float: left;
+  padding-left: 15px;
+  padding-right: 25px; }
+
+/* line 269, ../sass/style.scss */
+#fontepic {
+  font-family: 'toyland_nfregular';
+  font-size: 1em;
+  color: brown;
+  text-shadow: 2px 2px 3px #777; }
+
+/* line 274, ../sass/style.scss */
+#ages {
+  font-family: 'vikingregular';
+  font-size: .8em;
+  color: brown;
+  text-shadow: 2px 2px 3px #777; }
+
+/* line 279, ../sass/style.scss */
+#master {
+  font-family: 'blackchanceryregular';
+  font-size: 1.1em;
+  color: brown;
+  text-shadow: 2px 2px 3px #777; }
+
+/* line 284, ../sass/style.scss */
+#ido {
+  font-family: 'Nothing You Could Do', cursive;
+  font-size: 1.1em;
+  text-align: center; }

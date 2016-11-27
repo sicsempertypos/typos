@@ -5,14 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Sic Semper Typos Home</title>
- 	<link rel="stylesheet" type-="text/css" href="../css/normalize.css">
-    <link href="css/index.css" text="text/css" rel="stylesheet">
+    <title>Sic Semper Typos</title>
+ 	<link href="css/normalize.css" rel="stylesheet" type="text/css" >
+    <link href="css/stylehome.css" type="text/css" rel="stylesheet">
     <link href="http://fonts.googleapis.com/css?family=Nothing+You+Could+Do" rel="stylesheet" type="text/css" media="all" >
     <link href='https://fonts.googleapis.com/css?family=Almendra:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
-	<link href="https://fonts.googleapis.com/css?family=Aref+Ruqaa" rel="stylesheet"> 
 	<!-- if IE]>
-	<link rel="stylesheet" text="text/css" href="/stylesheets/ie.css" media="screen, projection"/>
+		<link rel="stylesheet" text="text/css" href="/stylesheets/ie.css" media="screen, projection"/>
 	<![endif]-->
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -21,6 +20,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
+
   <body>
 	<div class="wrappernav">
 		<header class="navbarhead">
@@ -28,6 +28,7 @@
 			<nav class="container">
 				<div class="brand">
 					<a href="index.html"></a>
+						<!--<img scr="img/logo/ico/sst.png" class="navbar-brand sst-image">-->
 					<span class="sr-only" alt="Toggle navigation"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
@@ -38,7 +39,7 @@
 						<div class="form-group">
 							<input type="text" class="search" placeholder="Search">
 						</div>
-						<button type="submit" class="submit">Search</button>
+						<button type="submit" class="submit">Submit</button>
 					</form>
 					<ul class="navbarul">
 						<li class="active">
@@ -46,9 +47,9 @@
 								<span class="navitem"></span>Home
 							</a>
 						</li>
-						<li><a href="services.html">Services &amp; Rates </a></li>
-						<li><a href="aboutjohn.html">About John</a></li>
-						<li><a href="php/contact.php">Contact</a></li>
+						<li><a href="#">Services &amp; Rates </a></li>
+						<li><a href="#">About John</a></li>
+						<li><a href="php/contact_index.php">Contact</a></li>
 					</ul>
 				</div>
 			</nav>
@@ -56,7 +57,7 @@
 	</div>
   	<header class="titlehead">
 		<div class="title">
-			<p class="ptitle"><span class="name">Sic Semper Typos</span>
+			<p><span class="name">Sic Semper Typos</span>
 				<br><span class="trans">Thus always to typos</span>
 				<br><span class="svcs">Proofreading - Copyediting - Writing</span>
 			</p>
@@ -65,64 +66,65 @@
 	<div class="wrappercta">
 		<div class="lint">No one else sees the world the way you do, 
 			so no one else can tell the stories that you have to tell.
-			&nbsp;-- <small>Charles de Lint, writer</small>
+			<br><small>Charles de Lint, writer</small>
 		</div>
-		<div class="contactdiv">
-			<a href="mailto:loganfifty@gmail.com" class="anchor">
-				Email
-			</a>
-		</div>
-		<div class="servicesdiv">
-			<a href="#" class="anchor">
-				Services
-			</a>
+		<div class="cta">
+			<div class="contactdiv">
+				<a href="mailto:loganfifty@gmail.com" class="contact">
+					<!--<img src="img/marble/marble-main_b&e.jpg" alt="button contact sic semper typos">-->
+					Contact
+				</a>
+			</div>
+			<div class="servicesdiv">
+				<a href="#" class="services">
+					<!--<img src="img/marble/marble-main_b&e.jpg" alt="button services sic semper typos">-->
+					Services
+				</a>
+			</div>
 		</div>
 	</div>
 	<section>
 		<div class="wrappermain">
 			<article class="story">
 				<h2 class="titlestory">Your Story</h2>
-				<p>Your story must be told. It is <span id="fontepic"><em>epic</em></span>. 
+				<p>Your story must be told. It is <span class="epic" id="fontepic"><em>epic</em></span>. 
 					It is profound. It is like nothing ever written. 
 					But your grammar is atrocious. Your spelling is dreadful.
 					Your prose is lacking. Your story is one for the 
-					<span id="ages"><em>ages</em></span>, but you do not have 
+					<span class= "ages" id="ages"><em>ages</em></span>, but you do not have 
 					the words with which to express it.</p>
 				<p><strong><span id="ido">I do.</span></strong></p>
 				<p>I know the tale you are trying to tell. 
 					I see the story laid out before me in vivid detail. 
 					And I have the power to transform your lifeless text 
-					into the flowing, emotional, <span id="master"><em>Shakespearean&nbsp;</em></span> 
+					into the flowing, emotional, <span class="shks" id="master"><em>Shakespearean &nbsp;</em></span> 
 					masterpiece your storyline deserves!</p>
 			</article>
 			<aside class="about">
-				<div class="john">
-					<h1>JOHN<br>DAVIDSON</h1>
-					<img sr-only="john bearded" src="img/john/AboutJohn_400px.jpg"  class="johnimg">
-				</div>
-				<div class="reader">
+				<div class"john">
+					<h1><img sr-only="john bearded" src="img/john/AboutJohn_400px.jpg"  class="john">JOHN DAVIDSON</h1>
 					<p>An avid reader and lifelong perfectionist, John has recently 
 						discovered his true passion: correcting other people's mistakes.</p>
 					<p>In all his prior work, he never could resist pointing out 
 						the little grammatical errors all around him, and after years of 
 						resisting the urge, he has finally succumbed to the inevitable and 
-						embraced his inner "Grouchy Grammarian".*</p>
+						embraced his inner Grouchy Grammarian.*</p>
 				</div>
 			</aside>
 		</div>
 	</section>
-	<hr>
 	<footer>
-		<img sr-only="the grouchy grammarian" src="img/john/grouchygrammarian.jpg" class="grouchy">
-		<P class="title">*The Grouchy Grammarian: A How-Not-To Guide to the 47 Most Common Mistakes in English
-				Made by Journalists, Broadcasters, and Others Who Should Know Better
-				<br>by Thomas Parrish, 2002
-		</p>
-		<p class="copyright">
-			&#169;: 2017 <br>Silver Skunk<br>Web Works
+		<p><img sr-only="the grouchy grammarian" src="img/john/grouchygrammarian.jpg" class="grouchy">
+			*The Grouchy Grammarian: A How-Not-To Guide to the 47 Most Common Mistakes in English<br>
+			Made by Journalists, Broadcasters, and Others Who Should Know Better
+			<br>by Thomas Parrish
 		</p>
 	</footer>
+	
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
   </body>
+  
 </html>

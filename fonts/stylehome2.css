@@ -1,0 +1,220 @@
+@font-face {
+  font-family: 'atlas_of_the_magiregular';
+  src: url("../fonts/AtlasOfTheMagi/atlas_of_the_magi-webfont.eot");
+  src: url("../fonts/AtlasOfTheMagi/atlas_of_the_magi-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/AtlasOfTheMagi/atlas_of_the_magi-webfont.woff2") format("woff2"), url("../fonts/AtlasOfTheMagi/atlas_of_the_magi-webfont.woff") format("woff"), url("../fonts/AtlasOfTheMagi/atlas_of_the_magi-webfont.ttf") format("truetype"), url("../fonts/AtlasOfTheMagi/atlas_of_the_magi-webfont.svg#atlas_of_the_magiregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'inkcalig';
+  src: url("../fonts/Inkcalig/inkcalig-webfont.eot");
+  src: url("../fonts/Inkcalig/inkcalig-webfont.woff2") format("woff2") url("../fonts/Inkcalig/inkcalig-webfont.woff") format("woff"), url("../fonts/Inkcalig/inkcalig-webfont.ttf") format("truetype"), url("../fonts/Inkcalig/inkcalig-webfont.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'blackchanceryregular';
+  src: url("../fonts/BlackChancery/blkchcry-webfont.eot");
+  src: url("../fonts/BlackChancery/blkchcry-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/BlackChancery/blkchcry-webfont.woff2") format("woff2"), url("../fonts/BlackChancery/blkchcry-webfont.woff") format("woff"), url("../fonts/BlackChancery/blkchcry-webfont.ttf") format("truetype"), url("../fonts/BlackChancery/blkchcry-webfont.svg#blackchanceryregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'sf_foxboro_scriptregular';
+  src: url("../fonts/Foxboro/sf-foxboro-script.regular-webfont.eot");
+  src: url("../fonts/Foxboro/sf-foxboro-script.regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Foxboro/sf-foxboro-script.regular-webfont.woff2") format("woff2"), url("../fonts/Foxboro/sf-foxboro-script.regular-webfont.woff") format("woff"), url("../fonts/Foxboro/sf-foxboro-script.regular-webfont.ttf") format("truetype"), url("../fonts/Foxboro/sf-foxboro-script.regular-webfont.svg#sf_foxboro_scriptregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'sf_foxboro_scriptitalic';
+  src: url("../fonts/Foxboro/sf-foxboro-script.italic-webfont.eot");
+  src: url("../fonts/Foxboro/sf-foxboro-script.italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Foxboro/sf-foxboro-script.italic-webfont.woff2") format("woff2"), url("../fonts/Foxboro/sf-foxboro-script.italic-webfont.woff") format("woff"), url("../fonts/Foxboro/sf-foxboro-script.italic-webfont.ttf") format("truetype"), url("../fonts/Foxboro/sf-foxboro-script.italic-webfont.svg#sf_foxboro_scriptitalic") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'toyland_nfregular';
+  src: url("../fonts/Toyland/toyland-outlinea.regular.eot");
+  src: url("../fonts/Toyland/toyland-outlinea.regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Toyland/toyland-outlinea.regular.woff2") format("woff2"), url("../fonts/Toyland/toyland-outlinea.regular.woff") format("woff"), url("../fonts/Toyland/toyland-outlinea.regular.ttf") format("truetype"), url("../fonts/Toyland/toyland-outlinea.regular.svg#toyland_nfregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'vikingregular';
+  src: url("../fonts/Viking/viking.regular-webfont.eot");
+  src: url("../fonts/Viking/viking.regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Viking/viking.regular-webfont.woff2") format("woff2"), url("../fonts/Viking/viking.regular-webfont.woff") format("woff"), url("../fonts/Viking/viking.regular-webfont.ttf") format("truetype"), url("../fonts/Viking/viking.regular-webfont.svg#vikingregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+  
+  /* CONTENT */
+.wrappernav {
+	width: 100%;
+	/*margin: 0 auto;*/
+	border: 0px solid green;
+}
+  
+.navbarhead {
+	width:100%;
+	height: 50px;
+	background-color: black;
+}
+
+.navbarul {
+	float: right;
+	margin-top: 15px;
+}
+
+.navform {
+	float: right;
+	font-size: 20px;
+}
+  
+.navbarul li {
+	display: inline-block;
+	margin-right: 40px;
+	list-style: none;
+}
+
+.navbarul li a {
+	color: #fff;
+	font-size: 20px;
+}
+
+.form-group {
+	display: inline-block;
+	margin-top: 15px;
+}
+
+/* Logo */
+header img {
+	margin-left: 5px;
+	height: 95%;
+	margin-top: 5px;
+	float: left;
+}
+
+header .title {
+	border: 0px dashed red;
+	background-image: url(../img/scroll/1164_1164_5.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	/*padding-top: 30px;
+	padding-bottom: 30px;*/
+}
+
+.title p {
+	width: 100%;
+	/*display: flex;*/
+	text-align: center;
+}
+
+.name {
+	font-size: 50px;
+	text-align: center;
+}
+.trans {
+	font-size: 35px;
+	text-align: center;
+	margin: 25px auto;
+}
+
+.svcs {
+	font-size: 30px;
+	text-align: center;
+	margin: 20px auto;
+}
+  
+.wrappercta {
+	border: 2px dashed blue;
+	display: flex;
+}
+
+.cta {
+	position: relative;
+}
+.cta .contactdiv, .servicesdiv {
+	border: 2px solid green;
+	height: 100%;
+	width: 150px;
+	position: relative;
+	margin: 0 auto;
+	float: left;
+	background-image: url(../img/marble/marble-main_b&e.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.cta a {
+	margin: 15% 15%;
+	border: 2px solid goldenrod;
+	left: 20%;
+	height: 50px;
+	width: 30px;
+	position: absolute;
+}
+
+.lint{
+	border: 2px dashed red;
+	width: 30%;
+	text-align: center;
+	padding: 5px 5%;
+}
+
+.services {
+	width: 30%;
+	text-align: center;
+	padding: 30% auto;
+	float: right;
+}
+
+.contact {
+	width: 25%;
+	text-align: center;
+}
+
+section {
+	border: 2px solid gray;
+}
+
+article {
+	border: 2px solid lime;
+	font-family: 'Nothing You Could Do', cursive;
+	position: relative;
+}
+
+aside {
+	border: 2px double coral;
+	font-family: 'inkcalig';
+	float: left;
+}
+
+footer {
+	
+}
+
+
+  
+  
+  
+  
+  
+  
+#fontepic {
+  font-family: 'toyland_nfregular';
+  font-size: 1em;
+  color: brown;
+  text-shadow: 2px 2px 3px #777; }
+
+#ages {
+  font-family: 'vikingregular';
+  font-size: .8em;
+  color: brown;
+  text-shadow: 2px 2px 3px #777; }
+
+#master {
+  font-family: 'blackchanceryregular';
+  font-size: 1.1em;
+  color: brown;
+  text-shadow: 2px 2px 3px #777; }
+
+#ido {
+  font-family: 'Nothing You Could Do', cursive;
+  font-size: 1.1em;
+  text-align: center; }

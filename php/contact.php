@@ -44,7 +44,7 @@
 		<div class="form-box">
 			<div class="wrapper">
 				<h2>Contact Sic Semper Typos</h2>
-				<form method="POST" action="contactprocess.php">
+				<form method="POST" action="connectdb.php">
 					<fieldset class="container">
 						<legend>Contact Information</legend>
 						<div class="flex-wrapper">

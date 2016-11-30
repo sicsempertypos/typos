@@ -3,6 +3,8 @@ body {
 	background-image: url(../img/marble/marble-main.jpg);
 	background-repeat: no-repeat;
 	background-size:cover;	
+	font-family: 'Almendra', serif;
+
 }  
 .wrappernav {
 	width: 100%;
@@ -50,8 +52,8 @@ header img {
 }
 .contact-form {
 	width: 100%;
-	padding: 10px 0;
-	margin-top: 50px;
+	padding: 10px 5px;
+	margin: 50px 10px 8px 5px;
 	background-image: url("../img/scroll/anniv-old-paper.png");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;

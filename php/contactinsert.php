@@ -106,7 +106,6 @@
 		mysqli_close($db_connect);
 
 		?>
-		<!--<div class="info">-->
 			<p>Contact Information Saved</p>
 		<?php
 			printf('First Name: %s
@@ -132,7 +131,6 @@
 				$other,
 				$comments);
 			?>
-		<!--</div>-->
 	</section>
 	<footer>
 		<hr>

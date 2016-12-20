@@ -44,7 +44,7 @@
 		<div class="form-box">
 			<div class="wrapper">
 				<h2>Contact Sic Semper Typos</h2>
-				<form method="POST" action="connectdb.php">
+				<form method="POST" action="contactinsert.php">
 					<fieldset class="container">
 						<legend>Contact Information</legend>
 						<div class="flex-wrapper">
@@ -87,10 +87,10 @@
 						<input type="checkbox" name="proof" id="proof" 
 								class="forminputck"><label for="proof">Proofreading</label>
 						<br>
-						<input type="checkbox" name="copy" id="copy" 
+						<input type="checkbox" name="copy" id="copy"  
 								class="forminputck"><label for="copy">Copy Editing</label>
 						<br>
-						<input type="checkbox" name="publish" id="publish" 
+						<input type="checkbox" name="publish" id="publish"  
 								class="forminputck"><label for="publish">ePublish</label>
 						<br>
 						<input type="checkbox" name="format" id="format" 
@@ -109,7 +109,6 @@
 						<input type="button" class="button" name="john" value="Email John">
 					</fieldset>
 				</form>
-			</div>
 		</div>
 	</section>
 	<hr>

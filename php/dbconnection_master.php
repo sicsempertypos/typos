@@ -8,21 +8,11 @@ $db_name="Typos";
 $db_connect=mysqli_connect($db_host, $db_username, $db_password, $db_name) or die;
 
 //Check connection_aborted
-//if(mysqli_connect_error()) {
-//	echo 'Failed to connect to MySql: '.mysqli_connect_error();
-//}  else {
-//	echo 'Did it';
-//}
-
-if (!$db_connect)	 {
-	die("Connection failed: " . mysqli_connect_error());
-} else {
+if(mysqli_connect_error()) {
+	echo 'Failed to connect to MySql: '.mysqli_connect_error();
+}  else {
 	echo 'Did it';
 }
-	
-	
-	
-	
-	
+
 	
 	

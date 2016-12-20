@@ -1,0 +1,87 @@
+  /* CONTENT */
+body {
+	border: 0px solid green;
+	background-image: url(../img/marble/marble-main.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;	
+	font-family: 'Almendra', serif;
+	/*height: 200px;*/
+}  
+.wrappernav {
+	border: 0px solid red;
+	width: 100%;
+	top: 0;
+	position:fixed;
+	margin: 0;
+	border: 0px solid green;
+	z-index: 10;
+}  
+.navbarhead {
+	border: 0px solid blue;
+	width:100%;
+	margin: 0 0;
+	height: 40px;
+	background-color: black;
+}
+.navbarul {
+	float: right;
+	margin-top: 10px;
+}
+.navbarul li {
+	display: inline-block;
+	margin-right: 30px;
+	list-style: none;
+}
+.navbarul li a {
+	color: #fff;
+	font-size: 15px;
+}.form-group {
+	border: 0px solid mango;
+	display: inline-block;
+	margin-top: 10px;
+}
+.navform {
+	border: 0px solid pink;
+	float: right;
+	font-size: 15px;
+}
+/* Logo */
+header img {
+	margin-left: 5px;
+	height: 95%;
+	margin-top: 5px;
+	float: left;
+}
+.contact-form {
+	font-size: 30px;
+	border: 0px solid red;
+	width: 90%;
+	padding: 50px 15px 70px 15px;
+	margin: 80px auto 20px auto;
+	background-image: url("../img/scroll/scrollmc.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	text-align: center;
+}
+p {
+	font-family: 'Almendra', serif;
+	font-size: 40px;
+	margin: 10px;
+	border: 0px solid black;
+	padding: 20px;
+	text-decoration: underline;
+}
+footer {
+	2px dashed
+	font-size : 15px;
+	display : flex;
+	justify-content : flex-end;
+}
+footer .copyright {
+	align-self : flex-end;
+	font-family : 'papyrus', 'aref ruqaa',  cursive;
+	font-size: 12px;
+	border : #000 double 2px;
+	padding : 10px;
+	margin-right : 30px;
+}

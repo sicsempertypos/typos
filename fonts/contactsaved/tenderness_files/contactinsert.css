@@ -7,9 +7,33 @@
 
 } 
 @font-face {
+    font-family: 'elected_officeregular';
+    src: url('../fonts/electedOffice/elect___-webfont.woff2') format('woff2'),
+         url('../fonts/electedOffice/elect___-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'humanisticmedium';
+    src: url('../fonts/humanistic/humanistic-webfont.woff2') format('woff2'),
+         url('../fonts/humanistic/humanistic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
     font-family: 'lustriaregular';
     src: url('../fonts/lustria/lustria-regular-webfont.woff2') format('woff2'),
          url('../fonts/lustria/lustria-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'bewilder_brknormal';
+    src: url('../fonts/bewilder/bewilder-webfont.woff2') format('woff2'),
+         url('../fonts/bewilder/bewilder-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -28,7 +52,7 @@ body {
 	background-image: url(../img/marble/marble-main.jpg);
 	background-repeat: no-repeat;
 	background-size:cover;	
-	font-family : 'crimsonroman','aref ruqaa', cursive;
+	font-family : 'tendernessregular','aref ruqaa', cursive;
 	line-height: 2.5em;
 }  
 .wrappernav {
@@ -88,7 +112,7 @@ header img {
 	text-align: center;
 }
 p {
-	font-family : 'crimsonroman','aref ruqaa', cursive;
+	font-family : 'tendernessregular','aref ruqaa', cursive;
 	font-size: 40px;
 	margin: 10px;
 	border: 0px solid black;

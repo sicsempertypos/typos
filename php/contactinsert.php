@@ -53,36 +53,36 @@
 		if ($db_connect->connect_error)  {
 			die("Connection failed: " . mysqli_connect_error());
 		} else {
-			$fname = $_POST['fname'];
-			$lname = $_POST['lname'];
-			$phone = $_POST['phone'];
-			$email = $_POST['email'];
+			$fname = htmlspecialchars($_POST['fname'],ENT_QUOTES);
+			$lname = htmlspecialchars($_POST['lname'],ENT_QUOTES);
+			$phone = htmlspecialchars($_POST['phone'],ENT_QUOTES);
+			$email = htmlspecialchars($_POST['email'],ENT_QUOTES);
 			$request = 'off';
 				if(isset($_POST['request'])){
-				$request = $_POST['request'];
+				$request = htmlspecialchars($_POST['request'],ENT_QUOTES);
 				}
-			$sample = $_POST['sample'];
+			$sample = htmlspecialchars($_POST['sample'],ENT_QUOTES);
 			$proof = 'off';
 				if(isset($_POST['proof'])){
-				$proof = $_POST['proof'];
+				$proof = htmlspecialchars($_POST['proof'],ENT_QUOTES);
 				}
 			$copy = 'off';
 				if(isset($_POST['copy'])){
-				$copy = $_POST['copy'];
+				$copy = htmlspecialchars($_POST['copy'],ENT_QUOTES);
 				}
 			$publish = 'off';
 				if(isset($_POST['publish'])){
-				$publish = $_POST['publish'];
+				$publish = htmlspecialchars($_POST['publish'],ENT_QUOTES);
 				}
 			$format = 'off';
 				if(isset($_POST['format'])){
-				$format = $_POST['format'];
+				$format = htmlspecialchars($_POST['format'],ENT_QUOTES);
 				}
 			$other = 'off';
 				if(isset($_POST['other'])){
-				$other = $_POST['other'];
+				$other = htmlspecialchars($_POST['other'],ENT_QUOTES);
 				}
-			$comments = $_POST['comments'];
+			$comments = htmlspecialchars($_POST['comments'],ENT_QUOTES);
 		}
 
 		$sql = sprintf(

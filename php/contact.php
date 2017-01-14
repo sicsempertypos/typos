@@ -34,7 +34,7 @@
 						</li>
 						<li><a href="../services.html">Services &amp; Rates </a></li>
 						<li><a href="../aboutjohn.html">About John</a></li>
-						<li><a href="contact.php">Contact</a></li>
+						<li><a href="contact_indexxampp.php">Contact</a></li>
 					</ul>
 				</div>
 			</nav>
@@ -117,5 +117,8 @@
 			&#169;: 2017<br>Silver Skunk<br>Web Works
 		</div>
 	</footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
 </body>
 </html>

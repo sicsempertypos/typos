@@ -7,12 +7,12 @@
     <link href='https://fonts.googleapis.com/css?family=Almendra:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
 	<link href="https://fonts.googleapis.com/css?family=Aref+Ruqaa" rel="stylesheet"> 
 </head>
-?php
+<?php
 //if "email" variable is filled out, send email
   if (isset($_REQUEST['email']))  {
   
   //Email information
-  $admin_email = "silverskunk@gmail.com@example.com";
+  $admin_email = "silverskunk@gmail.comm";
   $email = $_REQUEST['email'];
   $subject = $_REQUEST['subject'];
   $comment = $_REQUEST['comment'];
@@ -22,9 +22,10 @@
   
   //Email response
   echo "Thank you for contacting us!";
-  echo "We will gwet back to you as soon as possinle 
-  //if "email" variable is not filled out, display the form
-  else  {
+  echo "We will get back to you as soon as possible 
+  //if email variable is not filled out, display the form
+  //else  {
+  //}
 ?>
 
  <form method="post">
@@ -35,9 +36,6 @@
   <input type="submit" value="Submit" />
   </form>
   
-<?php
-  }
-?><?php
 <?php
 //if "email" variable is filled out, send email
   if (isset($_REQUEST['email']))  {
@@ -67,6 +65,3 @@
   <input type="submit" value="Submit">
   </form>
   
-<?php
-  }
-?>
